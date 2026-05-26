@@ -255,7 +255,6 @@ MonoBehaviour:
   maxHealth: 10
   steerSpeed: 5
   thrustPower: 5
-  projectile: {fileID: 0}
 --- !u!60 &60270942
 PolygonCollider2D:
   m_ObjectHideFlags: 0
