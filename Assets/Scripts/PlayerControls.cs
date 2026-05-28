@@ -4,6 +4,8 @@ using UnityEngine.InputSystem;
 public class PlayerControls : MonoBehaviour
 {
     Rigidbody2D rb;
+    [SerializeField]
+    GameObject level;
 
     // Input variables
     InputAction steer;
@@ -37,8 +39,10 @@ public class PlayerControls : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        steerValue = steer.ReadValue<float>();
+        steerValue = Mathf.Lerp(steerValue, steer.ReadValue<float>(), 0.5f);
         thrusting = thrust.IsPressed();
+
+        level.transform.Rotate(0, 0, steerValue * steerSpeed * Time.deltaTime);
 
         if (fire.IsPressed())
         {
@@ -58,7 +62,6 @@ public class PlayerControls : MonoBehaviour
 
     void FixedUpdate()
     {
-        rb.AddForceX(steerValue * steerSpeed);
         if (thrusting)
         {
             rb.AddForceY(thrustPower);
