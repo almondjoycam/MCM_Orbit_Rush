@@ -109,11 +109,21 @@ public class PlayerControls : MonoBehaviour
     // delete this test code
     class TestWeapon : MonoBehaviour, IWeapon
     {
-        GameObject bullet;
+        GameObject bulletPrefab;
+        Bullet bullet;
+        Transform aim;
+
+        void Start()
+        {
+            bulletPrefab = Resources.Load("TestBullet") as GameObject;
+            aim = GameObject.Find("Aim").transform;
+        }
 
         public void Shoot()
         {
-            bullet = new GameObject("b", typeof(SpriteRenderer));
+            bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity).GetComponent<Bullet>();
+            bullet.direction = (aim.position - transform.position).normalized;
+            bullet.speed = 5;
             Debug.Log("Pew pew");
         }
     }
