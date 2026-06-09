@@ -5,9 +5,9 @@ public class PlayerControls : MonoBehaviour
 {
     Rigidbody2D rb;
     [SerializeField]
-    GameObject level;
+    Level level;
 
-    // Input variables
+    [Header("Input Variables")]
     InputAction steer;
     InputAction thrust;
     InputAction fire;
@@ -20,8 +20,6 @@ public class PlayerControls : MonoBehaviour
     bool firing;
     bool pausing;
 
-    public int maxHealth = 10;
-    int health;
     public float steerSpeed = 1;
     public float thrustPower = 1;
     public float lookSensitivity = 10;
@@ -32,6 +30,34 @@ public class PlayerControls : MonoBehaviour
     Transform aim;
     Bounds screenBounds;
     Vector3 aimDelta;
+
+    [Header("Player Stats")]
+    public int maxHealth = 4;
+    int health;
+    public int maxFuel = 3;
+    int fuel;
+    public bool shieldActive { get; private set; }
+
+    [System.Serializable]
+    public struct PlayerSaveData
+    {
+        public int health;
+        public int maxHealth;
+        public int fuel;
+        public int maxFuel;
+        public bool shieldActive;
+        public string currentLevel;
+
+        public PlayerSaveData(PlayerControls player)
+        {
+            health = player.health;
+            maxHealth = player.maxHealth;
+            fuel = player.fuel;
+            maxFuel = player.maxFuel;
+            shieldActive = player.shieldActive;
+            currentLevel = player.level.levelData.name;
+        }
+    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -56,6 +82,8 @@ public class PlayerControls : MonoBehaviour
             Camera.main.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, 0)),
             Camera.main.ViewportToWorldPoint(new Vector3(1, 1, 0)) * 2
         );
+
+        Save();
     }
 
     // Update is called once per frame
@@ -87,6 +115,10 @@ public class PlayerControls : MonoBehaviour
         {
             rb.AddForceY(thrustPower);
         }
+        if (transform.position.y >= screenBounds.max.y - 1)
+        {
+            rb.AddForceY(-thrustPower);
+        }
     }
 
     void Fire()
@@ -104,6 +136,13 @@ public class PlayerControls : MonoBehaviour
     {
         pausing = false;
         Time.timeScale = 1;
+    }
+
+    void Save()
+    {
+        PlayerSaveData saveState = new PlayerSaveData(this);
+        string saveString = JsonUtility.ToJson(saveState);
+        Debug.Log(saveString);
     }
 
     // delete this test code

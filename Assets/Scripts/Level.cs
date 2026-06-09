@@ -1,13 +1,12 @@
 using UnityEngine;
 
-public class GravitySystem : MonoBehaviour
+public class Level : MonoBehaviour
 {
-    [SerializeField]
-    float gravityConstant;
+    public LevelData levelData;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Physics2D.gravity = new Vector2(0, -gravityConstant);
+        Physics2D.gravity = new Vector2(0, -levelData.gravityConstant);
     }
 }
