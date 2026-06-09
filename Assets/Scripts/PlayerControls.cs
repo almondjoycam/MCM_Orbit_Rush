@@ -34,8 +34,14 @@ public class PlayerControls : MonoBehaviour
     [Header("Player Stats")]
     public int maxHealth = 4;
     int health;
+
+    // max fuel is discrete (number of tanks)
+    // but current fuel is continuous (burning fuel from tanks)
     public int maxFuel = 3;
-    int fuel;
+    float fuel;
+    public float fuelDrainPerSecond = 0.1f;
+    float fuelTimeCounter = 0;
+
     public bool shieldActive { get; private set; }
 
     [System.Serializable]
@@ -43,8 +49,9 @@ public class PlayerControls : MonoBehaviour
     {
         public int health;
         public int maxHealth;
-        public int fuel;
+        public float fuel;
         public int maxFuel;
+        public float fuelDrain;
         public bool shieldActive;
         public string currentLevel;
 
@@ -54,6 +61,7 @@ public class PlayerControls : MonoBehaviour
             maxHealth = player.maxHealth;
             fuel = player.fuel;
             maxFuel = player.maxFuel;
+            fuelDrain = player.fuelDrainPerSecond;
             shieldActive = player.shieldActive;
             currentLevel = player.level.levelData.name;
         }
@@ -64,6 +72,7 @@ public class PlayerControls : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         health = maxHealth;
+        fuel = maxFuel;
 
         steer = InputSystem.actions.FindAction("Steer");
         thrust = InputSystem.actions.FindAction("Thrust");
@@ -82,8 +91,6 @@ public class PlayerControls : MonoBehaviour
             Camera.main.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, 0)),
             Camera.main.ViewportToWorldPoint(new Vector3(1, 1, 0)) * 2
         );
-
-        Save();
     }
 
     // Update is called once per frame
@@ -111,10 +118,22 @@ public class PlayerControls : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (thrusting)
+        if (thrusting && fuel > 0)
         {
             rb.AddForceY(thrustPower);
+            fuelTimeCounter += Time.fixedDeltaTime;
+            if (fuelTimeCounter >= 1)
+            {
+                fuel -= fuelDrainPerSecond;
+                fuelTimeCounter = 0;
+                Debug.Log($"now I only have {fuel:F2} fuel!");
+            }
         }
+        else
+        {
+            fuelTimeCounter = 0;  // reset time counter
+        }
+
         if (transform.position.y >= screenBounds.max.y - 1)
         {
             rb.AddForceY(-thrustPower);
@@ -138,11 +157,10 @@ public class PlayerControls : MonoBehaviour
         Time.timeScale = 1;
     }
 
-    void Save()
+    public string GetSaveState()
     {
         PlayerSaveData saveState = new PlayerSaveData(this);
-        string saveString = JsonUtility.ToJson(saveState);
-        Debug.Log(saveString);
+        return JsonUtility.ToJson(saveState);
     }
 
     // delete this test code
