@@ -6,8 +6,14 @@ public class PlayerControls : MonoBehaviour
     Rigidbody2D rb;
     [SerializeField]
     Level level;
+    [SerializeField]
+    GameObject gameOverScreen;
 
     [Header("Input Variables")]
+    public float steerSpeed = 1;
+    public float thrustPower = 1;
+    public float lookSensitivity = 10;
+
     InputAction steer;
     InputAction thrust;
     InputAction fire;
@@ -19,10 +25,6 @@ public class PlayerControls : MonoBehaviour
     bool thrusting;
     bool firing;
     bool pausing;
-
-    public float steerSpeed = 1;
-    public float thrustPower = 1;
-    public float lookSensitivity = 10;
 
     // TODO: projectiles depend on the weapon, which will have polymorphism
     IWeapon currentWeapon;
@@ -67,12 +69,18 @@ public class PlayerControls : MonoBehaviour
         }
     }
 
+    void Awake()
+    {
+        health = maxHealth;
+        fuel = maxFuel;
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        health = maxHealth;
-        fuel = maxFuel;
+        gameOverScreen.SetActive(false);
+        Time.timeScale = 1;
 
         steer = InputSystem.actions.FindAction("Steer");
         thrust = InputSystem.actions.FindAction("Thrust");
@@ -98,6 +106,10 @@ public class PlayerControls : MonoBehaviour
     {
         steerValue = Mathf.Lerp(steerValue, steer.ReadValue<float>(), 0.5f);
         thrusting = thrust.IsPressed();
+        if (fuel <= 0)
+        {
+            GameOver();
+        }
 
         level.transform.Rotate(0, 0, steerValue * steerSpeed * Time.deltaTime);
 
@@ -157,10 +169,31 @@ public class PlayerControls : MonoBehaviour
         Time.timeScale = 1;
     }
 
+    void GameOver()
+    {
+        Time.timeScale = 0;
+        gameOverScreen.SetActive(true);
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.Confined;
+    }
+
     public string GetSaveState()
     {
         PlayerSaveData saveState = new PlayerSaveData(this);
         return JsonUtility.ToJson(saveState);
+    }
+
+    public void LoadSaveState(PlayerSaveData state, Transform checkpoint)
+    {
+        health = state.health;
+        maxHealth = state.maxHealth;
+        fuel = state.fuel;
+        maxFuel = state.maxFuel;
+        fuelDrainPerSecond = state.fuelDrain;
+        shieldActive = state.shieldActive;
+        level.levelData = Resources.Load(state.currentLevel) as LevelData;
+        level.transform.rotation = Quaternion.identity;
+        Start();
     }
 
     // delete this test code
