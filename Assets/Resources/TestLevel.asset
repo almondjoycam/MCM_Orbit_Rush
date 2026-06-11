@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: TestLevel
   m_EditorClassIdentifier: Assembly-CSharp::LevelData
   gravityConstant: 1.42
+  rotationRate: 1
   levelName: Test
   distanceToSun: 100
+  levelTerrain: {fileID: 1016076400704488176, guid: c3829ffc73e6e5e09a9a8ffbe980a8f3, type: 3}

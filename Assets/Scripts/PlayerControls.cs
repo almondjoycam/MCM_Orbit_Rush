@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using TMPro;
 
 public class PlayerControls : MonoBehaviour
 {
@@ -8,11 +9,16 @@ public class PlayerControls : MonoBehaviour
     Level level;
     [SerializeField]
     GameObject gameOverScreen;
+    [SerializeField]
+    TextMeshProUGUI fuelMeter;
 
     [Header("Input Variables")]
     public float steerSpeed = 1;
     public float thrustPower = 1;
     public float lookSensitivity = 10;
+
+    InputActionMap gameplay;
+    InputAction uiCancel;
 
     InputAction steer;
     InputAction thrust;
@@ -80,25 +86,26 @@ public class PlayerControls : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         gameOverScreen.SetActive(false);
-        Time.timeScale = 1;
 
-        steer = InputSystem.actions.FindAction("Steer");
-        thrust = InputSystem.actions.FindAction("Thrust");
-        fire = InputSystem.actions.FindAction("Fire");
-        look = InputSystem.actions.FindAction("Look");
-        pause = InputSystem.actions.FindAction("Pause");
+        gameplay = InputSystem.actions.FindActionMap("Player");
+        uiCancel = InputSystem.actions.FindAction("UI/Cancel");
 
-        fire.performed += (context) => {
-            Fire();
-        };
+        steer = gameplay.FindAction("Steer");
+        thrust = gameplay.FindAction("Thrust");
+        fire = gameplay.FindAction("Fire");
+        look = gameplay.FindAction("Look");
+        pause = gameplay.FindAction("Pause");
+
+        pause.performed += (context) => { Pause(); };
+        uiCancel.performed += (context) => { Resume(); };
+        fire.performed += (context) => { Fire(); };
         currentWeapon = gameObject.AddComponent<TestWeapon>();
 
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
         screenBounds = new Bounds(
             Camera.main.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, 0)),
             Camera.main.ViewportToWorldPoint(new Vector3(1, 1, 0)) * 2
         );
+        ToggleUICursor(false);
     }
 
     // Update is called once per frame
@@ -110,14 +117,9 @@ public class PlayerControls : MonoBehaviour
         {
             GameOver();
         }
+        fuelMeter.text = $"Fuel: {fuel:F1}/{maxFuel}";
 
         level.transform.Rotate(0, 0, steerValue * steerSpeed * Time.deltaTime);
-
-        if (pause.IsPressed())
-        {
-            if (!pausing) Pause();
-            else Resume();
-        }
 
         lookValue = Vector2.Lerp(lookValue, look.ReadValue<Vector2>(), 0.5f);
         aimDelta = new Vector3(lookValue.x, lookValue.y, 0) * lookSensitivity * Time.deltaTime;
@@ -141,10 +143,6 @@ public class PlayerControls : MonoBehaviour
                 Debug.Log($"now I only have {fuel:F2} fuel!");
             }
         }
-        else
-        {
-            fuelTimeCounter = 0;  // reset time counter
-        }
 
         if (transform.position.y >= screenBounds.max.y - 1)
         {
@@ -160,21 +158,37 @@ public class PlayerControls : MonoBehaviour
     void Pause()
     {
         pausing = true;
-        Time.timeScale = 0;
+        ToggleUICursor(true);
     }
 
     void Resume()
     {
         pausing = false;
-        Time.timeScale = 1;
+        ToggleUICursor(false);
     }
 
     void GameOver()
     {
-        Time.timeScale = 0;
         gameOverScreen.SetActive(true);
-        Cursor.visible = true;
-        Cursor.lockState = CursorLockMode.Confined;
+        ToggleUICursor(true);
+    }
+
+    void ToggleUICursor(bool on)
+    {
+        if (on)
+        {
+            Time.timeScale = 0;
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+            gameplay.Disable();
+        }
+        else
+        {
+            Time.timeScale = 1;
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
+            gameplay.Enable();
+        }
     }
 
     public string GetSaveState()

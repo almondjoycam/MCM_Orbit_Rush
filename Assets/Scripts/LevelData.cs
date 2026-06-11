@@ -4,6 +4,8 @@ using UnityEngine;
 public class LevelData : ScriptableObject
 {
     public float gravityConstant;
+    public float rotationRate;
     public string levelName;
     public int distanceToSun;
+    public GameObject levelTerrain;
 }
