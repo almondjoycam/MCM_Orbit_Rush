@@ -105,6 +105,7 @@ public class PlayerControls : MonoBehaviour
             Camera.main.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, 0)),
             Camera.main.ViewportToWorldPoint(new Vector3(1, 1, 0)) * 2
         );
+        Debug.Log(screenBounds);
         ToggleUICursor(false);
     }
 
