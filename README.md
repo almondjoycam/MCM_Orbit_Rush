@@ -1,10 +1,11 @@
 # MCM Studios: Untitled Game
 
-🌌 Orbit Descriptions – MCM Orbit Rush (Reverse Order)
+Orbit Descriptions – MCM Orbit Rush
+
 This document outlines the gameplay design, gravity settings, hazards, items, buffs/debuffs, and rewards for each planetary orbit — starting from the outer edge (Neptune) and ending at the Sun, where the player earns Immortality.
 Created by: Mekdem (Game Designer & Level Programmer)
 
-🔵 Neptune Orbit — “The Frozen Drift”
+## Neptune Orbit — “The Frozen Drift”
 Gravity: Very Low
 Theme: Slippery, floaty movement in the cold outer darkness
 
@@ -30,7 +31,7 @@ Buff: Longer boost duration
 Reward
 Cryo‑Core Upgrade — reduces slow effects in future orbits.
 
-🌀 Uranus Orbit — “The Tilted Spiral”
+## Uranus Orbit — “The Tilted Spiral”
 Gravity: Low–Medium
 Theme: Constant sideways drift caused by the planet’s axial tilt
 
@@ -56,7 +57,7 @@ Buff: Higher top speed
 Reward
 Gyro‑Stabilizer Module — reduces drift and improves control.
 
-🪐 Saturn Orbit — “The Ring Gauntlet”
+## Saturn Orbit — “The Ring Gauntlet”
 Gravity: Medium
 Theme: Dense, patterned obstacles formed by Saturn’s rings
 
@@ -82,7 +83,7 @@ Buff: Predictable movement patterns
 Reward
 Ring Navigator AI — highlights safe paths automatically.
 
-🔥 Jupiter Orbit — “The Giant’s Storm”
+## Jupiter Orbit — “The Giant’s Storm”
 Gravity: Very High
 Theme: Turbulent, heavy movement inside Jupiter’s chaotic atmosphere
 
@@ -108,7 +109,7 @@ Buff: Extremely strong boost
 Reward
 Storm Engine — permanently increases boost power.
 
-🟤 Mars Orbit — “The Rusted Frontier”
+## Mars Orbit — “The Rusted Frontier”
 Gravity: Medium–High
 Theme: Dust storms and rust‑colored debris
 
@@ -134,7 +135,7 @@ Buff: Stronger shields
 Reward
 Dust Shielding Module — reduces environmental damage.
 
-🏡 Safe Heaven (Earth Orbit) — “The Rest Before the Storm”
+## Safe Heaven (Earth Orbit) — “The Rest Before the Storm”
 Gravity: Medium
 Theme: Calm, stable, restorative sanctuary
 
@@ -164,7 +165,7 @@ Debuff: None
 Reward
 Hope Beacon — activates the final Warp Gate toward the Sun.
 
-🪐 Venus Orbit — “The Pressure Zone”
+## Venus Orbit — “The Pressure Zone”
 Gravity: High
 Theme: Intense heat and crushing atmospheric pressure
 
@@ -190,7 +191,34 @@ Buff: Faster shield regeneration
 Reward
 Pressure‑Resistant Hull — reduces knockback and pressure damage.
 
-☀️ The Sun — “The Eternal Light”
+## Mercury Orbit — “The Scorched Loop”
+Gravity: Low
+Theme: Fast, unstable, heat‑intense orbit closest to the Sun
+
+Hazards
+Micro‑meteoroids (fast, low damage)
+
+Solar flare waves
+
+Debris clouds (temporary vision reduction)
+
+Items
+Heat Shields
+
+Fuel Cells
+
+Coolant Packs
+
+Buffs/Debuffs
+Debuff: Overheat meter fills faster
+
+Buff: Boost recharges quicker
+
+Reward
+Solar Stabilizer Module — reduces heat damage and prepares the ship for the Sun.
+
+
+## The Sun — “The Eternal Light”
 Gravity: Extreme
 Theme: Final corridor of solar storms and radiant energy
 
