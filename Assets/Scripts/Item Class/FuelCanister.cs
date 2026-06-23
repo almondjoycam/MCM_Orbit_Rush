@@ -10,7 +10,7 @@ public class FuelCanister : Item
     public override void Use(GameObject player)
     {
         // Looks for the PlayerStats script on the player object.
-        PlayerStats playerStats = player.GetComponent<PlayerStats>();
+        PlayerControls playerStats = player.GetComponent<PlayerControls>();
 
         if (playerStats != null)
         {
@@ -21,8 +21,8 @@ public class FuelCanister : Item
         }
         else
         {
-            // This warning helps us know if the player is missing the PlayerStats script.
-            Debug.LogWarning("PlayerStats script not found on Player.");
+            // This warning helps us know if the player is missing the PlayerControls script.
+            Debug.LogWarning("PlayerControls script not found on Player.");
         }
     }
 }

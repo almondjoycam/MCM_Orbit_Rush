@@ -10,7 +10,7 @@ public class HealthCore : Item
     public override void Use(GameObject player)
     {
         // Finds the player's stats so we can heal them.
-        PlayerStats playerStats = player.GetComponent<PlayerStats>();
+        PlayerControls playerStats = player.GetComponent<PlayerControls>();
 
         if (playerStats != null)
         {
@@ -22,7 +22,7 @@ public class HealthCore : Item
         else
         {
             // This helps catch setup mistakes in Unity.
-            Debug.LogWarning("PlayerStats script not found on Player.");
+            Debug.LogWarning("PlayerControls script not found on Player.");
         }
     }
 }

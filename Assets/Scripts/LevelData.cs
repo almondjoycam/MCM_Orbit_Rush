@@ -8,4 +8,5 @@ public class LevelData : ScriptableObject
     public string levelName;
     public int distanceToSun;
     public GameObject levelTerrain;
+    public int thresholdItemNumber;
 }

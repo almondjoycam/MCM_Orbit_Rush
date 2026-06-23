@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
@@ -41,7 +42,7 @@ public class PlayerControls : MonoBehaviour
 
     [Header("Player Stats")]
     public int maxHealth = 4;
-    int health;
+    float health;
 
     // max fuel is discrete (number of tanks)
     // but current fuel is continuous (burning fuel from tanks)
@@ -52,10 +53,12 @@ public class PlayerControls : MonoBehaviour
 
     public bool shieldActive { get; private set; }
 
+    private Coroutine shieldCoroutine;
+
     [System.Serializable]
     public struct PlayerSaveData
     {
-        public int health;
+        public float health;
         public int maxHealth;
         public float fuel;
         public int maxFuel;
@@ -189,6 +192,72 @@ public class PlayerControls : MonoBehaviour
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
             gameplay.Enable();
+        }
+    }
+
+    public void RestoreHealth(float amount)
+    {
+        // Adds health, but does not let it go above the max health.
+        health += amount;
+        health = Mathf.Clamp(health, 0, maxHealth);
+
+        Debug.Log("Current Health: " + health);
+    }
+
+    public void RestoreBoost(float amount)
+    {
+        // Adds boost energy, but does not let it go above the max boost amount.
+        fuel += amount;
+        fuel = Mathf.Clamp(fuel, 0, maxFuel);
+
+        Debug.Log("Current Boost Energy: " + fuel);
+    }
+
+    public void ActivateShield(float duration)
+    {
+        // If the player already has a shield timer running, restart it.
+        if (shieldCoroutine != null)
+        {
+            StopCoroutine(shieldCoroutine);
+        }
+
+        shieldCoroutine = StartCoroutine(ShieldTimer(duration));
+    }
+
+    private IEnumerator ShieldTimer(float duration)
+    {
+        // Turns the shield on.
+        shieldActive = true;
+        Debug.Log("Shield is active.");
+
+        // Waits for the shield time to run out.
+        yield return new WaitForSeconds(duration);
+
+        // Turns the shield off after the timer ends.
+        shieldActive = false;
+        Debug.Log("Shield ended.");
+    }
+
+    public void TakeDamage(float damageAmount)
+    {
+        // If the shield is active, it blocks the hit instead of taking damage.
+        if (shieldActive)
+        {
+            shieldActive = false;
+            Debug.Log("Shield blocked the hit!");
+            return;
+        }
+
+        // Takes health away from the player.
+        health -= damageAmount;
+        health = Mathf.Clamp(health, 0, maxHealth);
+
+        Debug.Log("Player took damage. Current Health: " + health);
+
+        // Checks if the player has run out of health.
+        if (health <= 0)
+        {
+            GameOver();
         }
     }
 
