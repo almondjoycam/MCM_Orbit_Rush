@@ -1,70 +1,215 @@
 # MCM Studios: Untitled Game
 
-# This document outlines the gameplay design, gravity settings, hazards, items, buffs/debuffs, and rewards for each planetary orbit. 
-# Updated by Mekdem (Game Designer & Level programmer)
+🌌 Orbit Descriptions – MCM Orbit Rush (Reverse Order)
+This document outlines the gameplay design, gravity settings, hazards, items, buffs/debuffs, and rewards for each planetary orbit — starting from the outer edge (Neptune) and ending at the Sun, where the player earns Immortality.
+Created by: Mekdem (Game Designer & Level Programmer)
 
-## Journey to the Sun – Orbit Progression (Neptune → Sun)
+🔵 Neptune Orbit — “The Frozen Drift”
+Gravity: Very Low
+Theme: Slippery, floaty movement in the cold outer darkness
 
-The player begins at the edge of the solar system and travels inward, orbit by orbit, toward the Sun.  
-Each orbit introduces new mechanics, hazards, and rewards.  
-Reaching the Sun grants the ultimate reward: **Immortality**.
+Hazards
+Ice‑coated asteroids
 
----
+Frozen gas pockets
 
-### Neptune — “The Frozen Drift”
-**Gravity:** Very Low  
-**Theme:** Slippery, floaty, cold outer darkness  
-**Reward:** Cryo‑Core Upgrade
+Shattered ice rings
 
----
+Items
+Thermal Boosters
 
-### Uranus — “The Tilted Spiral”
-**Gravity:** Low–Medium  
-**Theme:** Constant sideways drift  
-**Reward:** Gyro‑Stabilizer Module
+Anti‑Freeze Coating
 
----
+Fuel Cells
 
-### Saturn — “The Ring Gauntlet”
-**Gravity:** Medium  
-**Theme:** Dense, patterned obstacles  
-**Reward:** Ring Navigator AI
+Buffs/Debuffs
+Debuff: Reduced traction
 
----
+Buff: Longer boost duration
 
-### Jupiter — “The Giant’s Storm”
-**Gravity:** Very High  
-**Theme:** Turbulent, chaotic movement  
-**Reward:** Storm Engine
+Reward
+Cryo‑Core Upgrade — reduces slow effects in future orbits.
 
----
+🌀 Uranus Orbit — “The Tilted Spiral”
+Gravity: Low–Medium
+Theme: Constant sideways drift caused by the planet’s axial tilt
 
-### Mars — “The Rusted Frontier”
-**Gravity:** Medium–High  
-**Theme:** Dust storms, rust debris  
-**Reward:** Dust Shielding Module
+Hazards
+Tilted ring debris
 
----
+Magnetic anomalies
 
-### Safe Heaven (Earth) — “The Rest Before the Storm”
-**Gravity:** Medium  
-**Theme:** Calm, restorative sanctuary  
-**Purpose:** Full recovery before the final ascent  
-**Reward:** Hope Beacon (activates final Warp Gate)
+Rotating ice clusters
 
----
+Items
+Stabilizer Gyros
 
-### Venus — “The Pressure Zone”
-**Gravity:** High  
-**Theme:** Intense heat and crushing pressure  
-**Reward:** Pressure‑Resistant Hull
+Shield Batteries
 
----
+Fuel Cells
 
-### The Sun — “The Eternal Light”
-**Gravity:** Extreme  
-**Theme:** Final corridor of solar storms  
-**Final Reward:** **IMMORTALITY**  
-The player transcends physical form and becomes a being of pure energy.
+Buffs/Debuffs
+Debuff: Sideways pull
 
----
+Buff: Higher top speed
+
+Reward
+Gyro‑Stabilizer Module — reduces drift and improves control.
+
+🪐 Saturn Orbit — “The Ring Gauntlet”
+Gravity: Medium
+Theme: Dense, patterned obstacles formed by Saturn’s rings
+
+Hazards
+Ring debris
+
+Crystal shards
+
+Mini‑moons
+
+Items
+Shield Batteries
+
+Fuel Cells
+
+Ring Resonators
+
+Buffs/Debuffs
+Debuff: High obstacle density
+
+Buff: Predictable movement patterns
+
+Reward
+Ring Navigator AI — highlights safe paths automatically.
+
+🔥 Jupiter Orbit — “The Giant’s Storm”
+Gravity: Very High
+Theme: Turbulent, heavy movement inside Jupiter’s chaotic atmosphere
+
+Hazards
+Massive asteroids
+
+Lightning storms
+
+Turbulent gas waves
+
+Items
+Heavy Shields
+
+Fuel Cells
+
+Storm Dampeners
+
+Buffs/Debuffs
+Debuff: Slow turning
+
+Buff: Extremely strong boost
+
+Reward
+Storm Engine — permanently increases boost power.
+
+🟤 Mars Orbit — “The Rusted Frontier”
+Gravity: Medium–High
+Theme: Dust storms and rust‑colored debris
+
+Hazards
+Rust debris
+
+Sand‑charged meteoroids
+
+Magnetic dust storms
+
+Items
+Shield Batteries
+
+Fuel Cells
+
+Dust Filters
+
+Buffs/Debuffs
+Debuff: Reduced visibility
+
+Buff: Stronger shields
+
+Reward
+Dust Shielding Module — reduces environmental damage.
+
+🏡 Safe Heaven (Earth Orbit) — “The Rest Before the Storm”
+Gravity: Medium
+Theme: Calm, stable, restorative sanctuary
+
+Purpose
+Safe Heaven is the only recovery zone in the journey.
+Players can restore fuel, shields, and stabilize their ship before the final ascent.
+
+Hazards
+Minimal satellite debris
+
+No lethal threats
+
+Items
+Full Fuel Refill
+
+Shield Battery Stations
+
+Navigation Chips
+
+Buffs/Debuffs
+Buff: Auto‑stabilization
+
+Buff: Faster shield regeneration
+
+Debuff: None
+
+Reward
+Hope Beacon — activates the final Warp Gate toward the Sun.
+
+🪐 Venus Orbit — “The Pressure Zone”
+Gravity: High
+Theme: Intense heat and crushing atmospheric pressure
+
+Hazards
+Dense rock clusters
+
+Volcanic ejecta
+
+Pressure waves
+
+Items
+Reinforced Shields
+
+Fuel Cells
+
+Pressure Dampeners
+
+Buffs/Debuffs
+Debuff: Slow acceleration
+
+Buff: Faster shield regeneration
+
+Reward
+Pressure‑Resistant Hull — reduces knockback and pressure damage.
+
+☀️ The Sun — “The Eternal Light”
+Gravity: Extreme
+Theme: Final corridor of solar storms and radiant energy
+
+Final Challenge
+A narrow, deadly path filled with:
+
+Solar flares
+
+Plasma waves
+
+Radiant storms
+
+Only the most upgraded ship can survive the approach.
+
+Final Reward
+IMMORTALITY  
+Upon landing on the Sun’s surface, the player transcends physical form and becomes a being of pure energy.
+
+Narrative Ending
+The journey ends where all life began —
+in the heart of the Sun,
+reborn as eternal light.
