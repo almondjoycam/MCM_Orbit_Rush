@@ -12,6 +12,8 @@ public class PlayerControls : MonoBehaviour
     GameObject gameOverScreen;
     [SerializeField]
     TextMeshProUGUI fuelMeter;
+    [SerializeField]
+    TextMeshProUGUI healthMeter;
 
     [Header("Input Variables")]
     public float steerSpeed = 1;
@@ -41,7 +43,7 @@ public class PlayerControls : MonoBehaviour
     Vector3 aimDelta;
 
     [Header("Player Stats")]
-    public int maxHealth = 4;
+    public int maxHealth = 50;
     float health;
 
     // max fuel is discrete (number of tanks)
@@ -88,7 +90,6 @@ public class PlayerControls : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        gameOverScreen.SetActive(false);
 
         gameplay = InputSystem.actions.FindActionMap("Player");
         uiCancel = InputSystem.actions.FindAction("UI/Cancel");
@@ -109,6 +110,13 @@ public class PlayerControls : MonoBehaviour
             Camera.main.ViewportToWorldPoint(new Vector3(1, 1, 0)) * 2
         );
         Debug.Log(screenBounds);
+        ResetUI();
+    }
+
+    void ResetUI()
+    {
+        gameOverScreen.SetActive(false);
+        healthMeter.text = $"Health: {health:F1}/{maxHealth}";
         ToggleUICursor(false);
     }
 
@@ -251,6 +259,7 @@ public class PlayerControls : MonoBehaviour
         // Takes health away from the player.
         health -= damageAmount;
         health = Mathf.Clamp(health, 0, maxHealth);
+        healthMeter.text = $"Health: {health:F1}/{maxHealth}";
 
         Debug.Log("Player took damage. Current Health: " + health);
 
@@ -277,7 +286,7 @@ public class PlayerControls : MonoBehaviour
         shieldActive = state.shieldActive;
         level.levelData = Resources.Load(state.currentLevel) as LevelData;
         level.transform.rotation = Quaternion.identity;
-        Start();
+        ResetUI();
     }
 
     // delete this test code

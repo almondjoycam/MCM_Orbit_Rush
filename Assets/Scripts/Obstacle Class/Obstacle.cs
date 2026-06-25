@@ -30,11 +30,11 @@ public abstract class Obstacle : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Player player = other.GetComponent<Player>();
+            PlayerControls player = other.GetComponent<PlayerControls>();
             if (player != null)
                 Hurt(player);
         }
     }
 
-    public abstract void Hurt(Player player);
+    public abstract void Hurt(PlayerControls player);
 }
