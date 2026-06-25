@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Pool;
 
 public abstract class Obstacle : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public abstract class Obstacle : MonoBehaviour
     public int damageAmount = 10;
 
     protected Rigidbody2D rb;
+    public ObjectPool<Obstacle> obstaclePool;
 
     protected virtual void Start()
     {
@@ -37,4 +39,21 @@ public abstract class Obstacle : MonoBehaviour
     }
 
     public abstract void Hurt(PlayerControls player);
+
+
+    // Pooling methods
+    public void Reset()
+    {
+        gameObject.SetActive(false);
+    }
+
+    protected virtual void OnBecameInvisible()
+    {
+        obstaclePool.Release(this);
+    }
+
+    protected virtual void OnDestroy()
+    {
+        obstaclePool.Release(this);
+    }
 }

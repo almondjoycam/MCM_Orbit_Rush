@@ -12,6 +12,7 @@ public class SaveSystem
         }
         catch (System.SystemException fileError)
         {
+            Debug.LogWarning(fileError.Message);
             return false;
         }
     }

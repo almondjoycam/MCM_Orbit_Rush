@@ -15,7 +15,7 @@ public class AsteroidObstacle : Obstacle
     protected override void Start()
     {
         base.Start();
-        driftDirection = Random.insideUnitCircle.normalized;
+        driftDirection = Random.onUnitCircle;
         transform.localScale = Vector3.one * Random.Range(sizeRange.x, sizeRange.y);
         transform.rotation = Quaternion.Euler(0, 0, Random.value * 360);
         int randomSprite = Random.Range(0, asteroidTextures.Length - 1);
