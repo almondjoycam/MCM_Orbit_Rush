@@ -15,11 +15,15 @@ public class Level : MonoBehaviour
 
     private ObjectPool<Obstacle> obstaclePool;
 
+    void Awake()
+    {
+        Physics2D.gravity = new Vector2(0, -levelData.gravityConstant);
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         Instantiate(levelData.levelTerrain, transform);
-        Physics2D.gravity = new Vector2(0, -levelData.gravityConstant);
 
         obstaclePool = new ObjectPool<Obstacle>(
             createFunc: () => SpawnObstacle(),
