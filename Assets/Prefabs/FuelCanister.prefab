@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1095322601976984244}
   - component: {fileID: 8934378957094963527}
   m_Layer: 0
-  m_Name: TestItem
+  m_Name: FuelCanister
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 22fa1f7ad30fb4333a5f2054930f9d7c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 390e012faf2ab4447b542024d88cf341, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -235,9 +235,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6218a179f896479f923ed799981d814, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FuelCanister
-  itemName: Test Fuel Canister
+  itemName: Fuel Canister
   destroyAfterUse: 1
-  rotates: 1
+  rotates: 0
   rotationSpeed: 50
   moves: 0
   moveSpeed: 1

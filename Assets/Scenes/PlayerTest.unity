@@ -2354,6 +2354,7 @@ MonoBehaviour:
   levelData: {fileID: 11400000, guid: 13716a83c8732da1facedfd511114641, type: 2}
   obstacles:
   - {fileID: 313111520427087727, guid: 45c6bbb59f8c3caf0bc260bef95147df, type: 3}
+  - {fileID: 5363512665967579841, guid: 5a4a7e133626cd6adb4ebe16ecb81114, type: 3}
   obstacleSpawnInterval: 2.23
   items:
   - {fileID: 8934378957094963527, guid: 40bc0220dde75e093b0032fdc8841b09, type: 3}
