@@ -10,7 +10,6 @@ public class Level : MonoBehaviour
     [SerializeField] Obstacle[] obstacles;
     [SerializeField] float obstacleSpawnInterval;
     float obstacleSpawnTime;
-    // TODO: add weights to these items to make some more likely to spawn
     [SerializeField] Item[] items;
 
     private ObjectPool<Obstacle> obstaclePool;
@@ -48,8 +47,12 @@ public class Level : MonoBehaviour
 
     Obstacle SpawnObstacle()
     {
-        int randObstacle = Random.Range(0, obstacles.Length);
-        Obstacle newObs = Instantiate(obstacles[randObstacle], transform);
+        int randObstacle;
+        Obstacle newObs;
+        do {
+            randObstacle = Random.Range(0, obstacles.Length);
+        } while (obstacles[randObstacle].spawnChance <= Random.value);
+        newObs = Instantiate(obstacles[randObstacle], transform);
         newObs.obstaclePool = obstaclePool;
         newObs.gameObject.SetActive(false);
         return newObs;

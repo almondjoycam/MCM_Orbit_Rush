@@ -258,6 +258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09f709d3ae7614c08bef032bcf68e398, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AsteroidObstacle
+  spawnChance: 0.899
   canMove: 1
   moveSpeed: 2
   damageAmount: 1

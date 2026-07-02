@@ -3,6 +3,8 @@ using UnityEngine.Pool;
 
 public abstract class Obstacle : MonoBehaviour
 {
+    [Range(0,1)] public float spawnChance = 0.5f;
+
     [Header("Obstacle Settings")]
     public bool canMove = false;
     public float moveSpeed = 2f;

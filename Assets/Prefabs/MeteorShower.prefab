@@ -386,6 +386,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd4b8f9ec2b9ac1a2a12caccb1edaffe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MeteorShower
+  spawnChance: 0.196
   canMove: 0
   moveSpeed: 4
   damageAmount: 2
