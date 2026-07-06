@@ -17,11 +17,13 @@ public abstract class Item : MonoBehaviour
     public float moveDistance = 0.5f;
 
     private Vector3 startPosition;
+    private Level level;
 
     private void Start()
     {
         // Saves the starting position so the item can float around that spot.
         startPosition = transform.position;
+        level = FindAnyObjectByType<Level>();
     }
 
     private void Update()
@@ -45,6 +47,7 @@ public abstract class Item : MonoBehaviour
         // Checks if the object touching the item is the player.
         if (collision.CompareTag("Player"))
         {
+            level.CollectItem(this);
             // Calls the specific item's effect.
             // For example: restore fuel, give shield, or heal.
             Use(collision.gameObject);
