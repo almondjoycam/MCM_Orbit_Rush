@@ -1,0 +1,4030 @@
+fileFormatVersion: 2
+guid: c5643a3700f934da1bec7aea521e6c71
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2938305510642115961
+    second: small_Frames_0
+  - first:
+      213: 348168563450478928
+    second: small_Frames_1
+  - first:
+      213: -6633142052982990920
+    second: small_Frames_2
+  - first:
+      213: -8131535361893472184
+    second: small_Frames_3
+  - first:
+      213: -4355037353806398
+    second: small_Frames_4
+  - first:
+      213: 5863240823590016512
+    second: small_Frames_5
+  - first:
+      213: -7336123750854463430
+    second: small_Frames_6
+  - first:
+      213: 2823245354717301620
+    second: small_Frames_7
+  - first:
+      213: 4243074778444772118
+    second: small_Frames_8
+  - first:
+      213: -5794497568619623932
+    second: small_Frames_9
+  - first:
+      213: 5129983123996178181
+    second: small_Frames_10
+  - first:
+      213: -7543796963147027530
+    second: small_Frames_11
+  - first:
+      213: 778295552211136086
+    second: small_Frames_12
+  - first:
+      213: -1743070184913020205
+    second: small_Frames_13
+  - first:
+      213: -7374645627676360281
+    second: small_Frames_14
+  - first:
+      213: -5495044050223196080
+    second: small_Frames_15
+  - first:
+      213: -2717635946179878231
+    second: small_Frames_16
+  - first:
+      213: 8561428842706542087
+    second: small_Frames_17
+  - first:
+      213: 3307583791345436660
+    second: small_Frames_18
+  - first:
+      213: 9192472917445315289
+    second: small_Frames_19
+  - first:
+      213: 3843450910709252429
+    second: small_Frames_20
+  - first:
+      213: -1745796791450337829
+    second: small_Frames_21
+  - first:
+      213: -5151776613151921745
+    second: small_Frames_22
+  - first:
+      213: -4212100166136348913
+    second: small_Frames_23
+  - first:
+      213: -3761692487091993928
+    second: small_Frames_24
+  - first:
+      213: 5510436866516250630
+    second: small_Frames_25
+  - first:
+      213: 2484710063781063752
+    second: small_Frames_26
+  - first:
+      213: 5582542498174706671
+    second: small_Frames_27
+  - first:
+      213: -7086169062431385655
+    second: small_Frames_28
+  - first:
+      213: 8465619279753387461
+    second: small_Frames_29
+  - first:
+      213: -6869657932333919837
+    second: small_Frames_30
+  - first:
+      213: 7779319390304530180
+    second: small_Frames_31
+  - first:
+      213: 4621014282353063662
+    second: small_Frames_32
+  - first:
+      213: -2430822202833644070
+    second: small_Frames_33
+  - first:
+      213: -3014662482473566938
+    second: small_Frames_34
+  - first:
+      213: -3742511062834251183
+    second: small_Frames_35
+  - first:
+      213: 6013065792659676231
+    second: small_Frames_36
+  - first:
+      213: -6244008262319269993
+    second: small_Frames_37
+  - first:
+      213: 842263112752682344
+    second: small_Frames_38
+  - first:
+      213: 4308662117713697438
+    second: small_Frames_39
+  - first:
+      213: -3517215852111182463
+    second: small_Frames_40
+  - first:
+      213: 999608075081612494
+    second: small_Frames_41
+  - first:
+      213: 3983458449686377468
+    second: small_Frames_42
+  - first:
+      213: -7429533036664316960
+    second: small_Frames_43
+  - first:
+      213: -3125323684329011262
+    second: small_Frames_44
+  - first:
+      213: -3942191596011652482
+    second: small_Frames_45
+  - first:
+      213: 1648843175238892118
+    second: small_Frames_46
+  - first:
+      213: 1752328478581623503
+    second: small_Frames_47
+  - first:
+      213: 8520110780587374280
+    second: small_Frames_48
+  - first:
+      213: -5673494046777352415
+    second: small_Frames_49
+  - first:
+      213: 7691944457494801128
+    second: small_Frames_50
+  - first:
+      213: 953496962794225468
+    second: small_Frames_51
+  - first:
+      213: -2751690097598943939
+    second: small_Frames_52
+  - first:
+      213: -5280132603815787302
+    second: small_Frames_53
+  - first:
+      213: -4303797499942625178
+    second: small_Frames_54
+  - first:
+      213: 4451295594504217425
+    second: small_Frames_55
+  - first:
+      213: 7739276862580079489
+    second: small_Frames_56
+  - first:
+      213: -9202087631828446381
+    second: small_Frames_57
+  - first:
+      213: 7431142567883506966
+    second: small_Frames_58
+  - first:
+      213: -1758566654287507928
+    second: small_Frames_59
+  - first:
+      213: 7136266236977550026
+    second: small_Frames_60
+  - first:
+      213: 1293260715863980969
+    second: small_Frames_61
+  - first:
+      213: 6463515929801311499
+    second: small_Frames_62
+  - first:
+      213: -4312333286321104393
+    second: small_Frames_63
+  - first:
+      213: -4769072769594000314
+    second: small_Frames_64
+  - first:
+      213: -137188350945207404
+    second: small_Frames_65
+  - first:
+      213: -81562858188376038
+    second: small_Frames_66
+  - first:
+      213: -3752466941973565276
+    second: small_Frames_67
+  - first:
+      213: -3456423526713427756
+    second: small_Frames_68
+  - first:
+      213: -9209638628563871266
+    second: small_Frames_69
+  - first:
+      213: -5994265649137660528
+    second: small_Frames_70
+  - first:
+      213: 5069315028832311485
+    second: small_Frames_71
+  - first:
+      213: -897425487325109802
+    second: small_Frames_72
+  - first:
+      213: 1935518952050456657
+    second: small_Frames_73
+  - first:
+      213: -2621209537843751219
+    second: small_Frames_74
+  - first:
+      213: -4029297827860580036
+    second: small_Frames_75
+  - first:
+      213: -7298273373900559791
+    second: small_Frames_76
+  - first:
+      213: -8453951137681080175
+    second: small_Frames_77
+  - first:
+      213: -2737095767923069416
+    second: small_Frames_78
+  - first:
+      213: 7260360875189725811
+    second: small_Frames_79
+  - first:
+      213: 825292853485890452
+    second: small_Frames_80
+  - first:
+      213: -5080421069118132153
+    second: small_Frames_81
+  - first:
+      213: -7273238447215120144
+    second: small_Frames_82
+  - first:
+      213: 4049024102644464948
+    second: small_Frames_83
+  - first:
+      213: -6441438449102340424
+    second: small_Frames_84
+  - first:
+      213: 8010931599658100502
+    second: small_Frames_85
+  - first:
+      213: -2461109166419156206
+    second: small_Frames_86
+  - first:
+      213: -2383727401505114578
+    second: small_Frames_87
+  - first:
+      213: -6291901314206304212
+    second: small_Frames_88
+  - first:
+      213: 2632435245053571287
+    second: small_Frames_89
+  - first:
+      213: 6175544586877064044
+    second: small_Frames_90
+  - first:
+      213: 3721607674182994013
+    second: small_Frames_91
+  - first:
+      213: 4897034130034319487
+    second: small_Frames_92
+  - first:
+      213: -909542540655958452
+    second: small_Frames_93
+  - first:
+      213: -6550518673666259195
+    second: small_Frames_94
+  - first:
+      213: -8136908098870561274
+    second: small_Frames_95
+  - first:
+      213: -1285867069419623694
+    second: small_Frames_96
+  - first:
+      213: -5246546776832744448
+    second: small_Frames_97
+  - first:
+      213: -5853475052143762369
+    second: small_Frames_98
+  - first:
+      213: 2204834267329028654
+    second: small_Frames_99
+  - first:
+      213: -3536497764500606819
+    second: small_Frames_100
+  - first:
+      213: 6313045390486783758
+    second: small_Frames_101
+  - first:
+      213: 6026499224537872127
+    second: small_Frames_102
+  - first:
+      213: 6983508633304431974
+    second: small_Frames_103
+  - first:
+      213: 6944123086850718907
+    second: small_Frames_104
+  - first:
+      213: -7923590286500022494
+    second: small_Frames_105
+  - first:
+      213: 8437725292356486530
+    second: small_Frames_106
+  - first:
+      213: -2622025721738319006
+    second: small_Frames_107
+  - first:
+      213: -4842735809354174630
+    second: small_Frames_108
+  - first:
+      213: 7153964558930105899
+    second: small_Frames_109
+  - first:
+      213: 7845259361407337508
+    second: small_Frames_110
+  - first:
+      213: -5077458800590051490
+    second: small_Frames_111
+  - first:
+      213: -2478246925070477517
+    second: small_Frames_112
+  - first:
+      213: -7535910236823933450
+    second: small_Frames_113
+  - first:
+      213: -7071484575604372629
+    second: small_Frames_114
+  - first:
+      213: -8851846605354809786
+    second: small_Frames_115
+  - first:
+      213: -2517234476321928324
+    second: small_Frames_116
+  - first:
+      213: -5215603992814152834
+    second: small_Frames_117
+  - first:
+      213: 2815372737144315900
+    second: small_Frames_118
+  - first:
+      213: -3723924932059805142
+    second: small_Frames_119
+  - first:
+      213: -1440287007895244776
+    second: small_Frames_120
+  - first:
+      213: -5697827080192925354
+    second: small_Frames_121
+  - first:
+      213: 8368520053488431366
+    second: small_Frames_122
+  - first:
+      213: -2946131616292652863
+    second: small_Frames_123
+  - first:
+      213: -7542298906931603557
+    second: small_Frames_124
+  - first:
+      213: -270143258633611748
+    second: small_Frames_125
+  - first:
+      213: 2234112821642963046
+    second: small_Frames_126
+  - first:
+      213: -174926152304067853
+    second: small_Frames_127
+  - first:
+      213: -684003404391266710
+    second: small_Frames_128
+  - first:
+      213: 6379210946456224077
+    second: small_Frames_129
+  - first:
+      213: -1576741091913887071
+    second: small_Frames_130
+  - first:
+      213: -1908783898028212874
+    second: small_Frames_131
+  - first:
+      213: -1851984718652610158
+    second: small_Frames_132
+  - first:
+      213: -6253487523771007912
+    second: small_Frames_133
+  - first:
+      213: 7105387111915722770
+    second: small_Frames_134
+  - first:
+      213: 6939820576553646789
+    second: small_Frames_135
+  - first:
+      213: -7892887269344383686
+    second: small_Frames_136
+  - first:
+      213: 4393917745259869327
+    second: small_Frames_137
+  - first:
+      213: -2037919047830744192
+    second: small_Frames_138
+  - first:
+      213: -2527707140487073464
+    second: small_Frames_139
+  - first:
+      213: 4217569058960169059
+    second: small_Frames_140
+  - first:
+      213: -2417295633779178092
+    second: small_Frames_141
+  - first:
+      213: -7158038453259753193
+    second: small_Frames_142
+  - first:
+      213: -7233725180622255386
+    second: small_Frames_143
+  - first:
+      213: -6228201466346403216
+    second: small_Frames_144
+  - first:
+      213: -8086631988333824463
+    second: small_Frames_145
+  - first:
+      213: 7206000072251746058
+    second: small_Frames_146
+  - first:
+      213: 3618915414748824739
+    second: small_Frames_147
+  - first:
+      213: -5686985765841019292
+    second: small_Frames_148
+  - first:
+      213: -2377601941522566569
+    second: small_Frames_149
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: small_Frames_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 277
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a9a94b4ba0937d0800000000000000
+      internalID: -2938305510642115961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 279
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0518c6ab671f4d400800000000000000
+      internalID: 348168563450478928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_2
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 279
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b75e3b527852f3a0800000000000000
+      internalID: -6633142052982990920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_3
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 276
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848efcbcbabf62f80800000000000000
+      internalID: -8131535361893472184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_4
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 276
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5fa89dd1780fff0800000000000000
+      internalID: -4355037353806398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_5
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 261
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006d6aad67a6e5150800000000000000
+      internalID: 5863240823590016512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_6
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 280
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a30730a215ad03a90800000000000000
+      internalID: -7336123750854463430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_7
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 281
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b42b121be2e2720800000000000000
+      internalID: 2823245354717301620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_8
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 281
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613be9cb70e62ea30800000000000000
+      internalID: 4243074778444772118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_9
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 278
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a0092792fc59fa0800000000000000
+      internalID: -5794497568619623932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_10
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 278
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5077a81b87c513740800000000000000
+      internalID: 5129983123996178181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_11
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 262
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb63f971ac0f4790800000000000000
+      internalID: -7543796963147027530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_12
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 280
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65eafcf5eaf0dca00800000000000000
+      internalID: 778295552211136086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_13
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 279
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da5fa9e6ee5fc7e0800000000000000
+      internalID: -1743070184913020205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_14
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 279
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a186f9cfdef7a990800000000000000
+      internalID: -7374645627676360281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_15
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 279
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0589251ec8eadb3b0800000000000000
+      internalID: -5495044050223196080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_16
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 279
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a2ad1f6184094ad0800000000000000
+      internalID: -2717635946179878231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_17
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 272
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e9e4b0c2e40d670800000000000000
+      internalID: 8561428842706542087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_18
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 277
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f70cf31fe5e6ed20800000000000000
+      internalID: 3307583791345436660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_19
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 279
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da0ab32a69329f70800000000000000
+      internalID: 9192472917445315289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_20
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 280
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d410a746d3ea65530800000000000000
+      internalID: 3843450910709252429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_21
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 280
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bddf59b511fa5c7e0800000000000000
+      internalID: -1745796791450337829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_22
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 280
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa92ae237763188b0800000000000000
+      internalID: -5151776613151921745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_23
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 280
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f341f273d9b85c0800000000000000
+      internalID: -4212100166136348913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_24
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 278
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b240a00d98cbcbc0800000000000000
+      internalID: -3761692487091993928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_25
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 280
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 600fae17221097c40800000000000000
+      internalID: 5510436866516250630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_26
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 282
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c228173a67b7220800000000000000
+      internalID: 2484710063781063752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_27
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 282
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe3a93313dc297d40800000000000000
+      internalID: 5582542498174706671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_28
+      rect:
+        serializedVersion: 2
+        x: 1832
+        y: 282
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c71a6728ced8ad90800000000000000
+      internalID: -7086169062431385655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_29
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 283
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cd1665d1ebeb7570800000000000000
+      internalID: 8465619279753387461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_30
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 215
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1dacee1821aa0a0800000000000000
+      internalID: -6869657932333919837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_31
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 215
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40fe865d4c1b5fb60800000000000000
+      internalID: 7779319390304530180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_32
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 215
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee639a1b104212040800000000000000
+      internalID: 4621014282353063662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_33
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 215
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5d7f7e51cf34ed0800000000000000
+      internalID: -2430822202833644070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_34
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 215
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d377ec174c926d0800000000000000
+      internalID: -3014662482473566938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_35
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 215
+        width: 14
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15a7bcb540eef0cc0800000000000000
+      internalID: -3742511062834251183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_36
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 216
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c5886da73b27350800000000000000
+      internalID: 6013065792659676231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_37
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 216
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7971bdd4193d859a0800000000000000
+      internalID: -6244008262319269993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_38
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 216
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 865d90ba6d150bb00800000000000000
+      internalID: 842263112752682344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_39
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 216
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9ad1872e517bcb30800000000000000
+      internalID: 4308662117713697438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_40
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 216
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1854a8841d6503fc0800000000000000
+      internalID: -3517215852111182463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_41
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 216
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eccf9d58f325fdd00800000000000000
+      internalID: 999608075081612494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_42
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 216
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3b51fca56184730800000000000000
+      internalID: 3983458449686377468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_43
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 216
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb1896011ff4e890800000000000000
+      internalID: -7429533036664316960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_44
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 216
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c74473faae90a4d0800000000000000
+      internalID: -3125323684329011262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_45
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 216
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7af13b41a58a49c0800000000000000
+      internalID: -3942191596011652482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_46
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 216
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65af076c12ed1e610800000000000000
+      internalID: 1648843175238892118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_47
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 216
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fca88af8775815810800000000000000
+      internalID: 1752328478581623503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_48
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 217
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6f2eb0d938d3670800000000000000
+      internalID: 8520110780587374280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_49
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 217
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12fda825933b341b0800000000000000
+      internalID: -5673494046777352415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_50
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 217
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea230dfab64fba60800000000000000
+      internalID: 7691944457494801128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_51
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 217
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f73c19f608b3d00800000000000000
+      internalID: 953496962794225468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_52
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 217
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3da7a07f6800d9d0800000000000000
+      internalID: -2751690097598943939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_53
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 217
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad40a964f5339b6b0800000000000000
+      internalID: -5280132603815787302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_54
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 216
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 660a4bee9f6d544c0800000000000000
+      internalID: -4303797499942625178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_55
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 216
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1536fac52cd26cd30800000000000000
+      internalID: 4451295594504217425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_56
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 216
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18b3c745d4f676b60800000000000000
+      internalID: 7739276862580079489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_57
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 216
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35399d8bd0e9b4080800000000000000
+      internalID: -9202087631828446381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_58
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 216
+        width: 13
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6150bf92bc8b02760800000000000000
+      internalID: 7431142567883506966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_59
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 216
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e8859f1f05897e0800000000000000
+      internalID: -1758566654287507928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_60
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 153
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac219ad355c190360800000000000000
+      internalID: 7136266236977550026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_61
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 158
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab3a03e4c592f110800000000000000
+      internalID: 1293260715863980969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_62
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 162
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b05c2e33e7503b950800000000000000
+      internalID: 6463515929801311499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_63
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 155
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9dcbb49b38724c0800000000000000
+      internalID: -4312333286321104393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_64
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 149
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c7c5c6599d0ddb0800000000000000
+      internalID: -4769072769594000314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_65
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 148
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49bd692fbeb981ef0800000000000000
+      internalID: -137188350945207404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_66
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 152
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a18f0da330b3edef0800000000000000
+      internalID: -81562858188376038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_67
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 158
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0f44c923f8cebc0800000000000000
+      internalID: -3752466941973565276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_68
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 162
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d871f88d115800d0800000000000000
+      internalID: -3456423526713427756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_69
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 155
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed91cba467ac03080800000000000000
+      internalID: -9209638628563871266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_70
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 150
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09dc2dda62710dca0800000000000000
+      internalID: -5994265649137660528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_71
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 151
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8591c0923d95640800000000000000
+      internalID: 5069315028832311485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_72
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 152
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d1ea972644bb83f0800000000000000
+      internalID: -897425487325109802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_73
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 158
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158f0096b385cda10800000000000000
+      internalID: 1935518952050456657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_74
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 164
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc615f620d79f9bd0800000000000000
+      internalID: -2621209537843751219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_75
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 157
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39fd1449fe0518c0800000000000000
+      internalID: -4029297827860580036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_76
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 150
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15a27fac80357ba90800000000000000
+      internalID: -7298273373900559791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_77
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 151
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19082023b388daa80800000000000000
+      internalID: -8453951137681080175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_78
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 151
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e68bc96e1e30ad0800000000000000
+      internalID: -2737095767923069416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_79
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 155
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ae3dabfbbf1c460800000000000000
+      internalID: 7260360875189725811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_80
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 163
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49be1b74a77047b00800000000000000
+      internalID: 825292853485890452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_81
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 160
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740bdc174f7be79b0800000000000000
+      internalID: -5080421069118132153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_82
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 152
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f07703ea24401b90800000000000000
+      internalID: -7273238447215120144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_83
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 149
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d3e1df7f5013830800000000000000
+      internalID: 4049024102644464948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_84
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 150
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be36b6dbd96b96a0800000000000000
+      internalID: -6441438449102340424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_85
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 153
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617a29d98db8c2f60800000000000000
+      internalID: 8010931599658100502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_86
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 162
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 213e02ea04268ddd0800000000000000
+      internalID: -2461109166419156206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_87
+      rect:
+        serializedVersion: 2
+        x: 1764
+        y: 161
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e263cefce8c4beed0800000000000000
+      internalID: -2383727401505114578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_88
+      rect:
+        serializedVersion: 2
+        x: 1829
+        y: 153
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c287be4371daea8a0800000000000000
+      internalID: -6291901314206304212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_89
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 150
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0f2ab78e9488420800000000000000
+      internalID: 2632435245053571287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_90
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 88
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63d4631511f3b550800000000000000
+      internalID: 6175544586877064044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_91
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 84
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d588b05367ec5a330800000000000000
+      internalID: 3721607674182994013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_92
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 85
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f70e8ad7892c5f340800000000000000
+      internalID: 4897034130034319487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_93
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 88
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c466814d0e7a063f0800000000000000
+      internalID: -909542540655958452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_94
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 85
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5074f81f8f1e715a0800000000000000
+      internalID: -6550518673666259195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_95
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 84
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60632dcf135e31f80800000000000000
+      internalID: -8136908098870561274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_96
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 87
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2faeed296bea72ee0800000000000000
+      internalID: -1285867069419623694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_97
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 86
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004e96df0858037b0800000000000000
+      internalID: -5246546776832744448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_98
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 86
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f342c5ff37744cea0800000000000000
+      internalID: -5853475052143762369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_99
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 89
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2261cc9515299e10800000000000000
+      internalID: 2204834267329028654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_100
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 86
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d907af53506dbeec0800000000000000
+      internalID: -3536497764500606819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_101
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 85
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e07c1eea5517c9750800000000000000
+      internalID: 6313045390486783758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_102
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 86
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff63fbd6d1d62a350800000000000000
+      internalID: 6026499224537872127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_103
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 86
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66dfbfd0a186ae060800000000000000
+      internalID: 6983508633304431974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_104
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 87
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbc735ce72b7e5060800000000000000
+      internalID: 6944123086850718907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_105
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 87
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2273e6b8d90c90290800000000000000
+      internalID: -7923590286500022494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_106
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 88
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 285cc3bc272d81570800000000000000
+      internalID: 8437725292356486530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_107
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 86
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ba9d78f71bc9bd0800000000000000
+      internalID: -2622025721738319006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_108
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 85
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f616670752bccb0800000000000000
+      internalID: -4842735809354174630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_109
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 83
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2653ceecdcf74360800000000000000
+      internalID: 7153964558930105899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_110
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 86
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4240e7fb2d5ffdc60800000000000000
+      internalID: 7845259361407337508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_111
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 85
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5726255f1e3989b0800000000000000
+      internalID: -5077458800590051490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_112
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 85
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337587d4d8f7b9dd0800000000000000
+      internalID: -2478246925070477517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_113
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 88
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd21ea01911b6790800000000000000
+      internalID: -7535910236823933450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_114
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 85
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b827cae3a0ddd90800000000000000
+      internalID: -7071484575604372629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_115
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 82
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6464499596ce72580800000000000000
+      internalID: -8851846605354809786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_116
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 85
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b0776a49cf01dd0800000000000000
+      internalID: -2517234476321928324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_117
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 84
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73143f4dc37e97b0800000000000000
+      internalID: -5215603992814152834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_118
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 82
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff5ec38696321720800000000000000
+      internalID: 2815372737144315900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_119
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 86
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2aca562106f15cc0800000000000000
+      internalID: -3723924932059805142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_120
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 21
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8103bc7e892130ce0800000000000000
+      internalID: -1440287007895244776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_121
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 19
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 651ef7d75704de0b0800000000000000
+      internalID: -5697827080192925354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_122
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 19
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60139eb76a4f22470800000000000000
+      internalID: 8368520053488431366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_123
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 21
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c8345d77ec3d17d0800000000000000
+      internalID: -2946131616292652863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_124
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 20
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b97568eda1f545790800000000000000
+      internalID: -7542298906931603557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_125
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 19
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c165da63322404cf0800000000000000
+      internalID: -270143258633611748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_126
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 20
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668ac2246c9210f10800000000000000
+      internalID: 2234112821642963046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_127
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 22
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa7dfd5799829df0800000000000000
+      internalID: -174926152304067853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_128
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 21
+        width: 15
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66c918178ee186f0800000000000000
+      internalID: -684003404391266710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_129
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 21
+        width: 14
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d418ecaae82878850800000000000000
+      internalID: 6379210946456224077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_130
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 20
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a216b1b45a4e1ae0800000000000000
+      internalID: -1576741091913887071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_131
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 19
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67dfa0d6823a285e0800000000000000
+      internalID: -1908783898028212874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_132
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 21
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 299624be5bd6c46e0800000000000000
+      internalID: -1851984718652610158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_133
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 21
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85cba42ca362739a0800000000000000
+      internalID: -6253487523771007912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_134
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 21
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 218106daee76b9260800000000000000
+      internalID: 7105387111915722770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_135
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 21
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ca3d6eab023f4060800000000000000
+      internalID: 6939820576553646789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_136
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 22
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3d668ac8d4d67290800000000000000
+      internalID: -7892887269344383686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_137
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 21
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84ff7ac8e45afc30800000000000000
+      internalID: 4393917745259869327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_138
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 21
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083db016c6bd7b3e0800000000000000
+      internalID: -2037919047830744192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_139
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 20
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841bc038fb7cbecd0800000000000000
+      internalID: -2527707140487073464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_140
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 19
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368dff6a6b0d78a30800000000000000
+      internalID: 4217569058960169059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_141
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 22
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4954d7fad6a047ed0800000000000000
+      internalID: -2417295633779178092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_142
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 21
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 719add0a3f989ac90800000000000000
+      internalID: -7158038453259753193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_143
+      rect:
+        serializedVersion: 2
+        x: 1508
+        y: 22
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ea463e2645ac9b90800000000000000
+      internalID: -7233725180622255386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_144
+      rect:
+        serializedVersion: 2
+        x: 1572
+        y: 22
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a0bd8c3cbf099a0800000000000000
+      internalID: -6228201466346403216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_145
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 20
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1363d0a2d0386cf80800000000000000
+      internalID: -8086631988333824463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_146
+      rect:
+        serializedVersion: 2
+        x: 1701
+        y: 19
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a07210ef2ead00460800000000000000
+      internalID: 7206000072251746058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_147
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 21
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a40a485568f83230800000000000000
+      internalID: 3618915414748824739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_148
+      rect:
+        serializedVersion: 2
+        x: 1830
+        y: 20
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46ed750b394c311b0800000000000000
+      internalID: -5686985765841019292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: small_Frames_149
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 20
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752b44a91af010fd0800000000000000
+      internalID: -2377601941522566569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      small_Frames_0: -2938305510642115961
+      small_Frames_1: 348168563450478928
+      small_Frames_10: 5129983123996178181
+      small_Frames_100: -3536497764500606819
+      small_Frames_101: 6313045390486783758
+      small_Frames_102: 6026499224537872127
+      small_Frames_103: 6983508633304431974
+      small_Frames_104: 6944123086850718907
+      small_Frames_105: -7923590286500022494
+      small_Frames_106: 8437725292356486530
+      small_Frames_107: -2622025721738319006
+      small_Frames_108: -4842735809354174630
+      small_Frames_109: 7153964558930105899
+      small_Frames_11: -7543796963147027530
+      small_Frames_110: 7845259361407337508
+      small_Frames_111: -5077458800590051490
+      small_Frames_112: -2478246925070477517
+      small_Frames_113: -7535910236823933450
+      small_Frames_114: -7071484575604372629
+      small_Frames_115: -8851846605354809786
+      small_Frames_116: -2517234476321928324
+      small_Frames_117: -5215603992814152834
+      small_Frames_118: 2815372737144315900
+      small_Frames_119: -3723924932059805142
+      small_Frames_12: 778295552211136086
+      small_Frames_120: -1440287007895244776
+      small_Frames_121: -5697827080192925354
+      small_Frames_122: 8368520053488431366
+      small_Frames_123: -2946131616292652863
+      small_Frames_124: -7542298906931603557
+      small_Frames_125: -270143258633611748
+      small_Frames_126: 2234112821642963046
+      small_Frames_127: -174926152304067853
+      small_Frames_128: -684003404391266710
+      small_Frames_129: 6379210946456224077
+      small_Frames_13: -1743070184913020205
+      small_Frames_130: -1576741091913887071
+      small_Frames_131: -1908783898028212874
+      small_Frames_132: -1851984718652610158
+      small_Frames_133: -6253487523771007912
+      small_Frames_134: 7105387111915722770
+      small_Frames_135: 6939820576553646789
+      small_Frames_136: -7892887269344383686
+      small_Frames_137: 4393917745259869327
+      small_Frames_138: -2037919047830744192
+      small_Frames_139: -2527707140487073464
+      small_Frames_14: -7374645627676360281
+      small_Frames_140: 4217569058960169059
+      small_Frames_141: -2417295633779178092
+      small_Frames_142: -7158038453259753193
+      small_Frames_143: -7233725180622255386
+      small_Frames_144: -6228201466346403216
+      small_Frames_145: -8086631988333824463
+      small_Frames_146: 7206000072251746058
+      small_Frames_147: 3618915414748824739
+      small_Frames_148: -5686985765841019292
+      small_Frames_149: -2377601941522566569
+      small_Frames_15: -5495044050223196080
+      small_Frames_16: -2717635946179878231
+      small_Frames_17: 8561428842706542087
+      small_Frames_18: 3307583791345436660
+      small_Frames_19: 9192472917445315289
+      small_Frames_2: -6633142052982990920
+      small_Frames_20: 3843450910709252429
+      small_Frames_21: -1745796791450337829
+      small_Frames_22: -5151776613151921745
+      small_Frames_23: -4212100166136348913
+      small_Frames_24: -3761692487091993928
+      small_Frames_25: 5510436866516250630
+      small_Frames_26: 2484710063781063752
+      small_Frames_27: 5582542498174706671
+      small_Frames_28: -7086169062431385655
+      small_Frames_29: 8465619279753387461
+      small_Frames_3: -8131535361893472184
+      small_Frames_30: -6869657932333919837
+      small_Frames_31: 7779319390304530180
+      small_Frames_32: 4621014282353063662
+      small_Frames_33: -2430822202833644070
+      small_Frames_34: -3014662482473566938
+      small_Frames_35: -3742511062834251183
+      small_Frames_36: 6013065792659676231
+      small_Frames_37: -6244008262319269993
+      small_Frames_38: 842263112752682344
+      small_Frames_39: 4308662117713697438
+      small_Frames_4: -4355037353806398
+      small_Frames_40: -3517215852111182463
+      small_Frames_41: 999608075081612494
+      small_Frames_42: 3983458449686377468
+      small_Frames_43: -7429533036664316960
+      small_Frames_44: -3125323684329011262
+      small_Frames_45: -3942191596011652482
+      small_Frames_46: 1648843175238892118
+      small_Frames_47: 1752328478581623503
+      small_Frames_48: 8520110780587374280
+      small_Frames_49: -5673494046777352415
+      small_Frames_5: 5863240823590016512
+      small_Frames_50: 7691944457494801128
+      small_Frames_51: 953496962794225468
+      small_Frames_52: -2751690097598943939
+      small_Frames_53: -5280132603815787302
+      small_Frames_54: -4303797499942625178
+      small_Frames_55: 4451295594504217425
+      small_Frames_56: 7739276862580079489
+      small_Frames_57: -9202087631828446381
+      small_Frames_58: 7431142567883506966
+      small_Frames_59: -1758566654287507928
+      small_Frames_6: -7336123750854463430
+      small_Frames_60: 7136266236977550026
+      small_Frames_61: 1293260715863980969
+      small_Frames_62: 6463515929801311499
+      small_Frames_63: -4312333286321104393
+      small_Frames_64: -4769072769594000314
+      small_Frames_65: -137188350945207404
+      small_Frames_66: -81562858188376038
+      small_Frames_67: -3752466941973565276
+      small_Frames_68: -3456423526713427756
+      small_Frames_69: -9209638628563871266
+      small_Frames_7: 2823245354717301620
+      small_Frames_70: -5994265649137660528
+      small_Frames_71: 5069315028832311485
+      small_Frames_72: -897425487325109802
+      small_Frames_73: 1935518952050456657
+      small_Frames_74: -2621209537843751219
+      small_Frames_75: -4029297827860580036
+      small_Frames_76: -7298273373900559791
+      small_Frames_77: -8453951137681080175
+      small_Frames_78: -2737095767923069416
+      small_Frames_79: 7260360875189725811
+      small_Frames_8: 4243074778444772118
+      small_Frames_80: 825292853485890452
+      small_Frames_81: -5080421069118132153
+      small_Frames_82: -7273238447215120144
+      small_Frames_83: 4049024102644464948
+      small_Frames_84: -6441438449102340424
+      small_Frames_85: 8010931599658100502
+      small_Frames_86: -2461109166419156206
+      small_Frames_87: -2383727401505114578
+      small_Frames_88: -6291901314206304212
+      small_Frames_89: 2632435245053571287
+      small_Frames_9: -5794497568619623932
+      small_Frames_90: 6175544586877064044
+      small_Frames_91: 3721607674182994013
+      small_Frames_92: 4897034130034319487
+      small_Frames_93: -909542540655958452
+      small_Frames_94: -6550518673666259195
+      small_Frames_95: -8136908098870561274
+      small_Frames_96: -1285867069419623694
+      small_Frames_97: -5246546776832744448
+      small_Frames_98: -5853475052143762369
+      small_Frames_99: 2204834267329028654
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

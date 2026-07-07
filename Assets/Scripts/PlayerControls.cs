@@ -1,16 +1,22 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
 
 public class PlayerControls : MonoBehaviour
 {
+    Animator anim;
     Rigidbody2D rb;
+    SpriteRenderer rend;
+
     [SerializeField]
     Level level;
     [SerializeField]
     GameObject gameOverScreen;
-    [SerializeField]
-    TextMeshProUGUI fuelMeter;
+    // [SerializeField]
+    // TextMeshProUGUI fuelMeter;
+    // [SerializeField]
+    // TextMeshProUGUI healthMeter;
 
     [Header("Input Variables")]
     public float steerSpeed = 1;
@@ -40,8 +46,8 @@ public class PlayerControls : MonoBehaviour
     Vector3 aimDelta;
 
     [Header("Player Stats")]
-    public int maxHealth = 4;
-    int health;
+    public int maxHealth = 50;
+    float health;
 
     // max fuel is discrete (number of tanks)
     // but current fuel is continuous (burning fuel from tanks)
@@ -52,10 +58,12 @@ public class PlayerControls : MonoBehaviour
 
     public bool shieldActive { get; private set; }
 
+    private Coroutine shieldCoroutine;
+
     [System.Serializable]
     public struct PlayerSaveData
     {
-        public int health;
+        public float health;
         public int maxHealth;
         public float fuel;
         public int maxFuel;
@@ -85,7 +93,8 @@ public class PlayerControls : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        gameOverScreen.SetActive(false);
+        anim = GetComponent<Animator>();
+        rend = GetComponent<SpriteRenderer>();
 
         gameplay = InputSystem.actions.FindActionMap("Player");
         uiCancel = InputSystem.actions.FindAction("UI/Cancel");
@@ -96,6 +105,7 @@ public class PlayerControls : MonoBehaviour
         look = gameplay.FindAction("Look");
         pause = gameplay.FindAction("Pause");
 
+        thrust.started += (context) => { Thrust(); };
         pause.performed += (context) => { Pause(); };
         uiCancel.performed += (context) => { Resume(); };
         fire.performed += (context) => { Fire(); };
@@ -106,6 +116,13 @@ public class PlayerControls : MonoBehaviour
             Camera.main.ViewportToWorldPoint(new Vector3(1, 1, 0)) * 2
         );
         Debug.Log(screenBounds);
+        ResetUI();
+    }
+
+    void ResetUI()
+    {
+        gameOverScreen.SetActive(false);
+        // healthMeter.text = $"Health: {health:F1}/{maxHealth}";
         ToggleUICursor(false);
     }
 
@@ -113,12 +130,21 @@ public class PlayerControls : MonoBehaviour
     void Update()
     {
         steerValue = Mathf.Lerp(steerValue, steer.ReadValue<float>(), 0.5f);
+        if (steerValue >= -0.5f)
+        {
+            rend.flipX = false;
+        }
+        else
+        {
+            rend.flipX = true;
+        }
+
         thrusting = thrust.IsPressed();
         if (fuel <= 0)
         {
             GameOver();
         }
-        fuelMeter.text = $"Fuel: {fuel:F1}/{maxFuel}";
+        // fuelMeter.text = $"Fuel: {fuel:F1}/{maxFuel}";
 
         level.transform.Rotate(0, 0, steerValue * steerSpeed * Time.deltaTime);
 
@@ -149,6 +175,13 @@ public class PlayerControls : MonoBehaviour
         {
             rb.AddForceY(-thrustPower);
         }
+    }
+
+    void Thrust()
+    {
+        // actual thrust handled in FixedUpdate but this is for FX
+        anim.SetTrigger("Thrust");
+        anim.SetBool("Walking", false);
     }
 
     void Fire()
@@ -192,6 +225,78 @@ public class PlayerControls : MonoBehaviour
         }
     }
 
+    public void RestoreHealth(float amount)
+    {
+        // Adds health, but does not let it go above the max health.
+        health += amount;
+        health = Mathf.Clamp(health, 0, maxHealth);
+
+        Debug.Log("Current Health: " + health);
+    }
+
+    public void RestoreBoost(float amount)
+    {
+        // Adds boost energy, but does not let it go above the max boost amount.
+        fuel += amount;
+        fuel = Mathf.Clamp(fuel, 0, maxFuel);
+
+        Debug.Log("Current Boost Energy: " + fuel);
+    }
+
+    public void ActivateShield(float duration)
+    {
+        // If the player already has a shield timer running, restart it.
+        if (shieldCoroutine != null)
+        {
+            StopCoroutine(shieldCoroutine);
+        }
+
+        shieldCoroutine = StartCoroutine(ShieldTimer(duration));
+    }
+
+    private IEnumerator ShieldTimer(float duration)
+    {
+        // Turns the shield on.
+        shieldActive = true;
+        Debug.Log("Shield is active.");
+
+        // Waits for the shield time to run out.
+        yield return new WaitForSeconds(duration);
+
+        // Turns the shield off after the timer ends.
+        shieldActive = false;
+        Debug.Log("Shield ended.");
+    }
+
+    public void TakeDamage(float damageAmount)
+    {
+        // If the shield is active, it blocks the hit instead of taking damage.
+        if (shieldActive)
+        {
+            shieldActive = false;
+            Debug.Log("Shield blocked the hit!");
+            return;
+        }
+
+        // Takes health away from the player.
+        health -= damageAmount;
+        health = Mathf.Clamp(health, 0, maxHealth);
+        // healthMeter.text = $"Health: {health:F1}/{maxHealth}";
+
+        Debug.Log("Player took damage. Current Health: " + health);
+
+        // Checks if the player has run out of health.
+        if (health <= 0)
+        {
+            GameOver();
+        }
+    }
+
+    void OnCollisionStay2D(Collision2D other)
+    {
+        anim.SetBool("Walking", true);
+    }
+
     public string GetSaveState()
     {
         PlayerSaveData saveState = new PlayerSaveData(this);
@@ -208,7 +313,7 @@ public class PlayerControls : MonoBehaviour
         shieldActive = state.shieldActive;
         level.levelData = Resources.Load(state.currentLevel) as LevelData;
         level.transform.rotation = Quaternion.identity;
-        Start();
+        ResetUI();
     }
 
     // delete this test code

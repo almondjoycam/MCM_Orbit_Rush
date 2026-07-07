@@ -10,7 +10,7 @@ public class ShieldGenerator : Item
     public override void Use(GameObject player)
     {
         // Looks for the PlayerStats script so we can activate the shield.
-        PlayerStats playerStats = player.GetComponent<PlayerStats>();
+        PlayerControls playerStats = player.GetComponent<PlayerControls>();
 
         if (playerStats != null)
         {
@@ -22,7 +22,7 @@ public class ShieldGenerator : Item
         else
         {
             // This warning appears if the player object is not set up correctly.
-            Debug.LogWarning("PlayerStats script not found on Player.");
+            Debug.LogWarning("PlayerControls script not found on Player.");
         }
     }
 }

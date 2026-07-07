@@ -1,13 +1,17 @@
 using UnityEngine;
+using UnityEngine.Pool;
 
 public abstract class Obstacle : MonoBehaviour
 {
+    [Range(0,1)] public float spawnChance = 0.5f;
+
     [Header("Obstacle Settings")]
     public bool canMove = false;
     public float moveSpeed = 2f;
     public int damageAmount = 10;
 
     protected Rigidbody2D rb;
+    public ObjectPool<Obstacle> obstaclePool;
 
     protected virtual void Start()
     {
@@ -30,11 +34,28 @@ public abstract class Obstacle : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            PlayerStats player = other.GetComponent<PlayerStats>();
+            PlayerControls player = other.GetComponent<PlayerControls>();
             if (player != null)
                 Hurt(player);
         }
     }
 
-    public abstract void Hurt(PlayerStats player);
+    public abstract void Hurt(PlayerControls player);
+
+
+    // Pooling methods
+    public void Reset()
+    {
+        gameObject.SetActive(false);
+    }
+
+    protected virtual void OnBecameInvisible()
+    {
+        obstaclePool.Release(this);
+    }
+
+    protected virtual void OnDestroy()
+    {
+        obstaclePool.Release(this);
+    }
 }
