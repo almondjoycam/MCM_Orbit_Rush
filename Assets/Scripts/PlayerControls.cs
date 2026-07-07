@@ -13,10 +13,10 @@ public class PlayerControls : MonoBehaviour
     Level level;
     [SerializeField]
     GameObject gameOverScreen;
-    [SerializeField]
-    TextMeshProUGUI fuelMeter;
-    [SerializeField]
-    TextMeshProUGUI healthMeter;
+    // [SerializeField]
+    // TextMeshProUGUI fuelMeter;
+    // [SerializeField]
+    // TextMeshProUGUI healthMeter;
 
     [Header("Input Variables")]
     public float steerSpeed = 1;
@@ -122,7 +122,7 @@ public class PlayerControls : MonoBehaviour
     void ResetUI()
     {
         gameOverScreen.SetActive(false);
-        healthMeter.text = $"Health: {health:F1}/{maxHealth}";
+        // healthMeter.text = $"Health: {health:F1}/{maxHealth}";
         ToggleUICursor(false);
     }
 
@@ -144,7 +144,7 @@ public class PlayerControls : MonoBehaviour
         {
             GameOver();
         }
-        fuelMeter.text = $"Fuel: {fuel:F1}/{maxFuel}";
+        // fuelMeter.text = $"Fuel: {fuel:F1}/{maxFuel}";
 
         level.transform.Rotate(0, 0, steerValue * steerSpeed * Time.deltaTime);
 
@@ -281,7 +281,7 @@ public class PlayerControls : MonoBehaviour
         // Takes health away from the player.
         health -= damageAmount;
         health = Mathf.Clamp(health, 0, maxHealth);
-        healthMeter.text = $"Health: {health:F1}/{maxHealth}";
+        // healthMeter.text = $"Health: {health:F1}/{maxHealth}";
 
         Debug.Log("Player took damage. Current Health: " + health);
 
