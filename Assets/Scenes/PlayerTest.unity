@@ -268,6 +268,7 @@ GameObject:
   - component: {fileID: 60270939}
   - component: {fileID: 60270941}
   - component: {fileID: 60270938}
+  - component: {fileID: 60270943}
   - component: {fileID: 60270942}
   m_Layer: 0
   m_Name: Player
@@ -352,7 +353,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 395f6b9556f14704790df6035be6ee3a, type: 3}
+  m_Sprite: {fileID: 815424164945274260, guid: 32f096f53394b4c0fa8b542322d0c9df, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -400,8 +401,30 @@ MonoBehaviour:
   maxHealth: 4
   maxFuel: 3
   fuelDrainPerSecond: 0.1
---- !u!60 &60270942
-PolygonCollider2D:
+--- !u!95 &60270942
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60270937}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c36ca9b2db81bcbb8aec8d6fd3d13240, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!70 &60270943
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -435,29 +458,8 @@ PolygonCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.64, y: 0.64}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.12, y: -0.12}
-      - {x: -0.12, y: -0.25}
-      - {x: -0.11, y: -0.26999998}
-      - {x: -0.089999996, y: -0.28}
-      - {x: -0.049999997, y: -0.28}
-      - {x: 0.11586845, y: -0.2803702}
-      - {x: 0.13049807, y: -0.26531458}
-      - {x: 0.12622072, y: 0.123116255}
-      - {x: 0.03245627, y: 0.26867843}
-      - {x: -0.02973447, y: 0.27015996}
-      - {x: -0.123741075, y: 0.124720454}
-  m_UseDelaunayMesh: 1
+  m_Size: {x: 0.44, y: 1.0335206}
+  m_Direction: 0
 --- !u!1 &60931849
 GameObject:
   m_ObjectHideFlags: 0

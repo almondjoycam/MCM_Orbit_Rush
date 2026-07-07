@@ -5,7 +5,10 @@ using TMPro;
 
 public class PlayerControls : MonoBehaviour
 {
+    Animator anim;
     Rigidbody2D rb;
+    SpriteRenderer rend;
+
     [SerializeField]
     Level level;
     [SerializeField]
@@ -90,6 +93,8 @@ public class PlayerControls : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+        rend = GetComponent<SpriteRenderer>();
 
         gameplay = InputSystem.actions.FindActionMap("Player");
         uiCancel = InputSystem.actions.FindAction("UI/Cancel");
@@ -100,6 +105,7 @@ public class PlayerControls : MonoBehaviour
         look = gameplay.FindAction("Look");
         pause = gameplay.FindAction("Pause");
 
+        thrust.started += (context) => { Thrust(); };
         pause.performed += (context) => { Pause(); };
         uiCancel.performed += (context) => { Resume(); };
         fire.performed += (context) => { Fire(); };
@@ -124,6 +130,15 @@ public class PlayerControls : MonoBehaviour
     void Update()
     {
         steerValue = Mathf.Lerp(steerValue, steer.ReadValue<float>(), 0.5f);
+        if (steerValue >= -0.5f)
+        {
+            rend.flipX = false;
+        }
+        else
+        {
+            rend.flipX = true;
+        }
+
         thrusting = thrust.IsPressed();
         if (fuel <= 0)
         {
@@ -160,6 +175,13 @@ public class PlayerControls : MonoBehaviour
         {
             rb.AddForceY(-thrustPower);
         }
+    }
+
+    void Thrust()
+    {
+        // actual thrust handled in FixedUpdate but this is for FX
+        anim.SetTrigger("Thrust");
+        anim.SetBool("Walking", false);
     }
 
     void Fire()
@@ -268,6 +290,11 @@ public class PlayerControls : MonoBehaviour
         {
             GameOver();
         }
+    }
+
+    void OnCollisionStay2D(Collision2D other)
+    {
+        anim.SetBool("Walking", true);
     }
 
     public string GetSaveState()
