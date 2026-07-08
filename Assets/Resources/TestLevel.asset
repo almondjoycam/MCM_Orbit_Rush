@@ -16,5 +16,5 @@ MonoBehaviour:
   rotationRate: 1
   levelName: Test
   distanceToSun: 100
-  levelTerrain: {fileID: 3913577375123153152, guid: 6925d3376481e304f99c47eb32394dc5, type: 3}
+  levelTerrain: {fileID: 1016076400704488176, guid: 6925d3376481e304f99c47eb32394dc5, type: 3}
   thresholdItemNumber: 0

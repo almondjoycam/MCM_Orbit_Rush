@@ -259,9 +259,9 @@ MonoBehaviour:
   thrustPower: 6
   lookSensitivity: 2
   aim: {fileID: 1946307374}
-  maxHealth: 4
-  maxFuel: 3
-  fuelDrainPerSecond: 0.1
+  maxHealth: 100
+  maxFuel: 100
+  fuelDrainPerSecond: 3
 --- !u!95 &60270942
 Animator:
   serializedVersion: 7
@@ -1699,7 +1699,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 607396998336154063, guid: 0793c7b8824af3a90805a14164001be5, type: 3}
       propertyPath: m_Pivot.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 607396998336154063, guid: 0793c7b8824af3a90805a14164001be5, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1715,7 +1715,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 607396998336154063, guid: 0793c7b8824af3a90805a14164001be5, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 607396998336154063, guid: 0793c7b8824af3a90805a14164001be5, type: 3}
       propertyPath: m_SizeDelta.x
@@ -1723,7 +1723,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 607396998336154063, guid: 0793c7b8824af3a90805a14164001be5, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 1138
       objectReference: {fileID: 0}
     - target: {fileID: 607396998336154063, guid: 0793c7b8824af3a90805a14164001be5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1848,6 +1848,14 @@ PrefabInstance:
     - target: {fileID: 3613137406960431371, guid: 0793c7b8824af3a90805a14164001be5, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010876661450994576, guid: 0793c7b8824af3a90805a14164001be5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6935061332816304165, guid: 0793c7b8824af3a90805a14164001be5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8337868726999079312, guid: 0793c7b8824af3a90805a14164001be5, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2419,7 +2427,10 @@ MonoBehaviour:
   levelData: {fileID: 11400000, guid: 13716a83c8732da1facedfd511114641, type: 2}
   obstacles:
   - {fileID: 7186472600486529124, guid: 0fa9e0896b1275d2e82e320829cd20a9, type: 3}
-  obstacleSpawnInterval: 10
+  - {fileID: 313111520427087727, guid: 45c6bbb59f8c3caf0bc260bef95147df, type: 3}
+  - {fileID: 5363512665967579841, guid: 5a4a7e133626cd6adb4ebe16ecb81114, type: 3}
+  - {fileID: 5809953800876778041, guid: 658b82dbc38de1632880661cd8bd3573, type: 3}
+  obstacleSpawnInterval: 2
   items: []
 --- !u!1 &1946307372
 GameObject:

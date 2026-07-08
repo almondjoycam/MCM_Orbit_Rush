@@ -17,6 +17,7 @@ public class PlayerControls : MonoBehaviour
     // TextMeshProUGUI fuelMeter;
     // [SerializeField]
     // TextMeshProUGUI healthMeter;
+    HUDManager hud;
 
     [Header("Input Variables")]
     public float steerSpeed = 1;
@@ -96,6 +97,8 @@ public class PlayerControls : MonoBehaviour
         anim = GetComponent<Animator>();
         rend = GetComponent<SpriteRenderer>();
 
+        hud = FindAnyObjectByType<HUDManager>();
+
         gameplay = InputSystem.actions.FindActionMap("Player");
         uiCancel = InputSystem.actions.FindAction("UI/Cancel");
 
@@ -122,7 +125,7 @@ public class PlayerControls : MonoBehaviour
     void ResetUI()
     {
         gameOverScreen.SetActive(false);
-        // healthMeter.text = $"Health: {health:F1}/{maxHealth}";
+        hud.SetHealth(health);
         ToggleUICursor(false);
     }
 
@@ -144,7 +147,7 @@ public class PlayerControls : MonoBehaviour
         {
             GameOver();
         }
-        // fuelMeter.text = $"Fuel: {fuel:F1}/{maxFuel}";
+        hud.SetFuel(fuel);
 
         level.transform.Rotate(0, 0, steerValue * steerSpeed * Time.deltaTime);
 
@@ -259,6 +262,7 @@ public class PlayerControls : MonoBehaviour
         // Turns the shield on.
         shieldActive = true;
         Debug.Log("Shield is active.");
+        hud.SetShield(5);   // TODO: make this not a random number
 
         // Waits for the shield time to run out.
         yield return new WaitForSeconds(duration);
@@ -266,6 +270,7 @@ public class PlayerControls : MonoBehaviour
         // Turns the shield off after the timer ends.
         shieldActive = false;
         Debug.Log("Shield ended.");
+        hud.SetShield(0);
     }
 
     public void TakeDamage(float damageAmount)
@@ -275,13 +280,14 @@ public class PlayerControls : MonoBehaviour
         {
             shieldActive = false;
             Debug.Log("Shield blocked the hit!");
+            hud.SetShield(0);
             return;
         }
 
         // Takes health away from the player.
         health -= damageAmount;
         health = Mathf.Clamp(health, 0, maxHealth);
-        // healthMeter.text = $"Health: {health:F1}/{maxHealth}";
+        hud.SetHealth(health);
 
         Debug.Log("Player took damage. Current Health: " + health);
 
