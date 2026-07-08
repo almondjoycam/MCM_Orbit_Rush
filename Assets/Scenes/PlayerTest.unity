@@ -255,8 +255,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerControls
   level: {fileID: 1940197003}
   gameOverScreen: {fileID: 2048138533}
-  fuelMeter: {fileID: 0}
-  healthMeter: {fileID: 0}
   steerSpeed: 3
   thrustPower: 6
   lookSensitivity: 2
@@ -1626,6 +1624,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TestItem
       objectReference: {fileID: 0}
+    - target: {fileID: 4436677408328881061, guid: 40bc0220dde75e093b0032fdc8841b09, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4524644504634510842, guid: 40bc0220dde75e093b0032fdc8841b09, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.2042
@@ -2003,6 +2005,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlackHole
       objectReference: {fileID: 0}
+    - target: {fileID: 3620764326218880950, guid: 658b82dbc38de1632880661cd8bd3573, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5809953800876778041, guid: 658b82dbc38de1632880661cd8bd3573, type: 3}
       propertyPath: rotSpeed
       value: 7
@@ -2109,6 +2115,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GravityStorm
       objectReference: {fileID: 0}
+    - target: {fileID: 6097038430727792228, guid: 0fa9e0896b1275d2e82e320829cd20a9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2200,7 +2210,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 20, y: 15}
+  m_Size: {x: 32, y: 20}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2408,11 +2418,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Level
   levelData: {fileID: 11400000, guid: 13716a83c8732da1facedfd511114641, type: 2}
   obstacles:
-  - {fileID: 313111520427087727, guid: 45c6bbb59f8c3caf0bc260bef95147df, type: 3}
-  - {fileID: 5363512665967579841, guid: 5a4a7e133626cd6adb4ebe16ecb81114, type: 3}
-  obstacleSpawnInterval: 2.23
-  items:
-  - {fileID: 8934378957094963527, guid: 40bc0220dde75e093b0032fdc8841b09, type: 3}
+  - {fileID: 7186472600486529124, guid: 0fa9e0896b1275d2e82e320829cd20a9, type: 3}
+  obstacleSpawnInterval: 10
+  items: []
 --- !u!1 &1946307372
 GameObject:
   m_ObjectHideFlags: 0
