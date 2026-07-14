@@ -47,7 +47,7 @@ public class SolarFlareObstacle : Obstacle
             flareRenderer.enabled = isActive;
     }
 
-    public override void Hurt(PlayerStats player)
+    public override void Hurt(PlayerControls player)
     {
         player.TakeDamage(damageAmount);
     }
