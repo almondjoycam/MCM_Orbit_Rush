@@ -119,6 +119,8 @@ public class PlayerControls : MonoBehaviour
             Camera.main.ViewportToWorldPoint(new Vector3(1, 1, 0)) * 2
         );
         Debug.Log(screenBounds);
+        level.GetComponent<ObstacleSpawner>().SetSpawnPosition(
+            new Vector3(screenBounds.max.x, screenBounds.max.y));
         ResetUI();
     }
 
