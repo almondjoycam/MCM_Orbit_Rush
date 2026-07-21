@@ -51,11 +51,15 @@ public abstract class Obstacle : MonoBehaviour
 
     protected virtual void OnBecameInvisible()
     {
-        obstaclePool.Release(this);
+        if (obstaclePool != null && gameObject.activeInHierarchy)
+        {
+            obstaclePool.Release(this);
+        }
     }
 
     protected virtual void OnDestroy()
     {
-        obstaclePool.Release(this);
+        // Do not release here.
+        // The object may already be destroyed or returned to the pool.
     }
 }

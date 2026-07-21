@@ -22,52 +22,102 @@ public class Level : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Instantiate(levelData.levelTerrain, transform);
-
-        obstaclePool = new ObjectPool<Obstacle>(
-            createFunc: () => SpawnObstacle(),
-            actionOnGet: obj => ActivateObstacle(obj),
-            actionOnRelease: obj => obj.Reset(),
-            actionOnDestroy: obj => Destroy(obj),
-            defaultCapacity: 10,
-            maxSize: 20
-        );
+           
+        if (obstacles != null && obstacles.Length > 0)
+        {
+            obstaclePool = new ObjectPool<Obstacle>(
+                createFunc: SpawnObstacle,
+                actionOnGet: ActivateObstacle,
+                actionOnRelease: obj => obj.Reset(),
+                actionOnDestroy: obj => Destroy(obj.gameObject),
+                defaultCapacity: 10,
+                maxSize: 20
+            );
+        }
     }
 
     void Update()
     {
         transform.Rotate(0, 0, levelData.rotationRate * Time.deltaTime);
+
+        if (obstaclePool == null || obstacles == null || obstacles.Length == 0)
+            return;
+
         obstacleSpawnTime += Time.deltaTime;
-        if (obstacleSpawnTime >= obstacleSpawnInterval)
+
+        if (obstacleSpawnInterval > 0f &&
+            obstacleSpawnTime >= obstacleSpawnInterval)
         {
             obstaclePool.Get();
-            obstacleSpawnTime = 0;
+            obstacleSpawnTime = 0f;
         }
     }
 
     Obstacle SpawnObstacle()
     {
-        int randObstacle;
-        Obstacle newObs;
-        do {
-            randObstacle = Random.Range(0, obstacles.Length);
-        } while (obstacles[randObstacle].spawnChance <= Random.value);
-        newObs = Instantiate(obstacles[randObstacle], transform);
-        newObs.obstaclePool = obstaclePool;
-        newObs.gameObject.SetActive(false);
-        return newObs;
+        if (obstacles == null || obstacles.Length == 0)
+            return null;
+
+        Obstacle selectedObstacle = null;
+
+        for (int attempts = 0; attempts < 20; attempts++)
+        {
+            int randomIndex = Random.Range(0, obstacles.Length);
+            Obstacle candidate = obstacles[randomIndex];
+
+            if (candidate != null &&
+                Random.value <= candidate.spawnChance)
+            {
+                selectedObstacle = candidate;
+                break;
+            }
+        }
+
+        // Use the first valid obstacle as a fallback.
+        if (selectedObstacle == null)
+        {
+            foreach (Obstacle obstacle in obstacles)
+            {
+                if (obstacle != null)
+                {
+                    selectedObstacle = obstacle;
+                    break;
+                }
+            }
+        }
+
+        if (selectedObstacle == null)
+            return null;
+
+        // Do not make moving hazards children of the rotating Level.
+        Obstacle newObstacle = Instantiate(selectedObstacle);
+
+        newObstacle.obstaclePool = obstaclePool;
+        newObstacle.gameObject.SetActive(false);
+
+        return newObstacle;
     }
 
     void ActivateObstacle(Obstacle obj)
     {
-        // move it to just off the screen
-        if (obj)
-        {
-            obj.transform.position = Vector3.right * 8;
-            obj.gameObject.SetActive(true);
-        }
-    }
+        if (obj == null || Camera.main == null)
+            return;
 
+        Vector3 spawnPosition = Camera.main.ViewportToWorldPoint(
+            new Vector3(
+                1.1f,                         // Slightly beyond right edge
+                Random.Range(0.2f, 0.8f),    // Random visible height
+                0f
+            )
+        );
+
+        spawnPosition.z = 0f;
+
+        obj.transform.SetParent(null);
+        obj.transform.position = spawnPosition;
+        obj.transform.rotation = Quaternion.identity;
+        obj.gameObject.SetActive(true);
+    }
     public void CollectItem(Item item)
     {
         itemsCollected++;
