@@ -11,6 +11,18 @@ public class SunLevelScript : Level
     // Update is called once per frame
     void Update()
     {
-        
+        transform.Translate(0, 0, levelData.rotationRate * Time.deltaTime);
+
+        //if (obstaclePool == null || obstacles == null || obstacles.Length == 0)
+        //    return;
+
+        //obstacleSpawnTime += Time.deltaTime;
+
+        //if (obstacleSpawnInterval > 0f &&
+        //    obstacleSpawnTime >= obstacleSpawnInterval)
+        //{
+        //    obstaclePool.Get();
+        //    obstacleSpawnTime = 0f;
+        }
     }
 }
