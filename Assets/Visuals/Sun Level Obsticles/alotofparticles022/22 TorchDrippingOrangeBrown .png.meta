@@ -1,0 +1,2652 @@
+fileFormatVersion: 2
+guid: 981a19d37acca433a9f4e290e4c8e459
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9184269715703309895
+    second: 22 TorchDrippingOrangeBrown _0
+  - first:
+      213: -6790988657745582680
+    second: 22 TorchDrippingOrangeBrown _1
+  - first:
+      213: -4613815200938701369
+    second: 22 TorchDrippingOrangeBrown _2
+  - first:
+      213: 4365656973836872879
+    second: 22 TorchDrippingOrangeBrown _3
+  - first:
+      213: 4385037193837734541
+    second: 22 TorchDrippingOrangeBrown _4
+  - first:
+      213: -6040560715581746133
+    second: 22 TorchDrippingOrangeBrown _5
+  - first:
+      213: 6721037902354281500
+    second: 22 TorchDrippingOrangeBrown _6
+  - first:
+      213: 1946110201863305512
+    second: 22 TorchDrippingOrangeBrown _7
+  - first:
+      213: -6492194771497003518
+    second: 22 TorchDrippingOrangeBrown _8
+  - first:
+      213: 970805852764477341
+    second: 22 TorchDrippingOrangeBrown _9
+  - first:
+      213: 6934787412756691877
+    second: 22 TorchDrippingOrangeBrown _10
+  - first:
+      213: -1337630274331808079
+    second: 22 TorchDrippingOrangeBrown _11
+  - first:
+      213: 964297376453615708
+    second: 22 TorchDrippingOrangeBrown _12
+  - first:
+      213: 3418986234750020742
+    second: 22 TorchDrippingOrangeBrown _13
+  - first:
+      213: 3393777682610381447
+    second: 22 TorchDrippingOrangeBrown _14
+  - first:
+      213: -6621100611746070188
+    second: 22 TorchDrippingOrangeBrown _15
+  - first:
+      213: 3411969196494525598
+    second: 22 TorchDrippingOrangeBrown _16
+  - first:
+      213: 1574449924293074488
+    second: 22 TorchDrippingOrangeBrown _17
+  - first:
+      213: -682829828089127112
+    second: 22 TorchDrippingOrangeBrown _18
+  - first:
+      213: -2968444722529226484
+    second: 22 TorchDrippingOrangeBrown _19
+  - first:
+      213: -6618637305432164375
+    second: 22 TorchDrippingOrangeBrown _20
+  - first:
+      213: -6337423470186098109
+    second: 22 TorchDrippingOrangeBrown _21
+  - first:
+      213: 3159932225203857283
+    second: 22 TorchDrippingOrangeBrown _22
+  - first:
+      213: -1030823207200096217
+    second: 22 TorchDrippingOrangeBrown _23
+  - first:
+      213: -2005410166786987890
+    second: 22 TorchDrippingOrangeBrown _24
+  - first:
+      213: -323393054171451238
+    second: 22 TorchDrippingOrangeBrown _25
+  - first:
+      213: -6985764001445155774
+    second: 22 TorchDrippingOrangeBrown _26
+  - first:
+      213: 8284778684754257672
+    second: 22 TorchDrippingOrangeBrown _27
+  - first:
+      213: -7209590062603734450
+    second: 22 TorchDrippingOrangeBrown _28
+  - first:
+      213: 500194836658123348
+    second: 22 TorchDrippingOrangeBrown _29
+  - first:
+      213: 3912716539521797473
+    second: 22 TorchDrippingOrangeBrown _30
+  - first:
+      213: -3720702338420503615
+    second: 22 TorchDrippingOrangeBrown _31
+  - first:
+      213: 5611506625193826857
+    second: 22 TorchDrippingOrangeBrown _32
+  - first:
+      213: 8952637507680883834
+    second: 22 TorchDrippingOrangeBrown _33
+  - first:
+      213: 6684324893647381343
+    second: 22 TorchDrippingOrangeBrown _34
+  - first:
+      213: -1603953794242547377
+    second: 22 TorchDrippingOrangeBrown _35
+  - first:
+      213: -5237723402696934783
+    second: 22 TorchDrippingOrangeBrown _36
+  - first:
+      213: -5422549425989482667
+    second: 22 TorchDrippingOrangeBrown _37
+  - first:
+      213: 7431856484973597170
+    second: 22 TorchDrippingOrangeBrown _38
+  - first:
+      213: 120967912210909173
+    second: 22 TorchDrippingOrangeBrown _39
+  - first:
+      213: -186634671472427100
+    second: 22 TorchDrippingOrangeBrown _40
+  - first:
+      213: -8526124380505572227
+    second: 22 TorchDrippingOrangeBrown _41
+  - first:
+      213: 4075524343732151967
+    second: 22 TorchDrippingOrangeBrown _42
+  - first:
+      213: -7728305889525495797
+    second: 22 TorchDrippingOrangeBrown _43
+  - first:
+      213: -1614962129399231419
+    second: 22 TorchDrippingOrangeBrown _44
+  - first:
+      213: 6918453385484021025
+    second: 22 TorchDrippingOrangeBrown _45
+  - first:
+      213: -4204357446009887597
+    second: 22 TorchDrippingOrangeBrown _46
+  - first:
+      213: -820197451886323394
+    second: 22 TorchDrippingOrangeBrown _47
+  - first:
+      213: 8367682887391861002
+    second: 22 TorchDrippingOrangeBrown _48
+  - first:
+      213: -4537349914535756159
+    second: 22 TorchDrippingOrangeBrown _49
+  - first:
+      213: -7937053124082291296
+    second: 22 TorchDrippingOrangeBrown _50
+  - first:
+      213: 8905734757503342215
+    second: 22 TorchDrippingOrangeBrown _51
+  - first:
+      213: 679125149861795969
+    second: 22 TorchDrippingOrangeBrown _52
+  - first:
+      213: 3513862593969585788
+    second: 22 TorchDrippingOrangeBrown _53
+  - first:
+      213: -6462497898053657581
+    second: 22 TorchDrippingOrangeBrown _54
+  - first:
+      213: -1702809581235520021
+    second: 22 TorchDrippingOrangeBrown _55
+  - first:
+      213: -5223244464536651822
+    second: 22 TorchDrippingOrangeBrown _56
+  - first:
+      213: -4228856302818668970
+    second: 22 TorchDrippingOrangeBrown _57
+  - first:
+      213: 2414133845061352584
+    second: 22 TorchDrippingOrangeBrown _58
+  - first:
+      213: 8485316942889763388
+    second: 22 TorchDrippingOrangeBrown _59
+  - first:
+      213: -2353064372000089313
+    second: 22 TorchDrippingOrangeBrown _60
+  - first:
+      213: 8638641129419736627
+    second: 22 TorchDrippingOrangeBrown _61
+  - first:
+      213: 3885770954260329875
+    second: 22 TorchDrippingOrangeBrown _62
+  - first:
+      213: -6883347523109855156
+    second: 22 TorchDrippingOrangeBrown _63
+  - first:
+      213: -1565713853551305158
+    second: 22 TorchDrippingOrangeBrown _64
+  - first:
+      213: 4227002852093847375
+    second: 22 TorchDrippingOrangeBrown _65
+  - first:
+      213: -3744723350999956754
+    second: 22 TorchDrippingOrangeBrown _66
+  - first:
+      213: -1679965818964504652
+    second: 22 TorchDrippingOrangeBrown _67
+  - first:
+      213: 1247220041565930300
+    second: 22 TorchDrippingOrangeBrown _68
+  - first:
+      213: 609087642164476469
+    second: 22 TorchDrippingOrangeBrown _69
+  - first:
+      213: 6634758389959212251
+    second: 22 TorchDrippingOrangeBrown _70
+  - first:
+      213: -6781210099981710465
+    second: 22 TorchDrippingOrangeBrown _71
+  - first:
+      213: 3091419427987154299
+    second: 22 TorchDrippingOrangeBrown _72
+  - first:
+      213: 5858227615207158504
+    second: 22 TorchDrippingOrangeBrown _73
+  - first:
+      213: -5019630305616870929
+    second: 22 TorchDrippingOrangeBrown _74
+  - first:
+      213: -2397908590784268532
+    second: 22 TorchDrippingOrangeBrown _75
+  - first:
+      213: 4902066460637300712
+    second: 22 TorchDrippingOrangeBrown _76
+  - first:
+      213: -4341913450695885215
+    second: 22 TorchDrippingOrangeBrown _77
+  - first:
+      213: 7116601137380871099
+    second: 22 TorchDrippingOrangeBrown _78
+  - first:
+      213: -386653820356540966
+    second: 22 TorchDrippingOrangeBrown _79
+  - first:
+      213: -4513851548264372716
+    second: 22 TorchDrippingOrangeBrown _80
+  - first:
+      213: 1752931713423044538
+    second: 22 TorchDrippingOrangeBrown _81
+  - first:
+      213: -9188087349077695268
+    second: 22 TorchDrippingOrangeBrown _82
+  - first:
+      213: 827370633248435819
+    second: 22 TorchDrippingOrangeBrown _83
+  - first:
+      213: 7169786610708848697
+    second: 22 TorchDrippingOrangeBrown _84
+  - first:
+      213: -8407736217453838765
+    second: 22 TorchDrippingOrangeBrown _85
+  - first:
+      213: 7045617039726226556
+    second: 22 TorchDrippingOrangeBrown _86
+  - first:
+      213: 5003465567697867803
+    second: 22 TorchDrippingOrangeBrown _87
+  - first:
+      213: -5204971042172138020
+    second: 22 TorchDrippingOrangeBrown _88
+  - first:
+      213: -8807526797729381878
+    second: 22 TorchDrippingOrangeBrown _89
+  - first:
+      213: 2978566254881601277
+    second: 22 TorchDrippingOrangeBrown _90
+  - first:
+      213: -3659924299890365216
+    second: 22 TorchDrippingOrangeBrown _91
+  - first:
+      213: -4758478045306320362
+    second: 22 TorchDrippingOrangeBrown _92
+  - first:
+      213: -5189074702339470393
+    second: 22 TorchDrippingOrangeBrown _93
+  - first:
+      213: -8990753517140103799
+    second: 22 TorchDrippingOrangeBrown _94
+  - first:
+      213: 4476367110561398338
+    second: 22 TorchDrippingOrangeBrown _95
+  - first:
+      213: 4608596694230799634
+    second: 22 TorchDrippingOrangeBrown _96
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _0
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1337
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9502a9a5bea8080800000000000000
+      internalID: -9184269715703309895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1338
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a52e55cbcf81c1a0800000000000000
+      internalID: -6790988657745582680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _2
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1333
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd40c0158f68ffb0800000000000000
+      internalID: -4613815200938701369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _3
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1333
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: face0c033ede59c30800000000000000
+      internalID: 4365656973836872879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _4
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1172
+        width: 62
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ae2994818cadc30800000000000000
+      internalID: 4385037193837734541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _5
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1333
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24129f880e9b2ca0800000000000000
+      internalID: -6040560715581746133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _6
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1172
+        width: 117
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1473c3dc5ce54d50800000000000000
+      internalID: 6721037902354281500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _7
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1173
+        width: 62
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82973dbeae8f10b10800000000000000
+      internalID: 1946110201863305512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1323
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206d540a04717e5a0800000000000000
+      internalID: -6492194771497003518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _9
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1321
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9795ef87cef87d00800000000000000
+      internalID: 970805852764477341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _10
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1165
+        width: 69
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ab763ae8605d3060800000000000000
+      internalID: 6934787412756691877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _11
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1325
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bee4a14a58cf6de0800000000000000
+      internalID: -1337630274331808079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _12
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1168
+        width: 70
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c50eb55da5fd16d00800000000000000
+      internalID: 964297376453615708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _13
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 1318
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ca93eaddda27f20800000000000000
+      internalID: 3418986234750020742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _14
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 983
+        width: 63
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 782e3a242de191f20800000000000000
+      internalID: 3393777682610381447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _15
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1147
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45101ced2102d14a0800000000000000
+      internalID: -6621100611746070188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 982
+        width: 64
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9491a528efb95f20800000000000000
+      internalID: 3411969196494525598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _17
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 979
+        width: 65
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e11264dd199d510800000000000000
+      internalID: 1574449924293074488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _18
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1112
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83fd4be93e91686f0800000000000000
+      internalID: -682829828089127112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _19
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1127
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c01334a9047fdc6d0800000000000000
+      internalID: -2968444722529226484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _20
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 984
+        width: 68
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e731901070e524a0800000000000000
+      internalID: -6618637305432164375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _21
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 984
+        width: 71
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34295545ee2fc08a0800000000000000
+      internalID: -6337423470186098109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _22
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1095
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 387e595ed955adb20800000000000000
+      internalID: 3159932225203857283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _23
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 1088
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7200c9c21c7c1b1f0800000000000000
+      internalID: -1030823207200096217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _24
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 1072
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8864b3141a5b24e0800000000000000
+      internalID: -2005410166786987890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _25
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 1078
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90384b0bb3138bf0800000000000000
+      internalID: -323393054171451238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _26
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1061
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c662127a49d0f90800000000000000
+      internalID: -6985764001445155774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _27
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 1067
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8076183b15279f270800000000000000
+      internalID: 8284778684754257672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _28
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 1056
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42715e390462fb90800000000000000
+      internalID: -7209590062603734450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _29
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 975
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452fd75cd8c01f600800000000000000
+      internalID: 500194836658123348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _30
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 971
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16d0ef456f2cc4630800000000000000
+      internalID: 3912716539521797473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _31
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 792
+        width: 69
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb0b73bfe86d5cc0800000000000000
+      internalID: -3720702338420503615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _32
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 791
+        width: 57
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92add696b8310ed40800000000000000
+      internalID: 5611506625193826857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _33
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 791
+        width: 60
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a74582051682e3c70800000000000000
+      internalID: 8952637507680883834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _34
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 792
+        width: 58
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f532721631e73cc50800000000000000
+      internalID: 6684324893647381343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _35
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 792
+        width: 60
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f417802b58c9db9e0800000000000000
+      internalID: -1603953794242547377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _36
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 947
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18abf7ed05edf47b0800000000000000
+      internalID: -5237723402696934783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _37
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 937
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55706e6e60c3fb4b0800000000000000
+      internalID: -5422549425989482667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _38
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 928
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1d880f812432760800000000000000
+      internalID: 7431856484973597170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _39
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 925
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f74d8cdca3cda100800000000000000
+      internalID: 120967912210909173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _40
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 919
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af3d1051c0f86df0800000000000000
+      internalID: -186634671472427100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _41
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 917
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7cfa2d9c0f1da980800000000000000
+      internalID: -8526124380505572227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _42
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 911
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f96ac9d2ccb2f8830800000000000000
+      internalID: 4075524343732151967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _43
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 909
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0806436dba8fb490800000000000000
+      internalID: -7728305889525495797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _44
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 893
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54c437fef708699e0800000000000000
+      internalID: -1614962129399231419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _45
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 900
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12dafd4d2b8430060800000000000000
+      internalID: 6918453385484021025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _46
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 832
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 394efc1bd2f17a5c0800000000000000
+      internalID: -4204357446009887597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _47
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 835
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3992aa53c21e94f0800000000000000
+      internalID: -820197451886323394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _48
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 775
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a095b10904bff1470800000000000000
+      internalID: 8367682887391861002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _49
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 770
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18e727aea481801c0800000000000000
+      internalID: -4537349914535756159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _50
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 601
+        width: 53
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0adaba76c3ce9d190800000000000000
+      internalID: -7937053124082291296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _51
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 600
+        width: 60
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78616dcc396879b70800000000000000
+      internalID: 8905734757503342215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _52
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 740
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 188db83c9bcbc6900800000000000000
+      internalID: 679125149861795969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _53
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 597
+        width: 51
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ef617796fb3c030800000000000000
+      internalID: 3513862593969585788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _54
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 759
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c9dc8c6689056a0800000000000000
+      internalID: -6462497898053657581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _55
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 590
+        width: 56
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed335e25b76e58e0800000000000000
+      internalID: -1702809581235520021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _56
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 599
+        width: 58
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d7744c55de4387b0800000000000000
+      internalID: -5223244464536651822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _57
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 750
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e425819951055c0800000000000000
+      internalID: -4228856302818668970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _58
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 657
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c312301f9b08120800000000000000
+      internalID: 2414133845061352584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _59
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 662
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c324c8b6dc6e1c570800000000000000
+      internalID: 8485316942889763388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _60
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 647
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b9e45bb6c385fd0800000000000000
+      internalID: -2353064372000089313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _61
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 650
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3368425765e92e770800000000000000
+      internalID: 8638641129419736627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _62
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 653
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395b73f58180de530800000000000000
+      internalID: 3885770954260329875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _63
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 593
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40e873b5ef6970a0800000000000000
+      internalID: -6883347523109855156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _64
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 585
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e9a23bb87754ae0800000000000000
+      internalID: -1565713853551305158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _65
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 407
+        width: 61
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f47ed97c2b459aa30800000000000000
+      internalID: 4227002852093847375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _66
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 407
+        width: 64
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee28981e3f1180cc0800000000000000
+      internalID: -3744723350999956754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _67
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 406
+        width: 66
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf82dd0dff8fa8e0800000000000000
+      internalID: -1679965818964504652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _68
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 564
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c33094e05040f4110800000000000000
+      internalID: 1247220041565930300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _69
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 409
+        width: 69
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a3b44cbf9e37800800000000000000
+      internalID: 609087642164476469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _70
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 403
+        width: 67
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdcbf0c6a95631c50800000000000000
+      internalID: 6634758389959212251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _71
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 490
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b8c4ba75d44e1a0800000000000000
+      internalID: -6781210099981710465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _72
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 495
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b756ae8379de6ea20800000000000000
+      internalID: 3091419427987154299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _73
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 478
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e27ec15afa9c4150800000000000000
+      internalID: 5858227615207158504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _74
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 484
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1cbe905d0b65ab0800000000000000
+      internalID: -5019630305616870929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _75
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 474
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07327267dae8bed0800000000000000
+      internalID: -2397908590784268532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _76
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 400
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e784a34973a70440800000000000000
+      internalID: 4902066460637300712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _77
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 216
+        width: 70
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ef7c598bc6eb3c0800000000000000
+      internalID: -4341913450695885215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _78
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 216
+        width: 68
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb4ab1770f33c260800000000000000
+      internalID: 7116601137380871099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _79
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 216
+        width: 68
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5c992266452aaf0800000000000000
+      internalID: -386653820356540966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _80
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 374
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416ead8aee39b51c0800000000000000
+      internalID: -4513851548264372716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _81
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 216
+        width: 63
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abfe81e1b1aa35810800000000000000
+      internalID: 1752931713423044538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _82
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 191
+        width: 63
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4a6f09c3b5d7080800000000000000
+      internalID: -9188087349077695268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _83
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 337
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6eec5415396b7b00800000000000000
+      internalID: 827370633248435819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _84
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 322
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93027ae6fe2308360800000000000000
+      internalID: 7169786610708848697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _85
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 329
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35e3a71d478b15b80800000000000000
+      internalID: -8407736217453838765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _86
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 310
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c225c4e5f07c160800000000000000
+      internalID: 7045617039726226556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _87
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 316
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b149780ac61ef6540800000000000000
+      internalID: 5003465567697867803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _88
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 205
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd822d0a6a34c7b0800000000000000
+      internalID: -5204971042172138020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _89
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 201
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a024b9faa0165c580800000000000000
+      internalID: -8807526797729381878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _90
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 197
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df6fe2a4a3ef55920800000000000000
+      internalID: 2978566254881601277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _91
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 184
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ece6388d36553dc0800000000000000
+      internalID: -3659924299890365216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _92
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 20
+        width: 68
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a8506ed6d76fdb0800000000000000
+      internalID: -4758478045306320362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _93
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 192
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb07161d04bcf7b0800000000000000
+      internalID: -5189074702339470393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _94
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 23
+        width: 65
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98d25cbaf4d6a3380800000000000000
+      internalID: -8990753517140103799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _95
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 160
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ef0459b204f1e30800000000000000
+      internalID: 4476367110561398338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingOrangeBrown _96
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 153
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2159aa8a64605ff30800000000000000
+      internalID: 4608596694230799634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      22 TorchDrippingOrangeBrown _0: -9184269715703309895
+      22 TorchDrippingOrangeBrown _1: -6790988657745582680
+      22 TorchDrippingOrangeBrown _10: 6934787412756691877
+      22 TorchDrippingOrangeBrown _11: -1337630274331808079
+      22 TorchDrippingOrangeBrown _12: 964297376453615708
+      22 TorchDrippingOrangeBrown _13: 3418986234750020742
+      22 TorchDrippingOrangeBrown _14: 3393777682610381447
+      22 TorchDrippingOrangeBrown _15: -6621100611746070188
+      22 TorchDrippingOrangeBrown _16: 3411969196494525598
+      22 TorchDrippingOrangeBrown _17: 1574449924293074488
+      22 TorchDrippingOrangeBrown _18: -682829828089127112
+      22 TorchDrippingOrangeBrown _19: -2968444722529226484
+      22 TorchDrippingOrangeBrown _2: -4613815200938701369
+      22 TorchDrippingOrangeBrown _20: -6618637305432164375
+      22 TorchDrippingOrangeBrown _21: -6337423470186098109
+      22 TorchDrippingOrangeBrown _22: 3159932225203857283
+      22 TorchDrippingOrangeBrown _23: -1030823207200096217
+      22 TorchDrippingOrangeBrown _24: -2005410166786987890
+      22 TorchDrippingOrangeBrown _25: -323393054171451238
+      22 TorchDrippingOrangeBrown _26: -6985764001445155774
+      22 TorchDrippingOrangeBrown _27: 8284778684754257672
+      22 TorchDrippingOrangeBrown _28: -7209590062603734450
+      22 TorchDrippingOrangeBrown _29: 500194836658123348
+      22 TorchDrippingOrangeBrown _3: 4365656973836872879
+      22 TorchDrippingOrangeBrown _30: 3912716539521797473
+      22 TorchDrippingOrangeBrown _31: -3720702338420503615
+      22 TorchDrippingOrangeBrown _32: 5611506625193826857
+      22 TorchDrippingOrangeBrown _33: 8952637507680883834
+      22 TorchDrippingOrangeBrown _34: 6684324893647381343
+      22 TorchDrippingOrangeBrown _35: -1603953794242547377
+      22 TorchDrippingOrangeBrown _36: -5237723402696934783
+      22 TorchDrippingOrangeBrown _37: -5422549425989482667
+      22 TorchDrippingOrangeBrown _38: 7431856484973597170
+      22 TorchDrippingOrangeBrown _39: 120967912210909173
+      22 TorchDrippingOrangeBrown _4: 4385037193837734541
+      22 TorchDrippingOrangeBrown _40: -186634671472427100
+      22 TorchDrippingOrangeBrown _41: -8526124380505572227
+      22 TorchDrippingOrangeBrown _42: 4075524343732151967
+      22 TorchDrippingOrangeBrown _43: -7728305889525495797
+      22 TorchDrippingOrangeBrown _44: -1614962129399231419
+      22 TorchDrippingOrangeBrown _45: 6918453385484021025
+      22 TorchDrippingOrangeBrown _46: -4204357446009887597
+      22 TorchDrippingOrangeBrown _47: -820197451886323394
+      22 TorchDrippingOrangeBrown _48: 8367682887391861002
+      22 TorchDrippingOrangeBrown _49: -4537349914535756159
+      22 TorchDrippingOrangeBrown _5: -6040560715581746133
+      22 TorchDrippingOrangeBrown _50: -7937053124082291296
+      22 TorchDrippingOrangeBrown _51: 8905734757503342215
+      22 TorchDrippingOrangeBrown _52: 679125149861795969
+      22 TorchDrippingOrangeBrown _53: 3513862593969585788
+      22 TorchDrippingOrangeBrown _54: -6462497898053657581
+      22 TorchDrippingOrangeBrown _55: -1702809581235520021
+      22 TorchDrippingOrangeBrown _56: -5223244464536651822
+      22 TorchDrippingOrangeBrown _57: -4228856302818668970
+      22 TorchDrippingOrangeBrown _58: 2414133845061352584
+      22 TorchDrippingOrangeBrown _59: 8485316942889763388
+      22 TorchDrippingOrangeBrown _6: 6721037902354281500
+      22 TorchDrippingOrangeBrown _60: -2353064372000089313
+      22 TorchDrippingOrangeBrown _61: 8638641129419736627
+      22 TorchDrippingOrangeBrown _62: 3885770954260329875
+      22 TorchDrippingOrangeBrown _63: -6883347523109855156
+      22 TorchDrippingOrangeBrown _64: -1565713853551305158
+      22 TorchDrippingOrangeBrown _65: 4227002852093847375
+      22 TorchDrippingOrangeBrown _66: -3744723350999956754
+      22 TorchDrippingOrangeBrown _67: -1679965818964504652
+      22 TorchDrippingOrangeBrown _68: 1247220041565930300
+      22 TorchDrippingOrangeBrown _69: 609087642164476469
+      22 TorchDrippingOrangeBrown _7: 1946110201863305512
+      22 TorchDrippingOrangeBrown _70: 6634758389959212251
+      22 TorchDrippingOrangeBrown _71: -6781210099981710465
+      22 TorchDrippingOrangeBrown _72: 3091419427987154299
+      22 TorchDrippingOrangeBrown _73: 5858227615207158504
+      22 TorchDrippingOrangeBrown _74: -5019630305616870929
+      22 TorchDrippingOrangeBrown _75: -2397908590784268532
+      22 TorchDrippingOrangeBrown _76: 4902066460637300712
+      22 TorchDrippingOrangeBrown _77: -4341913450695885215
+      22 TorchDrippingOrangeBrown _78: 7116601137380871099
+      22 TorchDrippingOrangeBrown _79: -386653820356540966
+      22 TorchDrippingOrangeBrown _8: -6492194771497003518
+      22 TorchDrippingOrangeBrown _80: -4513851548264372716
+      22 TorchDrippingOrangeBrown _81: 1752931713423044538
+      22 TorchDrippingOrangeBrown _82: -9188087349077695268
+      22 TorchDrippingOrangeBrown _83: 827370633248435819
+      22 TorchDrippingOrangeBrown _84: 7169786610708848697
+      22 TorchDrippingOrangeBrown _85: -8407736217453838765
+      22 TorchDrippingOrangeBrown _86: 7045617039726226556
+      22 TorchDrippingOrangeBrown _87: 5003465567697867803
+      22 TorchDrippingOrangeBrown _88: -5204971042172138020
+      22 TorchDrippingOrangeBrown _89: -8807526797729381878
+      22 TorchDrippingOrangeBrown _9: 970805852764477341
+      22 TorchDrippingOrangeBrown _90: 2978566254881601277
+      22 TorchDrippingOrangeBrown _91: -3659924299890365216
+      22 TorchDrippingOrangeBrown _92: -4758478045306320362
+      22 TorchDrippingOrangeBrown _93: -5189074702339470393
+      22 TorchDrippingOrangeBrown _94: -8990753517140103799
+      22 TorchDrippingOrangeBrown _95: 4476367110561398338
+      22 TorchDrippingOrangeBrown _96: 4608596694230799634
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
