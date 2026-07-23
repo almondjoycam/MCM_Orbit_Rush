@@ -1,65 +1,58 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using TMPro;
 
 public class PlayerControls : MonoBehaviour
 {
-    Animator anim;
-    Rigidbody2D rb;
-    SpriteRenderer rend;
+    private Animator anim;
+    private Rigidbody2D rb;
+    private SpriteRenderer rend;
 
-    [SerializeField]
-    Level level;
-    [SerializeField]
-    GameObject gameOverScreen;
-    // [SerializeField]
-    // TextMeshProUGUI fuelMeter;
-    // [SerializeField]
-    // TextMeshProUGUI healthMeter;
+    [SerializeField] private Level level;
+    [SerializeField] private GameObject gameOverScreen;
     HUDManager hud;
 
     [Header("Input Variables")]
-    public float steerSpeed = 1;
-    public float thrustPower = 1;
-    public float lookSensitivity = 10;
+    public float steerSpeed = 1f;
+    public float thrustPower = 1f;
+    public float lookSensitivity = 10f;
 
-    InputActionMap gameplay;
-    InputAction uiCancel;
+    private InputActionMap gameplay;
+    private InputAction uiCancel;
 
-    InputAction steer;
-    InputAction thrust;
-    InputAction fire;
-    InputAction look;
-    InputAction pause;
+    private InputAction steer;
+    private InputAction thrust;
+    private InputAction fire;
+    private InputAction look;
+    private InputAction pause;
 
-    float steerValue;
-    Vector2 lookValue;
-    bool thrusting;
-    bool firing;
-    bool pausing;
+    private float steerValue;
+    private Vector2 lookValue;
+    private bool thrusting;
+    // private bool pausing;
 
-    // TODO: projectiles depend on the weapon, which will have polymorphism
-    IWeapon currentWeapon;
-    [SerializeField]
-    Transform aim;
-    Bounds screenBounds;
-    Vector3 aimDelta;
+    private IWeapon currentWeapon;
+
+    [SerializeField] private Transform aim;
+
+    private Bounds screenBounds;
+    private Vector3 aimDelta;
 
     [Header("Player Stats")]
     public int maxHealth = 50;
-    float health;
+    private float health;
 
-    // max fuel is discrete (number of tanks)
-    // but current fuel is continuous (burning fuel from tanks)
     public int maxFuel = 3;
-    float fuel;
+    private float fuel;
+
     public float fuelDrainPerSecond = 0.1f;
-    float fuelTimeCounter = 0;
+
+    private float fuelTimeCounter;
 
     public bool shieldActive { get; private set; }
 
     private Coroutine shieldCoroutine;
+    private bool gameIsOver;
 
     [System.Serializable]
     public struct PlayerSaveData
@@ -80,27 +73,47 @@ public class PlayerControls : MonoBehaviour
             maxFuel = player.maxFuel;
             fuelDrain = player.fuelDrainPerSecond;
             shieldActive = player.shieldActive;
-            currentLevel = player.level.levelData.name;
+
+            currentLevel =
+                player.level != null && player.level.levelData != null
+                    ? player.level.levelData.name
+                    : string.Empty;
         }
     }
 
-    void Awake()
+    private void Awake()
     {
         health = maxHealth;
         fuel = maxFuel;
-    }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         rend = GetComponent<SpriteRenderer>();
+    }
 
+    private void Start()
+    {
         hud = FindAnyObjectByType<HUDManager>();
+        SetupInputActions();
+        SetupWeapon();
+        CalculateScreenBounds();
+        ResetUI();
+    }
 
+    private void SetupInputActions()
+    {
         gameplay = InputSystem.actions.FindActionMap("Player");
         uiCancel = InputSystem.actions.FindAction("UI/Cancel");
+
+        if (gameplay == null)
+        {
+            Debug.LogError(
+                "PlayerControls could not find the Player action map."
+            );
+
+            enabled = false;
+            return;
+        }
 
         steer = gameplay.FindAction("Steer");
         thrust = gameplay.FindAction("Thrust");
@@ -108,176 +121,374 @@ public class PlayerControls : MonoBehaviour
         look = gameplay.FindAction("Look");
         pause = gameplay.FindAction("Pause");
 
-        thrust.started += (context) => { Thrust(); };
-        pause.performed += (context) => { Pause(); };
-        uiCancel.performed += (context) => { Resume(); };
-        fire.performed += (context) => { Fire(); };
-        currentWeapon = gameObject.AddComponent<TestWeapon>();
+        if (thrust != null)
+        {
+            thrust.started += OnThrustStarted;
+        }
 
-        screenBounds = new Bounds(
-            Camera.main.ViewportToWorldPoint(new Vector3(0.5f, 0.5f, 0)),
-            Camera.main.ViewportToWorldPoint(new Vector3(1, 1, 0)) * 2
+        if (pause != null)
+        {
+            pause.performed += OnPausePerformed;
+        }
+
+        if (uiCancel != null)
+        {
+            uiCancel.performed += OnCancelPerformed;
+        }
+
+        if (fire != null)
+        {
+            fire.performed += OnFirePerformed;
+        }
+    }
+
+    private void SetupWeapon()
+    {
+        currentWeapon = gameObject.AddComponent<TestWeapon>();
+    }
+
+    private void CalculateScreenBounds()
+    {
+        if (Camera.main == null)
+        {
+            Debug.LogError(
+                "PlayerControls could not find a camera tagged MainCamera."
+            );
+
+            return;
+        }
+
+        Vector3 center =
+            Camera.main.ViewportToWorldPoint(
+                new Vector3(0.5f, 0.5f, 0f)
+            );
+
+        Vector3 topRight =
+            Camera.main.ViewportToWorldPoint(
+                new Vector3(1f, 1f, 0f)
+            );
+
+        Vector3 size = new Vector3(
+            Mathf.Abs(topRight.x - center.x) * 2f,
+            Mathf.Abs(topRight.y - center.y) * 2f,
+            0f
         );
+
+        screenBounds = new Bounds(center, size);
         Debug.Log(screenBounds);
         level.GetComponent<ObstacleSpawner>().SetSpawnPosition(
             new Vector3(screenBounds.max.x, screenBounds.max.y));
-        ResetUI();
     }
 
-    void ResetUI()
+    private void ResetUI()
     {
-        gameOverScreen.SetActive(false);
+        gameIsOver = false;
+
+        if (gameOverScreen != null)
+        {
+            gameOverScreen.SetActive(false);
+        }
+
         hud.SetHealth(health);
         ToggleUICursor(false);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        steerValue = Mathf.Lerp(steerValue, steer.ReadValue<float>(), 0.5f);
-        if (steerValue >= -0.5f)
+        if (gameIsOver || gameplay == null)
         {
-            rend.flipX = false;
-        }
-        else
-        {
-            rend.flipX = true;
+            return;
         }
 
-        thrusting = thrust.IsPressed();
-        if (fuel <= 0)
+        UpdateSteering();
+        UpdateThrustInput();
+        UpdateLevelRotation();
+        UpdateAim();
+    }
+
+    private void UpdateSteering()
+    {
+        if (steer == null)
         {
+            return;
+        }
+
+        steerValue = Mathf.Lerp(
+            steerValue,
+            steer.ReadValue<float>(),
+            0.5f
+        );
+
+        if (rend != null)
+        {
+            rend.flipX = steerValue < -0.5f;
+        }
+    }
+
+    private void UpdateThrustInput()
+    {
+        thrusting = thrust != null && thrust.IsPressed();
+
+        if (fuel <= 0f)
+        {
+            fuel = 0f;
             GameOver();
         }
         hud.SetFuel(fuel);
+    }
 
-        level.transform.Rotate(0, 0, steerValue * steerSpeed * Time.deltaTime);
+    private void UpdateLevelRotation()
+    {
+        if (level == null)
+        {
+            return;
+        }
 
-        lookValue = Vector2.Lerp(lookValue, look.ReadValue<Vector2>(), 0.5f);
-        aimDelta = new Vector3(lookValue.x, lookValue.y, 0) * lookSensitivity * Time.deltaTime;
-        aim.position = new Vector3(
-            Mathf.Clamp(aim.position.x + aimDelta.x, screenBounds.min.x, screenBounds.max.x),
-            Mathf.Clamp(aim.position.y + aimDelta.y, screenBounds.min.y, screenBounds.max.y),
-            0
+        level.transform.Rotate(
+            0f,
+            0f,
+            steerValue * steerSpeed * Time.deltaTime
         );
     }
 
-    void FixedUpdate()
+    private void UpdateAim()
     {
-        if (thrusting && fuel > 0)
+        if (look == null || aim == null)
         {
-            rb.AddForceY(thrustPower);
-            fuelTimeCounter += Time.fixedDeltaTime;
-            if (fuelTimeCounter >= 1)
-            {
-                fuel -= fuelDrainPerSecond;
-                fuelTimeCounter = 0;
-                Debug.Log($"now I only have {fuel:F2} fuel!");
-            }
+            return;
         }
 
-        if (transform.position.y >= screenBounds.max.y - 1)
+        lookValue = Vector2.Lerp(
+            lookValue,
+            look.ReadValue<Vector2>(),
+            0.5f
+        );
+
+        aimDelta =
+            new Vector3(lookValue.x, lookValue.y, 0f) *
+            lookSensitivity *
+            Time.deltaTime;
+
+        aim.position = new Vector3(
+            Mathf.Clamp(
+                aim.position.x + aimDelta.x,
+                screenBounds.min.x,
+                screenBounds.max.x
+            ),
+            Mathf.Clamp(
+                aim.position.y + aimDelta.y,
+                screenBounds.min.y,
+                screenBounds.max.y
+            ),
+            0f
+        );
+    }
+
+    private void FixedUpdate()
+    {
+        if (gameIsOver || rb == null)
+        {
+            return;
+        }
+
+        HandleThrust();
+        KeepPlayerInsideScreen();
+    }
+
+    private void HandleThrust()
+    {
+        if (!thrusting || fuel <= 0f)
+        {
+            return;
+        }
+
+        rb.AddForceY(thrustPower);
+
+        fuelTimeCounter += Time.fixedDeltaTime;
+
+        if (fuelTimeCounter >= 1f)
+        {
+            fuel -= fuelDrainPerSecond;
+            fuel = Mathf.Clamp(fuel, 0f, maxFuel);
+
+            fuelTimeCounter = 0f;
+
+            // Uncomment while debugging fuel:
+            // Debug.Log($"Fuel remaining: {fuel:F2}");
+        }
+    }
+
+    private void KeepPlayerInsideScreen()
+    {
+        if (transform.position.y >= screenBounds.max.y - 1f)
         {
             rb.AddForceY(-thrustPower);
         }
     }
 
-    void Thrust()
+    // Input callbacks
+
+    private void OnThrustStarted(
+        InputAction.CallbackContext context
+    )
     {
-        // actual thrust handled in FixedUpdate but this is for FX
-        anim.SetTrigger("Thrust");
-        anim.SetBool("Walking", false);
+        Thrust();
     }
 
-    void Fire()
+    private void OnPausePerformed(
+        InputAction.CallbackContext context
+    )
     {
+        Pause();
+    }
+
+    private void OnCancelPerformed(
+        InputAction.CallbackContext context
+    )
+    {
+        Resume();
+    }
+
+    private void OnFirePerformed(
+        InputAction.CallbackContext context
+    )
+    {
+        Fire();
+    }
+
+    private void Thrust()
+    {
+        anim.SetTrigger("Thrust");
+        // Movement is handled in FixedUpdate.
+        // Add engine flame, sound, or particles here later.
+    }
+
+    private void Fire()
+    {
+        if (gameIsOver || currentWeapon == null)
+        {
+            return;
+        }
+
         currentWeapon.Shoot();
     }
 
-    void Pause()
+    private void Pause()
     {
-        pausing = true;
+        if (gameIsOver)
+        {
+            return;
+        }
+
+        // pausing = true;
         ToggleUICursor(true);
     }
 
-    void Resume()
+    private void Resume()
     {
-        pausing = false;
+        if (gameIsOver)
+        {
+            return;
+        }
+
+        // pausing = false;
         ToggleUICursor(false);
     }
 
-    void GameOver()
+    private void GameOver()
     {
-        gameOverScreen.SetActive(true);
+        if (gameIsOver)
+        {
+            return;
+        }
+
+        gameIsOver = true;
+        thrusting = false;
+
+        if (rb != null)
+        {
+            rb.linearVelocity = Vector2.zero;
+        }
+
+        if (gameOverScreen != null)
+        {
+            gameOverScreen.SetActive(true);
+        }
+
         ToggleUICursor(true);
     }
 
-    void ToggleUICursor(bool on)
+    private void ToggleUICursor(bool on)
     {
         if (on)
         {
-            Time.timeScale = 0;
+            Time.timeScale = 0f;
+
             Cursor.visible = true;
             Cursor.lockState = CursorLockMode.None;
-            gameplay.Disable();
+
+            gameplay?.Disable();
         }
         else
         {
-            Time.timeScale = 1;
+            Time.timeScale = 1f;
+
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
-            gameplay.Enable();
+
+            gameplay?.Enable();
         }
     }
 
     public void RestoreHealth(float amount)
     {
-        // Adds health, but does not let it go above the max health.
         health += amount;
-        health = Mathf.Clamp(health, 0, maxHealth);
+        health = Mathf.Clamp(health, 0f, maxHealth);
 
         Debug.Log("Current Health: " + health);
     }
 
     public void RestoreBoost(float amount)
     {
-        // Adds boost energy, but does not let it go above the max boost amount.
         fuel += amount;
-        fuel = Mathf.Clamp(fuel, 0, maxFuel);
+        fuel = Mathf.Clamp(fuel, 0f, maxFuel);
 
         Debug.Log("Current Boost Energy: " + fuel);
     }
 
     public void ActivateShield(float duration)
     {
-        // If the player already has a shield timer running, restart it.
         if (shieldCoroutine != null)
         {
             StopCoroutine(shieldCoroutine);
         }
 
-        shieldCoroutine = StartCoroutine(ShieldTimer(duration));
+        shieldCoroutine =
+            StartCoroutine(ShieldTimer(duration));
     }
 
     private IEnumerator ShieldTimer(float duration)
     {
-        // Turns the shield on.
         shieldActive = true;
         Debug.Log("Shield is active.");
         hud.SetShield(5);   // TODO: make this not a random number
 
-        // Waits for the shield time to run out.
         yield return new WaitForSeconds(duration);
 
-        // Turns the shield off after the timer ends.
         shieldActive = false;
+        shieldCoroutine = null;
+
         Debug.Log("Shield ended.");
         hud.SetShield(0);
     }
 
     public void TakeDamage(float damageAmount)
     {
-        // If the shield is active, it blocks the hit instead of taking damage.
+        if (gameIsOver)
+        {
+            return;
+        }
+
         if (shieldActive)
         {
             shieldActive = false;
@@ -286,62 +497,164 @@ public class PlayerControls : MonoBehaviour
             return;
         }
 
-        // Takes health away from the player.
         health -= damageAmount;
-        health = Mathf.Clamp(health, 0, maxHealth);
+        health = Mathf.Clamp(health, 0f, maxHealth);
         hud.SetHealth(health);
 
-        Debug.Log("Player took damage. Current Health: " + health);
+        Debug.Log(
+            "Player took damage. Current Health: " + health
+        );
 
-        // Checks if the player has run out of health.
-        if (health <= 0)
+        if (health <= 0f)
         {
             GameOver();
         }
     }
 
-    void OnCollisionStay2D(Collision2D other)
+    private void OnCollisionStay2D(Collision2D other)
     {
-        anim.SetBool("Walking", true);
+        if (other.gameObject.CompareTag("Terrain"))
+        {
+            anim.SetBool("Walking", true);
+        }
+    }
+    
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        if (anim != null)
+        {
+            anim.SetBool("Walking", false);
+        }
     }
 
     public string GetSaveState()
     {
-        PlayerSaveData saveState = new PlayerSaveData(this);
+        PlayerSaveData saveState =
+            new PlayerSaveData(this);
+
         return JsonUtility.ToJson(saveState);
     }
 
-    public void LoadSaveState(PlayerSaveData state, Transform checkpoint)
+    public void LoadSaveState(
+        PlayerSaveData state,
+        Transform checkpoint
+    )
     {
         health = state.health;
         maxHealth = state.maxHealth;
+
         fuel = state.fuel;
         maxFuel = state.maxFuel;
+
         fuelDrainPerSecond = state.fuelDrain;
         shieldActive = state.shieldActive;
-        level.levelData = Resources.Load(state.currentLevel) as LevelData;
-        level.transform.rotation = Quaternion.identity;
+
+        if (level != null &&
+            !string.IsNullOrEmpty(state.currentLevel))
+        {
+            level.levelData =
+                Resources.Load<LevelData>(state.currentLevel);
+
+            level.transform.rotation = Quaternion.identity;
+        }
+
+        if (checkpoint != null)
+        {
+            transform.position = checkpoint.position;
+        }
+
         ResetUI();
     }
 
-    // delete this test code
-    class TestWeapon : MonoBehaviour, IWeapon
+    private void OnDestroy()
     {
-        GameObject bulletPrefab;
-        Bullet bullet;
-        Transform aim;
+        // Remove callbacks belonging to this player before the
+        // scene reloads. This prevents destroyed object errors.
 
-        void Start()
+        if (thrust != null)
         {
-            bulletPrefab = Resources.Load("TestBullet") as GameObject;
-            aim = GameObject.Find("Aim").transform;
+            thrust.started -= OnThrustStarted;
+        }
+
+        if (pause != null)
+        {
+            pause.performed -= OnPausePerformed;
+        }
+
+        if (uiCancel != null)
+        {
+            uiCancel.performed -= OnCancelPerformed;
+        }
+
+        if (fire != null)
+        {
+            fire.performed -= OnFirePerformed;
+        }
+
+        if (shieldCoroutine != null)
+        {
+            StopCoroutine(shieldCoroutine);
+            shieldCoroutine = null;
+        }
+    }
+
+    // Delete or replace this test weapon when the final
+    // weapon system is ready.
+    private class TestWeapon : MonoBehaviour, IWeapon
+    {
+        private GameObject bulletPrefab;
+        private Transform aim;
+
+        private void Start()
+        {
+            bulletPrefab =
+                Resources.Load<GameObject>("TestBullet");
+
+            GameObject aimObject = GameObject.Find("Aim");
+
+            if (aimObject != null)
+            {
+                aim = aimObject.transform;
+            }
+            else
+            {
+                Debug.LogError(
+                    "TestWeapon could not find the Aim object."
+                );
+            }
         }
 
         public void Shoot()
         {
-            bullet = Instantiate(bulletPrefab, transform.position, Quaternion.identity).GetComponent<Bullet>();
-            bullet.direction = (aim.position - transform.position).normalized;
-            bullet.speed = 5;
+            if (bulletPrefab == null || aim == null)
+            {
+                return;
+            }
+
+            GameObject bulletObject = Instantiate(
+                bulletPrefab,
+                transform.position,
+                Quaternion.identity
+            );
+
+            Bullet bullet =
+                bulletObject.GetComponent<Bullet>();
+
+            if (bullet == null)
+            {
+                Debug.LogError(
+                    "The TestBullet prefab has no Bullet component."
+                );
+
+                Destroy(bulletObject);
+                return;
+            }
+
+            bullet.direction =
+                (aim.position - transform.position).normalized;
+
+            bullet.speed = 5f;
+
             Debug.Log("Pew pew");
         }
     }
