@@ -261,7 +261,7 @@ MonoBehaviour:
   spawnChance: 0.899
   canMove: 1
   moveSpeed: 2
-  damageAmount: 1
+  damageAmount: 20
   sizeRange: {x: 0.1, y: 1}
   asteroidTextures:
   - {fileID: 21300000, guid: 45a8a6e94e66142c786fa99b4756777a, type: 3}

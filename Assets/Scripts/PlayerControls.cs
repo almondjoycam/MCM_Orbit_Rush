@@ -10,6 +10,7 @@ public class PlayerControls : MonoBehaviour
 
     [SerializeField] private Level level;
     [SerializeField] private GameObject gameOverScreen;
+    HUDManager hud;
 
     [Header("Input Variables")]
     public float steerSpeed = 1f;
@@ -39,7 +40,6 @@ public class PlayerControls : MonoBehaviour
 
     [Header("Player Stats")]
     public int maxHealth = 50;
-
     private float health;
 
     public int maxFuel = 3;
@@ -93,6 +93,7 @@ public class PlayerControls : MonoBehaviour
 
     private void Start()
     {
+        hud = FindAnyObjectByType<HUDManager>();
         SetupInputActions();
         SetupWeapon();
         CalculateScreenBounds();
@@ -185,6 +186,7 @@ public class PlayerControls : MonoBehaviour
             gameOverScreen.SetActive(false);
         }
 
+        hud.SetHealth(health);
         ToggleUICursor(false);
     }
 
@@ -229,6 +231,7 @@ public class PlayerControls : MonoBehaviour
             fuel = 0f;
             GameOver();
         }
+        hud.SetFuel(fuel);
     }
 
     private void UpdateLevelRotation()
@@ -464,6 +467,7 @@ public class PlayerControls : MonoBehaviour
     {
         shieldActive = true;
         Debug.Log("Shield is active.");
+        hud.SetShield(5);   // TODO: make this not a random number
 
         yield return new WaitForSeconds(duration);
 
@@ -471,6 +475,7 @@ public class PlayerControls : MonoBehaviour
         shieldCoroutine = null;
 
         Debug.Log("Shield ended.");
+        hud.SetShield(0);
     }
 
     public void TakeDamage(float damageAmount)
@@ -484,11 +489,13 @@ public class PlayerControls : MonoBehaviour
         {
             shieldActive = false;
             Debug.Log("Shield blocked the hit!");
+            hud.SetShield(0);
             return;
         }
 
         health -= damageAmount;
         health = Mathf.Clamp(health, 0f, maxHealth);
+        hud.SetHealth(health);
 
         Debug.Log(
             "Player took damage. Current Health: " + health

@@ -239,7 +239,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 19017958}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &60270941
 MonoBehaviour:
@@ -255,15 +255,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerControls
   level: {fileID: 1940197003}
   gameOverScreen: {fileID: 2048138533}
-  fuelMeter: {fileID: 0}
-  healthMeter: {fileID: 0}
   steerSpeed: 3
   thrustPower: 6
   lookSensitivity: 2
   aim: {fileID: 1946307374}
-  maxHealth: 4
-  maxFuel: 3
-  fuelDrainPerSecond: 0.1
+  maxHealth: 100
+  maxFuel: 100
+  fuelDrainPerSecond: 3
 --- !u!95 &60270942
 Animator:
   serializedVersion: 7
@@ -1322,7 +1320,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 10
+  orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1346,8 +1344,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 620589746}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 51.3, y: 96.7, z: -10}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -1607,12 +1605,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 689960162}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 49.5, y: 98.2, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 19017958}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &707210518
 PrefabInstance:
@@ -1625,6 +1623,10 @@ PrefabInstance:
     - target: {fileID: 4436677408328881061, guid: 40bc0220dde75e093b0032fdc8841b09, type: 3}
       propertyPath: m_Name
       value: TestItem
+      objectReference: {fileID: 0}
+    - target: {fileID: 4436677408328881061, guid: 40bc0220dde75e093b0032fdc8841b09, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4524644504634510842, guid: 40bc0220dde75e093b0032fdc8841b09, type: 3}
       propertyPath: m_LocalScale.x
@@ -1697,7 +1699,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 607396998336154063, guid: 0793c7b8824af3a90805a14164001be5, type: 3}
       propertyPath: m_Pivot.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 607396998336154063, guid: 0793c7b8824af3a90805a14164001be5, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1713,7 +1715,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 607396998336154063, guid: 0793c7b8824af3a90805a14164001be5, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 607396998336154063, guid: 0793c7b8824af3a90805a14164001be5, type: 3}
       propertyPath: m_SizeDelta.x
@@ -1721,7 +1723,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 607396998336154063, guid: 0793c7b8824af3a90805a14164001be5, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 1138
       objectReference: {fileID: 0}
     - target: {fileID: 607396998336154063, guid: 0793c7b8824af3a90805a14164001be5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1846,6 +1848,14 @@ PrefabInstance:
     - target: {fileID: 3613137406960431371, guid: 0793c7b8824af3a90805a14164001be5, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4010876661450994576, guid: 0793c7b8824af3a90805a14164001be5, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6935061332816304165, guid: 0793c7b8824af3a90805a14164001be5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8337868726999079312, guid: 0793c7b8824af3a90805a14164001be5, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2003,6 +2013,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BlackHole
       objectReference: {fileID: 0}
+    - target: {fileID: 3620764326218880950, guid: 658b82dbc38de1632880661cd8bd3573, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5809953800876778041, guid: 658b82dbc38de1632880661cd8bd3573, type: 3}
       propertyPath: rotSpeed
       value: 7
@@ -2109,6 +2123,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GravityStorm
       objectReference: {fileID: 0}
+    - target: {fileID: 6097038430727792228, guid: 0fa9e0896b1275d2e82e320829cd20a9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2200,7 +2218,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 20, y: 15}
+  m_Size: {x: 32, y: 20}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -2384,7 +2402,7 @@ Transform:
   m_GameObject: {fileID: 1940197001}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 48.11444, y: 11.601257, z: 0}
+  m_LocalPosition: {x: 0, y: -90, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -2408,11 +2426,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Level
   levelData: {fileID: 11400000, guid: 13716a83c8732da1facedfd511114641, type: 2}
   obstacles:
+  - {fileID: 7186472600486529124, guid: 0fa9e0896b1275d2e82e320829cd20a9, type: 3}
   - {fileID: 313111520427087727, guid: 45c6bbb59f8c3caf0bc260bef95147df, type: 3}
   - {fileID: 5363512665967579841, guid: 5a4a7e133626cd6adb4ebe16ecb81114, type: 3}
-  obstacleSpawnInterval: 2.23
-  items:
-  - {fileID: 8934378957094963527, guid: 40bc0220dde75e093b0032fdc8841b09, type: 3}
+  - {fileID: 5809953800876778041, guid: 658b82dbc38de1632880661cd8bd3573, type: 3}
+  obstacleSpawnInterval: 2
+  items: []
 --- !u!1 &1946307372
 GameObject:
   m_ObjectHideFlags: 0
@@ -2497,12 +2516,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1946307372}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 48.11444, y: 101.60126, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 19017958}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2048138533
 GameObject:

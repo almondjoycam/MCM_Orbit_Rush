@@ -201,9 +201,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2086fd0dcf3aa7bd38ec0067043625d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BlackHole
+  spawnChance: 0.113
   canMove: 0
   moveSpeed: 2
   damageAmount: 10
   rotSpeed: 5
   gravityPull: 5
-  distanceThreshold: 0.05
+  distanceThreshold: 0.5
