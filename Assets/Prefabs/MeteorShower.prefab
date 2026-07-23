@@ -389,6 +389,6 @@ MonoBehaviour:
   spawnChance: 0.196
   canMove: 0
   moveSpeed: 4
-  damageAmount: 2
+  damageAmount: 10
   meteorCount: 5
   meteorAngle: 200
