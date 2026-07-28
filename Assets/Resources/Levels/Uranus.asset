@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e0efa8468669c7f23bdf08cba0b2a3b1, type: 3}
-  m_Name: Neptune
+  m_Name: Uranus
   m_EditorClassIdentifier: Assembly-CSharp::LevelData
-  gravityConstant: 1.2
-  rotationRate: 0.8
-  levelName: 'Neptune: The Frozen Drift'
-  distanceToSun: 2800000000
-  levelTerrain: {fileID: 6080759780653365515, guid: 52c7f1e5abffab60e873bc8eb8078d52, type: 3}
-  thresholdItemNumber: 3
+  gravityConstant: 2.2
+  rotationRate: 4
+  levelName: 'Uranus: The Tilted Spiral'
+  distanceToSun: 1800000000
+  levelTerrain: {fileID: 0}
+  thresholdItemNumber: 6
