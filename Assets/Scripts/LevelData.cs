@@ -6,7 +6,7 @@ public class LevelData : ScriptableObject
     public float gravityConstant;
     public float rotationRate;
     public string levelName;
-    public int distanceToSun;
+    public ulong distanceToSun;
     public GameObject levelTerrain;
     public int thresholdItemNumber;
 }
