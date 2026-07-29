@@ -109,6 +109,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerControls
   level: {fileID: 0}
   gameOverScreen: {fileID: 0}
+  pauseScreen: {fileID: 0}
   steerSpeed: 3
   thrustPower: 6
   lookSensitivity: 2
@@ -138,7 +139,7 @@ Rigidbody2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 4
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0

@@ -14,7 +14,10 @@ public class Level : MonoBehaviour
     void Start()
     {
         Instantiate(levelData.levelTerrain, transform);
-        PlayerPrefs.SetInt("MaxLevel", levelData.levelNumber);
+        PlayerPrefs.SetInt(
+            "MaxLevel",
+            Mathf.Max(levelData.levelNumber, PlayerPrefs.GetInt("MaxLevel"))
+        );
     }
 
     void Update()

@@ -45,12 +45,16 @@ public class WarpGate : MonoBehaviour
         completed = true;
 
         // Debug.Log("Neptune Mission Complete!");
-        PlayerPrefs.SetInt("MaxLevel", level.levelData.levelNumber + 1);
+        PlayerPrefs.SetInt(
+            "MaxLevel",
+            Mathf.Max(
+                level.levelData.levelNumber + 1,
+                PlayerPrefs.GetInt("MaxLevel")
+                )
+            );
 
         missionCompleteScreen.SetActive(true);
 
-        Time.timeScale = 0f;
-        Cursor.visible = true;
-        Cursor.lockState = CursorLockMode.None;
+        player.ToggleUICursor(true);
     }
 }

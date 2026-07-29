@@ -5,6 +5,7 @@ public class Meteor : MonoBehaviour
     MeteorShower parentShower;
     Vector3 direction;
     float speed;
+    private int health = 2;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -29,6 +30,17 @@ public class Meteor : MonoBehaviour
         {
             parentShower.Hurt(other.GetComponent<PlayerControls>());
             gameObject.SetActive(false);
+        }
+
+        else if (other.gameObject.GetComponent<Bullet>() != null)
+        {
+            health--;
+            Destroy(other.gameObject);
+            if (health <= 0)
+            {
+                // explosion!
+                Destroy(gameObject);
+            }
         }
     }
 

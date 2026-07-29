@@ -342,6 +342,23 @@ public class PlayerControls : MonoBehaviour
         {
             rb.AddForceY(-thrustPower);
         }
+        else if (transform.position.y <= screenBounds.min.y + 1f)
+        {
+            HandleThrust();
+            // it costs fuel to get back up!
+        }
+        if ((rb.constraints & RigidbodyConstraints2D.FreezePositionX) != 0)
+        {
+            // allowed to have forces along X axis
+            if (transform.position.x >= screenBounds.max.x - 1f)
+            {
+                rb.AddForceX(-thrustPower);
+            }
+            else if (transform.position.x <= screenBounds.min.x + 1f)
+            {
+                rb.AddForceX(thrustPower);
+            }
+        }
     }
 
     // Input callbacks
@@ -376,7 +393,8 @@ public class PlayerControls : MonoBehaviour
 
     private void Thrust()
     {
-        anim.SetTrigger("Thrust");
+        if (anim)
+            anim.SetTrigger("Thrust");
         // Movement is handled in FixedUpdate.
         // Add engine flame, sound, or particles here later.
     }
@@ -438,7 +456,7 @@ public class PlayerControls : MonoBehaviour
         ToggleUICursor(true);
     }
 
-    private void ToggleUICursor(bool on)
+    public void ToggleUICursor(bool on)
     {
         if (on)
         {
@@ -535,7 +553,7 @@ public class PlayerControls : MonoBehaviour
 
     private void OnCollisionStay2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Terrain"))
+        if (anim && other.gameObject.CompareTag("Terrain"))
         {
             anim.SetBool("Walking", true);
         }
@@ -543,7 +561,7 @@ public class PlayerControls : MonoBehaviour
     
     private void OnCollisionExit2D(Collision2D other)
     {
-        if (anim != null)
+        if (anim)
         {
             anim.SetBool("Walking", false);
         }

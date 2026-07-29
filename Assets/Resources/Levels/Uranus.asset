@@ -17,5 +17,5 @@ MonoBehaviour:
   levelName: 'Uranus: The Tilted Spiral'
   levelNumber: 1
   distanceToSun: 1800000000
-  levelTerrain: {fileID: 0}
+  levelTerrain: {fileID: 6080759780653365515, guid: 97a5d1bea35fca502b83727937d97498, type: 3}
   thresholdItemNumber: 6
