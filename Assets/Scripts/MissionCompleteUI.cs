@@ -5,33 +5,26 @@ public class MissionCompleteUI : MonoBehaviour
 {
     public void PlayAgain()
     {
-        // Restore normal game speed before reloading.
         Time.timeScale = 1f;
-
-        SceneManager.LoadScene(
-            SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
-    public void MainMenu()
+    public void ContinueToNextLevel()
     {
         Time.timeScale = 1f;
 
-        // Only use this if you have a scene named MainMenu.
-        SceneManager.LoadScene("MainMenu");
-    }
+        int nextSceneIndex =
+            SceneManager.GetActiveScene().buildIndex + 1;
 
-
-    public void QuitGame()
-    {
-        Time.timeScale = 1f;
-
-        Debug.Log("Quit Game");
-
-#if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;
-#else
-        Application.Quit();
-#endif
+        if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
+        {
+            SceneManager.LoadScene(nextSceneIndex);
+        }
+        else
+        {
+            Debug.LogWarning(
+                "There is no next scene in the Build Profile."
+            );
+        }
     }
 }
-

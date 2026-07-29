@@ -2,19 +2,48 @@ using UnityEngine;
 
 public class WarpGate : MonoBehaviour
 {
-    public float rotationSpeed = 40f;
+    [SerializeField] private GameObject missionCompleteScreen;
 
-    void Update()
-    {
-        transform.Rotate(0, 0, rotationSpeed * Time.deltaTime);
-    }
+    private bool completed;
 
-    void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+        // Ignore asteroids, bullets, pickups, and other objects.
+        if (!other.CompareTag("Player"))
+            return;
+
+        if (completed)
+            return;
+
+        PlayerControls player =
+            other.GetComponentInParent<PlayerControls>();
+
+        if (player == null)
         {
-            Debug.Log("Warp activated!");
-            // TODO: Load next level or play warp animation
+            Debug.LogError(
+                "Player entered the Warp Gate, but PlayerControls was not found.",
+                other
+            );
+            return;
         }
+
+        if (missionCompleteScreen == null)
+        {
+            Debug.LogError(
+                "Mission Complete Screen is not assigned on WarpGate.",
+                this
+            );
+            return;
+        }
+
+        completed = true;
+
+        Debug.Log("Neptune Mission Complete!");
+
+        missionCompleteScreen.SetActive(true);
+
+        Time.timeScale = 0f;
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
     }
 }
