@@ -18,6 +18,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Saturn.unity
     guid: ca635ff09671a2c46b21cc34619adedd
   - enabled: 1
+    path: Assets/Scenes/Jupiter.unity
+    guid: 95b65914c02b15a43b5d60006c6da380
+  - enabled: 1
+    path: Assets/Scenes/Mars.unity
+    guid: 4e82051e434bc8f4eae05a53dfb7c939
+  - enabled: 1
     path: Assets/Scenes/SunLevel_Recovered.unity
     guid: 7064fb6b384534f4281d24c97d232e16
   m_configObjects:

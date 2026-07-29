@@ -2,44 +2,100 @@ using UnityEngine;
 
 public class Meteor : MonoBehaviour
 {
-    MeteorShower parentShower;
-    Vector3 direction;
-    float speed;
+    private MeteorShower parentShower;
+    private Vector3 direction;
+    private float speed;
+    private bool reportedInactive;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private void Awake()
     {
-        parentShower = transform.parent.GetComponent<MeteorShower>();
-        direction = new Vector3(
-            Mathf.Cos(parentShower.meteorAngle) + Random.value,
-            Mathf.Sin(parentShower.meteorAngle) + Random.value
-        );
-        speed = parentShower.moveSpeed;
+        parentShower = GetComponentInParent<MeteorShower>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnEnable()
     {
-        transform.Translate(direction * speed * Time.deltaTime);
-    }
+        reportedInactive = false;
 
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("Player"))
+        if (parentShower == null)
         {
-            parentShower.Hurt(other.GetComponent<PlayerControls>());
-            gameObject.SetActive(false);
+            parentShower = GetComponentInParent<MeteorShower>();
         }
+
+        if (parentShower == null)
+        {
+            Debug.LogError(
+                "Meteor could not find a MeteorShower parent.",
+                this
+            );
+
+            enabled = false;
+            return;
+        }
+
+        float angleInRadians =
+            parentShower.meteorAngle * Mathf.Deg2Rad;
+
+        direction = new Vector3(
+            Mathf.Cos(angleInRadians) +
+                Random.Range(-0.15f, 0.15f),
+
+            Mathf.Sin(angleInRadians) +
+                Random.Range(-0.15f, 0.15f),
+
+            0f
+        ).normalized;
+
+        speed = parentShower.MeteorMoveSpeed + Random.Range(-0.5f, 1.0f);
+
+        float randomScale = Random.Range(0.6f, 1.4f);
+        transform.localScale = Vector3.one * randomScale;
     }
 
-    void OnDisable()
+    private void Update()
     {
-        transform.position = parentShower.transform.position;
+        transform.Translate(
+            direction * speed * Time.deltaTime,
+            Space.World
+        );
     }
 
-    void OnBecomeInvisible()
+    private void OnTriggerEnter2D(Collider2D other)
     {
+        if (!other.CompareTag("Player"))
+            return;
+
+        PlayerControls player =
+            other.GetComponent<PlayerControls>();
+
+        parentShower.Hurt(player);
+        DeactivateMeteor();
+    }
+
+    private void OnBecomeInvisible()
+    {
+        DeactivateMeteor();
+    }
+
+    private void DeactivateMeteor()
+    {
+        if (reportedInactive)
+            return;
+
+        reportedInactive = true;
+
+        if (parentShower != null)
+        {
+            parentShower.OnChildInactive();
+        }
+
         gameObject.SetActive(false);
-        parentShower.OnChildInactive();
+    }
+
+    private void OnDisable()
+    {
+        if (parentShower != null)
+        {
+            transform.position = parentShower.transform.position;
+        }
     }
 }
