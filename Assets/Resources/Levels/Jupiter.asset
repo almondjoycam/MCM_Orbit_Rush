@@ -15,6 +15,7 @@ MonoBehaviour:
   gravityConstant: 3.6
   rotationRate: 3.2
   levelName: 'Jupiter: The Giant''s Storm'
+  levelNumber: 3
   distanceToSun: 483700000
   levelTerrain: {fileID: 0}
   thresholdItemNumber: 8

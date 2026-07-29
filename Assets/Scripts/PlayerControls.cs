@@ -10,6 +10,7 @@ public class PlayerControls : MonoBehaviour
 
     [SerializeField] private Level level;
     [SerializeField] private GameObject gameOverScreen;
+    [SerializeField] private GameObject pauseScreen;
     HUDManager hud;
 
     [Header("Input Variables")]
@@ -187,6 +188,11 @@ public class PlayerControls : MonoBehaviour
             gameOverScreen.SetActive(false);
         }
 
+        if (pauseScreen != null)
+        {
+            pauseScreen.SetActive(false);
+        }
+
         if (hud != null)
         {
             hud.SetAllBars(
@@ -326,6 +332,7 @@ public class PlayerControls : MonoBehaviour
 
             // Uncomment while debugging fuel:
             // Debug.Log($"Fuel remaining: {fuel:F2}");
+            hud.SetFuel(fuel);
         }
     }
 
@@ -392,6 +399,7 @@ public class PlayerControls : MonoBehaviour
         }
 
         // pausing = true;
+        pauseScreen.SetActive(true);
         ToggleUICursor(true);
     }
 
@@ -403,6 +411,7 @@ public class PlayerControls : MonoBehaviour
         }
 
         // pausing = false;
+        pauseScreen.SetActive(false);
         ToggleUICursor(false);
     }
 
@@ -457,6 +466,7 @@ public class PlayerControls : MonoBehaviour
         health = Mathf.Clamp(health, 0f, maxHealth);
 
         Debug.Log("Current Health: " + health);
+        hud.SetHealth(health);
     }
 
     public void RestoreBoost(float amount)
@@ -465,6 +475,7 @@ public class PlayerControls : MonoBehaviour
         fuel = Mathf.Clamp(fuel, 0f, maxFuel);
 
         Debug.Log("Current Boost Energy: " + fuel);
+        hud.SetFuel(fuel);
     }
 
     public void ActivateShield(float duration)
@@ -666,7 +677,7 @@ public class PlayerControls : MonoBehaviour
 
             bullet.speed = 5f;
 
-            Debug.Log("Pew pew");
+            // Debug.Log("Pew pew");
         }
     }
 }

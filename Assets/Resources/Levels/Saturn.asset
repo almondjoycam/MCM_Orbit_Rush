@@ -15,6 +15,7 @@ MonoBehaviour:
   gravityConstant: 2.4
   rotationRate: 2.1
   levelName: 'Saturn: The Ring Gauntlet'
+  levelNumber: 2
   distanceToSun: 889800000
   levelTerrain: {fileID: 0}
   thresholdItemNumber: 7

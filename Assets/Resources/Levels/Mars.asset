@@ -15,6 +15,7 @@ MonoBehaviour:
   gravityConstant: 3.1
   rotationRate: 2.5
   levelName: 'Mars: The Rusted Frontier'
+  levelNumber: 4
   distanceToSun: 141600000
   levelTerrain: {fileID: 0}
   thresholdItemNumber: 9

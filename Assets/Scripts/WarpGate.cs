@@ -3,8 +3,14 @@ using UnityEngine;
 public class WarpGate : MonoBehaviour
 {
     [SerializeField] private GameObject missionCompleteScreen;
+    private Level level;
 
     private bool completed;
+
+    void Start()
+    {
+        level = FindAnyObjectByType<Level>();
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -38,7 +44,8 @@ public class WarpGate : MonoBehaviour
 
         completed = true;
 
-        Debug.Log("Neptune Mission Complete!");
+        // Debug.Log("Neptune Mission Complete!");
+        PlayerPrefs.SetInt("MaxLevel", level.levelData.levelNumber + 1);
 
         missionCompleteScreen.SetActive(true);
 

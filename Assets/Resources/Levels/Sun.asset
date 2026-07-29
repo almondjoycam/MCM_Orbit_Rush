@@ -15,6 +15,7 @@ MonoBehaviour:
   gravityConstant: 3
   rotationRate: 0
   levelName: 'Sun: The Eternal Light'
+  levelNumber: 8
   distanceToSun: 0
   levelTerrain: {fileID: 866607757990107933, guid: 9a8c9575b25c7e543950790e6d3f2eaa, type: 3}
   thresholdItemNumber: 0

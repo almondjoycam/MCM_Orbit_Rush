@@ -15,6 +15,7 @@ MonoBehaviour:
   gravityConstant: 2.2
   rotationRate: 4
   levelName: 'Uranus: The Tilted Spiral'
+  levelNumber: 1
   distanceToSun: 1800000000
   levelTerrain: {fileID: 0}
   thresholdItemNumber: 6

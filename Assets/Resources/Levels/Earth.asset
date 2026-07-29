@@ -15,6 +15,7 @@ MonoBehaviour:
   gravityConstant: 1
   rotationRate: 0
   levelName: 'Earth: The Safe Haven'
+  levelNumber: 5
   distanceToSun: 93000000
   levelTerrain: {fileID: 0}
   thresholdItemNumber: 0

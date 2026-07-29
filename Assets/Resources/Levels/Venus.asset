@@ -15,6 +15,7 @@ MonoBehaviour:
   gravityConstant: 5.2
   rotationRate: 1.7
   levelName: 'Venus: The Pressure Zone'
+  levelNumber: 6
   distanceToSun: 67200000
   levelTerrain: {fileID: 0}
   thresholdItemNumber: 10

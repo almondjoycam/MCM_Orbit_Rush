@@ -15,6 +15,7 @@ MonoBehaviour:
   gravityConstant: 1.8
   rotationRate: 4.2
   levelName: 'Mercury: The Scorched Loop'
+  levelNumber: 7
   distanceToSun: 36000000
   levelTerrain: {fileID: 0}
   thresholdItemNumber: 11
