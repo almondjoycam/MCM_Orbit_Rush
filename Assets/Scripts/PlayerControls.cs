@@ -182,14 +182,20 @@ public class PlayerControls : MonoBehaviour
 
     private void ResetUI()
     {
-        gameIsOver = false;
-
         if (gameOverScreen != null)
         {
             gameOverScreen.SetActive(false);
         }
 
-        hud.SetHealth(health);
+        if (hud != null)
+        {
+            hud.SetAllBars(
+                health,
+                fuel,
+                shieldActive ? 100f : 0f
+            );
+        }
+
         ToggleUICursor(false);
     }
 
@@ -227,14 +233,19 @@ public class PlayerControls : MonoBehaviour
 
     private void UpdateThrustInput()
     {
-        thrusting = thrust != null && thrust.IsPressed();
+        if (thrust == null)
+        {
+            thrusting = false;
+            return;
+        }
+
+        thrusting = thrust.IsPressed();
 
         if (fuel <= 0f)
         {
             fuel = 0f;
             GameOver();
         }
-        hud.SetFuel(fuel);
     }
 
     private void UpdateLevelRotation()
