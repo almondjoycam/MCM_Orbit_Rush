@@ -272,6 +272,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 800495093}
+    - target: {fileID: 1760583272288154918, guid: 2326c71a7861d4e02a6bb23de405bd88, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -947.4768
+      objectReference: {fileID: 0}
     - target: {fileID: 2710685600393043752, guid: 2326c71a7861d4e02a6bb23de405bd88, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -352,6 +356,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5704863169970547735, guid: 2326c71a7861d4e02a6bb23de405bd88, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -474.76883
+      objectReference: {fileID: 0}
+    - target: {fileID: 5833638222943489137, guid: 2326c71a7861d4e02a6bb23de405bd88, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: d7a9cfea7750148208a06dd3e40f1259, type: 2}
+    - target: {fileID: 5833638222943489137, guid: 2326c71a7861d4e02a6bb23de405bd88, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 6904045080508561875, guid: d7a9cfea7750148208a06dd3e40f1259, type: 2}
+    - target: {fileID: 5833638222943489137, guid: 2326c71a7861d4e02a6bb23de405bd88, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8995264132764907678, guid: 2326c71a7861d4e02a6bb23de405bd88, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 6feed6b14875c4dce86e0a86718a7c4b, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
