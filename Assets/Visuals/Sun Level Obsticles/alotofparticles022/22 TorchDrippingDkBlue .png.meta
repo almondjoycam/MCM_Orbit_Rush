@@ -1,0 +1,2210 @@
+fileFormatVersion: 2
+guid: e213f993e960c47318a44ed200820df1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2613739437633063414
+    second: 22 TorchDrippingDkBlue _0
+  - first:
+      213: -2189387710010648303
+    second: 22 TorchDrippingDkBlue _1
+  - first:
+      213: -2102873455462514131
+    second: 22 TorchDrippingDkBlue _2
+  - first:
+      213: -6259034860999379985
+    second: 22 TorchDrippingDkBlue _3
+  - first:
+      213: 724590271725629392
+    second: 22 TorchDrippingDkBlue _4
+  - first:
+      213: -4676149084402296011
+    second: 22 TorchDrippingDkBlue _5
+  - first:
+      213: -1216160145665541483
+    second: 22 TorchDrippingDkBlue _6
+  - first:
+      213: -8406805083466512238
+    second: 22 TorchDrippingDkBlue _7
+  - first:
+      213: 7939059714533271534
+    second: 22 TorchDrippingDkBlue _8
+  - first:
+      213: 8805038704699717162
+    second: 22 TorchDrippingDkBlue _9
+  - first:
+      213: 8498002052768759932
+    second: 22 TorchDrippingDkBlue _10
+  - first:
+      213: 4614851809175698253
+    second: 22 TorchDrippingDkBlue _11
+  - first:
+      213: -3932586566868975513
+    second: 22 TorchDrippingDkBlue _12
+  - first:
+      213: 6026827016196589362
+    second: 22 TorchDrippingDkBlue _13
+  - first:
+      213: 1959849847081884129
+    second: 22 TorchDrippingDkBlue _14
+  - first:
+      213: -4307326972985256614
+    second: 22 TorchDrippingDkBlue _15
+  - first:
+      213: -2744478201322893337
+    second: 22 TorchDrippingDkBlue _16
+  - first:
+      213: -4363614189752565465
+    second: 22 TorchDrippingDkBlue _17
+  - first:
+      213: 4780885073742928574
+    second: 22 TorchDrippingDkBlue _18
+  - first:
+      213: -5959096822110204321
+    second: 22 TorchDrippingDkBlue _19
+  - first:
+      213: 453106420252339367
+    second: 22 TorchDrippingDkBlue _20
+  - first:
+      213: 3647404822925971980
+    second: 22 TorchDrippingDkBlue _21
+  - first:
+      213: -2993523012110566158
+    second: 22 TorchDrippingDkBlue _22
+  - first:
+      213: 8324249513525433032
+    second: 22 TorchDrippingDkBlue _23
+  - first:
+      213: -2710905500877993774
+    second: 22 TorchDrippingDkBlue _24
+  - first:
+      213: -8674782868267665248
+    second: 22 TorchDrippingDkBlue _25
+  - first:
+      213: -6929272917808981889
+    second: 22 TorchDrippingDkBlue _26
+  - first:
+      213: 1458003182302413347
+    second: 22 TorchDrippingDkBlue _27
+  - first:
+      213: 3927215013699355722
+    second: 22 TorchDrippingDkBlue _28
+  - first:
+      213: 7549948808445366755
+    second: 22 TorchDrippingDkBlue _29
+  - first:
+      213: 3161355633621033436
+    second: 22 TorchDrippingDkBlue _30
+  - first:
+      213: -7537414980779407532
+    second: 22 TorchDrippingDkBlue _31
+  - first:
+      213: -5613758015078431580
+    second: 22 TorchDrippingDkBlue _32
+  - first:
+      213: 7716943368676602649
+    second: 22 TorchDrippingDkBlue _33
+  - first:
+      213: 409047541021828683
+    second: 22 TorchDrippingDkBlue _34
+  - first:
+      213: 7801982315133525373
+    second: 22 TorchDrippingDkBlue _35
+  - first:
+      213: -7897963555319364640
+    second: 22 TorchDrippingDkBlue _36
+  - first:
+      213: 4655641352434530625
+    second: 22 TorchDrippingDkBlue _37
+  - first:
+      213: -172722334611063015
+    second: 22 TorchDrippingDkBlue _38
+  - first:
+      213: 8327065520901335363
+    second: 22 TorchDrippingDkBlue _39
+  - first:
+      213: 5257745511674610546
+    second: 22 TorchDrippingDkBlue _40
+  - first:
+      213: -2107785782835292275
+    second: 22 TorchDrippingDkBlue _41
+  - first:
+      213: 2813223555509042001
+    second: 22 TorchDrippingDkBlue _42
+  - first:
+      213: 78861625418160040
+    second: 22 TorchDrippingDkBlue _43
+  - first:
+      213: 349277952700623557
+    second: 22 TorchDrippingDkBlue _44
+  - first:
+      213: 4229859632354157357
+    second: 22 TorchDrippingDkBlue _45
+  - first:
+      213: -5093698415760894487
+    second: 22 TorchDrippingDkBlue _46
+  - first:
+      213: -785191775585036268
+    second: 22 TorchDrippingDkBlue _47
+  - first:
+      213: 4966702930259597538
+    second: 22 TorchDrippingDkBlue _48
+  - first:
+      213: -888836468698678046
+    second: 22 TorchDrippingDkBlue _49
+  - first:
+      213: 4809289150323793057
+    second: 22 TorchDrippingDkBlue _50
+  - first:
+      213: -6844178770721246172
+    second: 22 TorchDrippingDkBlue _51
+  - first:
+      213: -5583722891562648108
+    second: 22 TorchDrippingDkBlue _52
+  - first:
+      213: -202161931578262814
+    second: 22 TorchDrippingDkBlue _53
+  - first:
+      213: -729005223177105995
+    second: 22 TorchDrippingDkBlue _54
+  - first:
+      213: 5161123955543807338
+    second: 22 TorchDrippingDkBlue _55
+  - first:
+      213: 3770106647424927032
+    second: 22 TorchDrippingDkBlue _56
+  - first:
+      213: 6504283992423474307
+    second: 22 TorchDrippingDkBlue _57
+  - first:
+      213: -202225324240212910
+    second: 22 TorchDrippingDkBlue _58
+  - first:
+      213: 2954897070981480864
+    second: 22 TorchDrippingDkBlue _59
+  - first:
+      213: -1765780419430353961
+    second: 22 TorchDrippingDkBlue _60
+  - first:
+      213: -1948051288639562641
+    second: 22 TorchDrippingDkBlue _61
+  - first:
+      213: -4387431544776617471
+    second: 22 TorchDrippingDkBlue _62
+  - first:
+      213: -946688190522590595
+    second: 22 TorchDrippingDkBlue _63
+  - first:
+      213: -3016533440752281209
+    second: 22 TorchDrippingDkBlue _64
+  - first:
+      213: -3582675955595829825
+    second: 22 TorchDrippingDkBlue _65
+  - first:
+      213: -1965022229326613636
+    second: 22 TorchDrippingDkBlue _66
+  - first:
+      213: 181534530714434792
+    second: 22 TorchDrippingDkBlue _67
+  - first:
+      213: 6578304390986128452
+    second: 22 TorchDrippingDkBlue _68
+  - first:
+      213: -8958972633776620354
+    second: 22 TorchDrippingDkBlue _69
+  - first:
+      213: -1593061886422135831
+    second: 22 TorchDrippingDkBlue _70
+  - first:
+      213: 1666160956169714709
+    second: 22 TorchDrippingDkBlue _71
+  - first:
+      213: -4289260255333731867
+    second: 22 TorchDrippingDkBlue _72
+  - first:
+      213: 7103442922580028872
+    second: 22 TorchDrippingDkBlue _73
+  - first:
+      213: 5911731691331163043
+    second: 22 TorchDrippingDkBlue _74
+  - first:
+      213: 3929083885028688333
+    second: 22 TorchDrippingDkBlue _75
+  - first:
+      213: -7398696447154766355
+    second: 22 TorchDrippingDkBlue _76
+  - first:
+      213: 9202640280354829488
+    second: 22 TorchDrippingDkBlue _77
+  - first:
+      213: 1998230241452396809
+    second: 22 TorchDrippingDkBlue _78
+  - first:
+      213: 7022628106948956842
+    second: 22 TorchDrippingDkBlue _79
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1173
+        width: 64
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f94c8b9b2ed54420800000000000000
+      internalID: 2613739437633063414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _1
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 1169
+        width: 66
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11995354a7bbd91e0800000000000000
+      internalID: -2189387710010648303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _2
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 1174
+        width: 67
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d220f87dbb711d2e0800000000000000
+      internalID: -2102873455462514131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _3
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1176
+        width: 68
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe37859a4f07329a0800000000000000
+      internalID: -6259034860999379985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _4
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1336
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dfe8e953034e0a00800000000000000
+      internalID: 724590271725629392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _5
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1176
+        width: 66
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53bde6bde2bfa1fb0800000000000000
+      internalID: -4676149084402296011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _6
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1165
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a3e9f7ac45f1fe0800000000000000
+      internalID: -1216160145665541483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _7
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1161
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 298c7085157055b80800000000000000
+      internalID: -8406805083466512238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _8
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1157
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7ae575fb43d2e60800000000000000
+      internalID: 7939059714533271534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _9
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 982
+        width: 68
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2631330d08c13a70800000000000000
+      internalID: 8805038704699717162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 978
+        width: 68
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7082d7b7d7fee570800000000000000
+      internalID: 8498002052768759932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _11
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 1134
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b7cf8154f3b0040800000000000000
+      internalID: 4614851809175698253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _12
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 1145
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7604d496a55ac69c0800000000000000
+      internalID: -3932586566868975513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _13
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 984
+        width: 66
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 237002f5d3793a350800000000000000
+      internalID: 6026827016196589362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _14
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 984
+        width: 63
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e95b6c5d09c23b10800000000000000
+      internalID: 1959849847081884129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _15
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 985
+        width: 63
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5551c370fc4934c0800000000000000
+      internalID: -4307326972985256614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _16
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 975
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef8854ed97a9e9d0800000000000000
+      internalID: -2744478201322893337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _17
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 971
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721c1fa83045173c0800000000000000
+      internalID: -4363614189752565465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _18
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 967
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba1a64f4ad195240800000000000000
+      internalID: 4780885073742928574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _19
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 792
+        width: 64
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e46ff43090d4da0800000000000000
+      internalID: -5959096822110204321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _20
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 952
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ace69873e1c94600800000000000000
+      internalID: 453106420252339367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _21
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 960
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c029c869c5f2e9230800000000000000
+      internalID: 3647404822925971980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _22
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 792
+        width: 62
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc313c4eaed476d0800000000000000
+      internalID: -2993523012110566158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _23
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 792
+        width: 65
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2d66b24dca58370800000000000000
+      internalID: 8324249513525433032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _24
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 793
+        width: 66
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8c3885fcde06ad0800000000000000
+      internalID: -2710905500877993774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _25
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 793
+        width: 66
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8f24931fafc9780800000000000000
+      internalID: -8674782868267665248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _26
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 955
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78d24e7ef646df90800000000000000
+      internalID: -6929272917808981889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _27
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 943
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32246826b2edb3410800000000000000
+      internalID: 1458003182302413347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _28
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 920
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4481286f35408630800000000000000
+      internalID: 3927215013699355722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _29
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 762
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e115cf907ec6c860800000000000000
+      internalID: 7549948808445366755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _30
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 765
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd169aef2346fdb20800000000000000
+      internalID: 3161355633621033436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _31
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 599
+        width: 69
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4578fe98209b56790800000000000000
+      internalID: -7537414980779407532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _32
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 763
+        width: 13
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a48f3804dce712b0800000000000000
+      internalID: -5613758015078431580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _33
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 747
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91376c19b17181b60800000000000000
+      internalID: 7716943368676602649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _34
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 762
+        width: 17
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b466ad2429a3da500800000000000000
+      internalID: 409047541021828683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _35
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 600
+        width: 67
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7dd9653495364c60800000000000000
+      internalID: 7801982315133525373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _36
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 750
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3453cddfbc46290800000000000000
+      internalID: -7897963555319364640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _37
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 592
+        width: 61
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149ba75b4292c9040800000000000000
+      internalID: 4655641352434530625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _38
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 588
+        width: 64
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f3bb8a3fd5a9df0800000000000000
+      internalID: -172722334611063015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _39
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 739
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3492abaf8fdaf8370800000000000000
+      internalID: 8327065520901335363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _40
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 595
+        width: 58
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27305c6afa347f840800000000000000
+      internalID: 5257745511674610546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _41
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 710
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87db7f7ff3afb2e0800000000000000
+      internalID: -2107785782835292275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _42
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 696
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15bb0eb2be39a0720800000000000000
+      internalID: 2813223555509042001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _43
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 703
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a795710b3c281100800000000000000
+      internalID: 78861625418160040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _44
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 690
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5caa89a8272e8d400800000000000000
+      internalID: 349277952700623557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _45
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 410
+        width: 67
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d23eb34ccea73ba30800000000000000
+      internalID: 4229859632354157357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _46
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 410
+        width: 69
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e51a97474c8f49b0800000000000000
+      internalID: -5093698415760894487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _47
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 552
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41812bf7d307a15f0800000000000000
+      internalID: -785191775585036268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _48
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 408
+        width: 71
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e8d30710064de440800000000000000
+      internalID: 4966702930259597538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _49
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 567
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec7dc3e0f73aa3f0800000000000000
+      internalID: -888836468698678046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _50
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 405
+        width: 71
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac903360070eb240800000000000000
+      internalID: 4809289150323793057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _51
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 559
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 424f3e78ba79401a0800000000000000
+      internalID: -6844178770721246172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _52
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 409
+        width: 68
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ddf03c2d91a282b0800000000000000
+      internalID: -5583722891562648108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _53
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 551
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eabb295bc6c13df0800000000000000
+      internalID: -202161931578262814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _54
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 543
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bdcf19ac9d02e5f0800000000000000
+      internalID: -729005223177105995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _55
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 535
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6592fb84eeff9740800000000000000
+      internalID: 5161123955543807338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _56
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 526
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8350a1d550c125430800000000000000
+      internalID: 3770106647424927032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _57
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 218
+        width: 55
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38429a674dbd34a50800000000000000
+      internalID: 6504283992423474307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _58
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 376
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25ce218932d813df0800000000000000
+      internalID: -202225324240212910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _59
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 218
+        width: 59
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a181b7fa37e10920800000000000000
+      internalID: 2954897070981480864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _60
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 218
+        width: 61
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d373846010be77e0800000000000000
+      internalID: -1765780419430353961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _61
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 218
+        width: 62
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c95689ca127f4e0800000000000000
+      internalID: -1948051288639562641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _62
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 358
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1021f317146bc13c0800000000000000
+      internalID: -4387431544776617471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _63
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 372
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7af7d24b10bcd2f0800000000000000
+      internalID: -946688190522590595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _64
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 356
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7899fd261de1326d0800000000000000
+      internalID: -3016533440752281209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _65
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 357
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd90614337c74ec0800000000000000
+      internalID: -3582675955595829825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _66
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 209
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c73bd3d81b6dab4e0800000000000000
+      internalID: -1965022229326613636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _67
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 217
+        width: 63
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ec73b1a1b0f48200800000000000000
+      internalID: 181534530714434792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _68
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 206
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44cde118df4da4b50800000000000000
+      internalID: 6578304390986128452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _69
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 201
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc7c433bd55ba380800000000000000
+      internalID: -8958972633776620354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _70
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 197
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb489a97ae44e9e0800000000000000
+      internalID: -1593061886422135831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _71
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 183
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51cfe1bdf846f1710800000000000000
+      internalID: 1666160956169714709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _72
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 22
+        width: 62
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1b1a3f58c7974c0800000000000000
+      internalID: -4289260255333731867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _73
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 192
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd25a2d3bf749260800000000000000
+      internalID: 7103442922580028872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _74
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 184
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3963dc6a0ba0250800000000000000
+      internalID: 5911731691331163043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _75
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 185
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc1c8dbe9f8e68630800000000000000
+      internalID: 3929083885028688333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _76
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 174
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ded356208cc825990800000000000000
+      internalID: -7398696447154766355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _77
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 176
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4304ac39856bf70800000000000000
+      internalID: 9202640280354829488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _78
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 175
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901963941d32bbb10800000000000000
+      internalID: 1998230241452396809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingDkBlue _79
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 23
+        width: 65
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa2dd584e03657160800000000000000
+      internalID: 7022628106948956842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      22 TorchDrippingDkBlue _0: 2613739437633063414
+      22 TorchDrippingDkBlue _1: -2189387710010648303
+      22 TorchDrippingDkBlue _10: 8498002052768759932
+      22 TorchDrippingDkBlue _11: 4614851809175698253
+      22 TorchDrippingDkBlue _12: -3932586566868975513
+      22 TorchDrippingDkBlue _13: 6026827016196589362
+      22 TorchDrippingDkBlue _14: 1959849847081884129
+      22 TorchDrippingDkBlue _15: -4307326972985256614
+      22 TorchDrippingDkBlue _16: -2744478201322893337
+      22 TorchDrippingDkBlue _17: -4363614189752565465
+      22 TorchDrippingDkBlue _18: 4780885073742928574
+      22 TorchDrippingDkBlue _19: -5959096822110204321
+      22 TorchDrippingDkBlue _2: -2102873455462514131
+      22 TorchDrippingDkBlue _20: 453106420252339367
+      22 TorchDrippingDkBlue _21: 3647404822925971980
+      22 TorchDrippingDkBlue _22: -2993523012110566158
+      22 TorchDrippingDkBlue _23: 8324249513525433032
+      22 TorchDrippingDkBlue _24: -2710905500877993774
+      22 TorchDrippingDkBlue _25: -8674782868267665248
+      22 TorchDrippingDkBlue _26: -6929272917808981889
+      22 TorchDrippingDkBlue _27: 1458003182302413347
+      22 TorchDrippingDkBlue _28: 3927215013699355722
+      22 TorchDrippingDkBlue _29: 7549948808445366755
+      22 TorchDrippingDkBlue _3: -6259034860999379985
+      22 TorchDrippingDkBlue _30: 3161355633621033436
+      22 TorchDrippingDkBlue _31: -7537414980779407532
+      22 TorchDrippingDkBlue _32: -5613758015078431580
+      22 TorchDrippingDkBlue _33: 7716943368676602649
+      22 TorchDrippingDkBlue _34: 409047541021828683
+      22 TorchDrippingDkBlue _35: 7801982315133525373
+      22 TorchDrippingDkBlue _36: -7897963555319364640
+      22 TorchDrippingDkBlue _37: 4655641352434530625
+      22 TorchDrippingDkBlue _38: -172722334611063015
+      22 TorchDrippingDkBlue _39: 8327065520901335363
+      22 TorchDrippingDkBlue _4: 724590271725629392
+      22 TorchDrippingDkBlue _40: 5257745511674610546
+      22 TorchDrippingDkBlue _41: -2107785782835292275
+      22 TorchDrippingDkBlue _42: 2813223555509042001
+      22 TorchDrippingDkBlue _43: 78861625418160040
+      22 TorchDrippingDkBlue _44: 349277952700623557
+      22 TorchDrippingDkBlue _45: 4229859632354157357
+      22 TorchDrippingDkBlue _46: -5093698415760894487
+      22 TorchDrippingDkBlue _47: -785191775585036268
+      22 TorchDrippingDkBlue _48: 4966702930259597538
+      22 TorchDrippingDkBlue _49: -888836468698678046
+      22 TorchDrippingDkBlue _5: -4676149084402296011
+      22 TorchDrippingDkBlue _50: 4809289150323793057
+      22 TorchDrippingDkBlue _51: -6844178770721246172
+      22 TorchDrippingDkBlue _52: -5583722891562648108
+      22 TorchDrippingDkBlue _53: -202161931578262814
+      22 TorchDrippingDkBlue _54: -729005223177105995
+      22 TorchDrippingDkBlue _55: 5161123955543807338
+      22 TorchDrippingDkBlue _56: 3770106647424927032
+      22 TorchDrippingDkBlue _57: 6504283992423474307
+      22 TorchDrippingDkBlue _58: -202225324240212910
+      22 TorchDrippingDkBlue _59: 2954897070981480864
+      22 TorchDrippingDkBlue _6: -1216160145665541483
+      22 TorchDrippingDkBlue _60: -1765780419430353961
+      22 TorchDrippingDkBlue _61: -1948051288639562641
+      22 TorchDrippingDkBlue _62: -4387431544776617471
+      22 TorchDrippingDkBlue _63: -946688190522590595
+      22 TorchDrippingDkBlue _64: -3016533440752281209
+      22 TorchDrippingDkBlue _65: -3582675955595829825
+      22 TorchDrippingDkBlue _66: -1965022229326613636
+      22 TorchDrippingDkBlue _67: 181534530714434792
+      22 TorchDrippingDkBlue _68: 6578304390986128452
+      22 TorchDrippingDkBlue _69: -8958972633776620354
+      22 TorchDrippingDkBlue _7: -8406805083466512238
+      22 TorchDrippingDkBlue _70: -1593061886422135831
+      22 TorchDrippingDkBlue _71: 1666160956169714709
+      22 TorchDrippingDkBlue _72: -4289260255333731867
+      22 TorchDrippingDkBlue _73: 7103442922580028872
+      22 TorchDrippingDkBlue _74: 5911731691331163043
+      22 TorchDrippingDkBlue _75: 3929083885028688333
+      22 TorchDrippingDkBlue _76: -7398696447154766355
+      22 TorchDrippingDkBlue _77: 9202640280354829488
+      22 TorchDrippingDkBlue _78: 1998230241452396809
+      22 TorchDrippingDkBlue _79: 7022628106948956842
+      22 TorchDrippingDkBlue _8: 7939059714533271534
+      22 TorchDrippingDkBlue _9: 8805038704699717162
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

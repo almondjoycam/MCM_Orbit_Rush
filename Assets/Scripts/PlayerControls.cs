@@ -29,7 +29,7 @@ public class PlayerControls : MonoBehaviour
     private float steerValue;
     private Vector2 lookValue;
     private bool thrusting;
-    private bool pausing;
+    // private bool pausing;
 
     private IWeapon currentWeapon;
 
@@ -175,6 +175,9 @@ public class PlayerControls : MonoBehaviour
         );
 
         screenBounds = new Bounds(center, size);
+        Debug.Log(screenBounds);
+        level.GetComponent<ObstacleSpawner>().SetSpawnPosition(
+            new Vector3(screenBounds.max.x, screenBounds.max.y));
     }
 
     private void ResetUI()
@@ -366,8 +369,9 @@ public class PlayerControls : MonoBehaviour
 
     private void Thrust()
     {
-            // Movement is handled in FixedUpdate.
-            // Add engine flame, sound, or particles here later.
+        anim.SetTrigger("Thrust");
+        // Movement is handled in FixedUpdate.
+        // Add engine flame, sound, or particles here later.
     }
 
     private void Fire()
@@ -387,7 +391,7 @@ public class PlayerControls : MonoBehaviour
             return;
         }
 
-        pausing = true;
+        // pausing = true;
         ToggleUICursor(true);
     }
 
@@ -398,7 +402,7 @@ public class PlayerControls : MonoBehaviour
             return;
         }
 
-        pausing = false;
+        // pausing = false;
         ToggleUICursor(false);
     }
 
@@ -518,6 +522,13 @@ public class PlayerControls : MonoBehaviour
         }
     }
 
+    private void OnCollisionStay2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Terrain"))
+        {
+            anim.SetBool("Walking", true);
+        }
+    }
     
     private void OnCollisionExit2D(Collision2D other)
     {

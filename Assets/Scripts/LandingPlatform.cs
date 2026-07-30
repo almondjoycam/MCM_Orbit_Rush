@@ -28,7 +28,7 @@ public class LandingPlatform : MonoBehaviour
         Debug.Log("Mission Complete!");
 
         // Stop hazards
-        Level level = FindFirstObjectByType<Level>();
+        Level level = FindAnyObjectByType<Level>();
 
         if (level != null)
             level.enabled = false;

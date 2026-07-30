@@ -1,0 +1,2054 @@
+fileFormatVersion: 2
+guid: c47b6301766b84dd28baa97028eb655e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1719831428402894831
+    second: 22 TorchDrippingGreen _0
+  - first:
+      213: -8675772819386529826
+    second: 22 TorchDrippingGreen _1
+  - first:
+      213: -6383094968304923106
+    second: 22 TorchDrippingGreen _2
+  - first:
+      213: -315223065270543746
+    second: 22 TorchDrippingGreen _3
+  - first:
+      213: 1356365240778304355
+    second: 22 TorchDrippingGreen _4
+  - first:
+      213: 6135143279818447123
+    second: 22 TorchDrippingGreen _5
+  - first:
+      213: -1271148155407845774
+    second: 22 TorchDrippingGreen _6
+  - first:
+      213: -5034996956703477799
+    second: 22 TorchDrippingGreen _7
+  - first:
+      213: 8898919732247785386
+    second: 22 TorchDrippingGreen _8
+  - first:
+      213: 1962234534161129721
+    second: 22 TorchDrippingGreen _9
+  - first:
+      213: -4594930695918724628
+    second: 22 TorchDrippingGreen _10
+  - first:
+      213: 6392682741452523023
+    second: 22 TorchDrippingGreen _11
+  - first:
+      213: -4365827185523865800
+    second: 22 TorchDrippingGreen _12
+  - first:
+      213: 7159791047265664128
+    second: 22 TorchDrippingGreen _13
+  - first:
+      213: 7044334894302466535
+    second: 22 TorchDrippingGreen _14
+  - first:
+      213: 2051772128374333673
+    second: 22 TorchDrippingGreen _15
+  - first:
+      213: -8465891476019961005
+    second: 22 TorchDrippingGreen _16
+  - first:
+      213: -2375920550278577163
+    second: 22 TorchDrippingGreen _17
+  - first:
+      213: 1500654201955373698
+    second: 22 TorchDrippingGreen _18
+  - first:
+      213: -5621194566984662289
+    second: 22 TorchDrippingGreen _19
+  - first:
+      213: -5946747455361446260
+    second: 22 TorchDrippingGreen _20
+  - first:
+      213: 6639598571788009496
+    second: 22 TorchDrippingGreen _21
+  - first:
+      213: 1551294277596661788
+    second: 22 TorchDrippingGreen _22
+  - first:
+      213: -1990302182276369464
+    second: 22 TorchDrippingGreen _23
+  - first:
+      213: 2011737364630521518
+    second: 22 TorchDrippingGreen _24
+  - first:
+      213: -3486515447808456659
+    second: 22 TorchDrippingGreen _25
+  - first:
+      213: -8092389571618169527
+    second: 22 TorchDrippingGreen _26
+  - first:
+      213: -7718298879092188462
+    second: 22 TorchDrippingGreen _27
+  - first:
+      213: 5437132262851267248
+    second: 22 TorchDrippingGreen _28
+  - first:
+      213: 7321813395347297653
+    second: 22 TorchDrippingGreen _29
+  - first:
+      213: 306111116950213136
+    second: 22 TorchDrippingGreen _30
+  - first:
+      213: -6815727509037686204
+    second: 22 TorchDrippingGreen _31
+  - first:
+      213: 6755332755144112845
+    second: 22 TorchDrippingGreen _32
+  - first:
+      213: -6414687356491916106
+    second: 22 TorchDrippingGreen _33
+  - first:
+      213: -8071473624821853597
+    second: 22 TorchDrippingGreen _34
+  - first:
+      213: -4848040613906552824
+    second: 22 TorchDrippingGreen _35
+  - first:
+      213: 6141351096665543585
+    second: 22 TorchDrippingGreen _36
+  - first:
+      213: 1227715953243340386
+    second: 22 TorchDrippingGreen _37
+  - first:
+      213: -1946912749321112762
+    second: 22 TorchDrippingGreen _38
+  - first:
+      213: -5553523425885758317
+    second: 22 TorchDrippingGreen _39
+  - first:
+      213: 3131311685112230580
+    second: 22 TorchDrippingGreen _40
+  - first:
+      213: -1521991491020321768
+    second: 22 TorchDrippingGreen _41
+  - first:
+      213: -225549329182555914
+    second: 22 TorchDrippingGreen _42
+  - first:
+      213: 6071328971740488342
+    second: 22 TorchDrippingGreen _43
+  - first:
+      213: 3174427537921701928
+    second: 22 TorchDrippingGreen _44
+  - first:
+      213: 2845556546996238879
+    second: 22 TorchDrippingGreen _45
+  - first:
+      213: -6278932608272672989
+    second: 22 TorchDrippingGreen _46
+  - first:
+      213: -1275394847887682404
+    second: 22 TorchDrippingGreen _47
+  - first:
+      213: 4952724640992082711
+    second: 22 TorchDrippingGreen _48
+  - first:
+      213: 3021559252788127827
+    second: 22 TorchDrippingGreen _49
+  - first:
+      213: 1175325995347544856
+    second: 22 TorchDrippingGreen _50
+  - first:
+      213: -317666293267742742
+    second: 22 TorchDrippingGreen _51
+  - first:
+      213: 7400183267119345759
+    second: 22 TorchDrippingGreen _52
+  - first:
+      213: 4861782381833493306
+    second: 22 TorchDrippingGreen _53
+  - first:
+      213: 1447714173374410044
+    second: 22 TorchDrippingGreen _54
+  - first:
+      213: 2519154133834387470
+    second: 22 TorchDrippingGreen _55
+  - first:
+      213: -7724127938709879576
+    second: 22 TorchDrippingGreen _56
+  - first:
+      213: -928122674448480552
+    second: 22 TorchDrippingGreen _57
+  - first:
+      213: -1327157870044191772
+    second: 22 TorchDrippingGreen _58
+  - first:
+      213: -3207345409551389671
+    second: 22 TorchDrippingGreen _59
+  - first:
+      213: 8001196310560124548
+    second: 22 TorchDrippingGreen _60
+  - first:
+      213: 4557737472581756986
+    second: 22 TorchDrippingGreen _61
+  - first:
+      213: 57597922490296870
+    second: 22 TorchDrippingGreen _62
+  - first:
+      213: 7984975191565927901
+    second: 22 TorchDrippingGreen _63
+  - first:
+      213: 6826788485213194543
+    second: 22 TorchDrippingGreen _64
+  - first:
+      213: -8148462507485920272
+    second: 22 TorchDrippingGreen _65
+  - first:
+      213: -4794616498605997386
+    second: 22 TorchDrippingGreen _66
+  - first:
+      213: -9168487220552344046
+    second: 22 TorchDrippingGreen _67
+  - first:
+      213: 6302841189509739377
+    second: 22 TorchDrippingGreen _68
+  - first:
+      213: 991067959657735715
+    second: 22 TorchDrippingGreen _69
+  - first:
+      213: -1736533715766555706
+    second: 22 TorchDrippingGreen _70
+  - first:
+      213: 1694209808182263078
+    second: 22 TorchDrippingGreen _71
+  - first:
+      213: 8673262032441258126
+    second: 22 TorchDrippingGreen _72
+  - first:
+      213: 5559724147142065014
+    second: 22 TorchDrippingGreen _73
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _0
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 1173
+        width: 60
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe7d18372911ed710800000000000000
+      internalID: 1719831428402894831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _1
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1338
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed70a744696799780800000000000000
+      internalID: -8675772819386529826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _2
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1338
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1e0a9602f0ba67a0800000000000000
+      internalID: -6383094968304923106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _3
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 1331
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a1a81da4a10abf0800000000000000
+      internalID: -315223065270543746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _4
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1336
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b274a0007c2d210800000000000000
+      internalID: 1356365240778304355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _5
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 1176
+        width: 68
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31914bfbe48642550800000000000000
+      internalID: 6135143279818447123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _6
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1172
+        width: 62
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276b50ccc79fb5ee0800000000000000
+      internalID: -1271148155407845774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _7
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1175
+        width: 63
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df2486c1f8102ab0800000000000000
+      internalID: -5034996956703477799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _8
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 1176
+        width: 65
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aafe75519505f7b70800000000000000
+      internalID: 8898919732247785386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _9
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 1168
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0ada699e14b3b10800000000000000
+      internalID: 1962234534161129721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _10
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1164
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce9d93680e68b30c0800000000000000
+      internalID: -4594930695918724628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _11
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1160
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f064c0e551f57b850800000000000000
+      internalID: 6392682741452523023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _12
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1140
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8374b105e477963c0800000000000000
+      internalID: -4365827185523865800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _13
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 1139
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08cba46f500bc5360800000000000000
+      internalID: 7159791047265664128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _14
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 1141
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e199cd834182c160800000000000000
+      internalID: 7044334894302466535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _15
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 983
+        width: 62
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0acc741eb597c10800000000000000
+      internalID: 2051772128374333673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _16
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 983
+        width: 63
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 353a2d88e8c138a80800000000000000
+      internalID: -8465891476019961005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _17
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1139
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3481209d8070fd0800000000000000
+      internalID: -2375920550278577163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _18
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1142
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2825f3ebb0563d410800000000000000
+      internalID: 1500654201955373698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _19
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1145
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2068dd2518df1b0800000000000000
+      internalID: -5621194566984662289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _20
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 964
+        width: 70
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e093252b8e87da0800000000000000
+      internalID: -5946747455361446260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _21
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1129
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8108d9219b7942c50800000000000000
+      internalID: 6639598571788009496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _22
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 983
+        width: 62
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c18ce362ded478510800000000000000
+      internalID: 1551294277596661788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _23
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1119
+        width: 37
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c37bb5d5b60164e0800000000000000
+      internalID: -1990302182276369464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _24
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 985
+        width: 65
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea6ce2879702beb10800000000000000
+      internalID: 2011737364630521518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _25
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 940
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d28077d2ca86d9fc0800000000000000
+      internalID: -3486515447808456659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _26
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 789
+        width: 70
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94d9f975f8e02bf80800000000000000
+      internalID: -8092389571618169527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _27
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 789
+        width: 69
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da1a61101813e490800000000000000
+      internalID: -7718298879092188462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _28
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 789
+        width: 72
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bac0146cf2947b40800000000000000
+      internalID: 5437132262851267248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _29
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 790
+        width: 72
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5755f5d8d7e4c9560800000000000000
+      internalID: 7321813395347297653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _30
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 944
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0129d9360768f3400800000000000000
+      internalID: 306111116950213136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 791
+        width: 67
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44263f911fba961a0800000000000000
+      internalID: -6815727509037686204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _32
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 600
+        width: 67
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcafce97953cfbd50800000000000000
+      internalID: 6755332755144112845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _33
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 751
+        width: 35
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bc1c13f5d37af6a0800000000000000
+      internalID: -6414687356491916106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _34
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 761
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3621f82b08d5cff80800000000000000
+      internalID: -8071473624821853597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _35
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 756
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 808ee676fbc48bcb0800000000000000
+      internalID: -4848040613906552824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _36
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 596
+        width: 67
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a394bdb8467a3550800000000000000
+      internalID: 6141351096665543585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _37
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 600
+        width: 63
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e362e9729b90110800000000000000
+      internalID: 1227715953243340386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _38
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 740
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64339007b2d2bf4e0800000000000000
+      internalID: -1946912749321112762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _39
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 599
+        width: 66
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39cd4443edbede2b0800000000000000
+      internalID: -5553523425885758317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _40
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 752
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2f4202367a47b20800000000000000
+      internalID: 3131311685112230580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _41
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 601
+        width: 64
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c01928dccc0eae0800000000000000
+      internalID: -1521991491020321768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _42
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 592
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f00fb28410bedcf0800000000000000
+      internalID: -225549329182555914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _43
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 408
+        width: 62
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69221235881b14450800000000000000
+      internalID: 6071328971740488342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _44
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 569
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8287a03e605dd0c20800000000000000
+      internalID: 3174427537921701928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _45
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 407
+        width: 58
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a7ff36a927d7720800000000000000
+      internalID: 2845556546996238879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _46
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 563
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3275a4b5f00ccd8a0800000000000000
+      internalID: -6278932608272672989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _47
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 407
+        width: 56
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c949a47a423ec4ee0800000000000000
+      internalID: -1275394847887682404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _48
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 407
+        width: 72
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71b38a002dc9bb440800000000000000
+      internalID: 4952724640992082711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _49
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 408
+        width: 59
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3582b3aa12cbee920800000000000000
+      internalID: 3021559252788127827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _50
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 554
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b09fff3c89f4010800000000000000
+      internalID: 1175325995347544856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _51
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 545
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef39a8703c679bf0800000000000000
+      internalID: -317666293267742742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _52
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 396
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50307d397bb2b660800000000000000
+      internalID: 7400183267119345759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _53
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 392
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b10744155887340800000000000000
+      internalID: 4861782381833493306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _54
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 387
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3da740de50571410800000000000000
+      internalID: 1447714173374410044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _55
+      rect:
+        serializedVersion: 2
+        x: 666
+        y: 380
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00d7a17655d5f220800000000000000
+      internalID: 2519154133834387470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _56
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 215
+        width: 58
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4078d50926ec490800000000000000
+      internalID: -7724127938709879576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _57
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 377
+        width: 22
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d643815855ae13f0800000000000000
+      internalID: -928122674448480552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _58
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 371
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3e623e2fcf49de0800000000000000
+      internalID: -1327157870044191772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _59
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 367
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ca5bfd7583d73d0800000000000000
+      internalID: -3207345409551389671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _60
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 213
+        width: 54
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e2a1df6a5f90f60800000000000000
+      internalID: 8001196310560124548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _61
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 370
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a38e8b85516504f30800000000000000
+      internalID: 4557737472581756986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _62
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 213
+        width: 55
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62aa5dd5101acc000800000000000000
+      internalID: 57597922490296870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _63
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 353
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5089961a450de60800000000000000
+      internalID: 7984975191565927901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _64
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 214
+        width: 56
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f290cd915ff9dbe50800000000000000
+      internalID: 6826788485213194543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _65
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 212
+        width: 55
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f386b79588daee80800000000000000
+      internalID: -8148462507485920272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _66
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 208
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b2cc5e82b9167db0800000000000000
+      internalID: -4794616498605997386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _67
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 204
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ed44b137df2c080800000000000000
+      internalID: -9168487220552344046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _68
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 200
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 173bd600ba0387750800000000000000
+      internalID: 6302841189509739377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _69
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 21
+        width: 56
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 326aba3fe0bf0cd00800000000000000
+      internalID: 991067959657735715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _70
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 21
+        width: 58
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cbce3b39c796e7e0800000000000000
+      internalID: -1736533715766555706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _71
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 183
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62dbfaf18da038710800000000000000
+      internalID: 1694209808182263078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _72
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 3
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e803b879ddd9d5870800000000000000
+      internalID: 8673262032441258126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 22 TorchDrippingGreen _73
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 0
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b7097b7ab182d40800000000000000
+      internalID: 5559724147142065014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      22 TorchDrippingGreen _0: 1719831428402894831
+      22 TorchDrippingGreen _1: -8675772819386529826
+      22 TorchDrippingGreen _10: -4594930695918724628
+      22 TorchDrippingGreen _11: 6392682741452523023
+      22 TorchDrippingGreen _12: -4365827185523865800
+      22 TorchDrippingGreen _13: 7159791047265664128
+      22 TorchDrippingGreen _14: 7044334894302466535
+      22 TorchDrippingGreen _15: 2051772128374333673
+      22 TorchDrippingGreen _16: -8465891476019961005
+      22 TorchDrippingGreen _17: -2375920550278577163
+      22 TorchDrippingGreen _18: 1500654201955373698
+      22 TorchDrippingGreen _19: -5621194566984662289
+      22 TorchDrippingGreen _2: -6383094968304923106
+      22 TorchDrippingGreen _20: -5946747455361446260
+      22 TorchDrippingGreen _21: 6639598571788009496
+      22 TorchDrippingGreen _22: 1551294277596661788
+      22 TorchDrippingGreen _23: -1990302182276369464
+      22 TorchDrippingGreen _24: 2011737364630521518
+      22 TorchDrippingGreen _25: -3486515447808456659
+      22 TorchDrippingGreen _26: -8092389571618169527
+      22 TorchDrippingGreen _27: -7718298879092188462
+      22 TorchDrippingGreen _28: 5437132262851267248
+      22 TorchDrippingGreen _29: 7321813395347297653
+      22 TorchDrippingGreen _3: -315223065270543746
+      22 TorchDrippingGreen _30: 306111116950213136
+      22 TorchDrippingGreen _31: -6815727509037686204
+      22 TorchDrippingGreen _32: 6755332755144112845
+      22 TorchDrippingGreen _33: -6414687356491916106
+      22 TorchDrippingGreen _34: -8071473624821853597
+      22 TorchDrippingGreen _35: -4848040613906552824
+      22 TorchDrippingGreen _36: 6141351096665543585
+      22 TorchDrippingGreen _37: 1227715953243340386
+      22 TorchDrippingGreen _38: -1946912749321112762
+      22 TorchDrippingGreen _39: -5553523425885758317
+      22 TorchDrippingGreen _4: 1356365240778304355
+      22 TorchDrippingGreen _40: 3131311685112230580
+      22 TorchDrippingGreen _41: -1521991491020321768
+      22 TorchDrippingGreen _42: -225549329182555914
+      22 TorchDrippingGreen _43: 6071328971740488342
+      22 TorchDrippingGreen _44: 3174427537921701928
+      22 TorchDrippingGreen _45: 2845556546996238879
+      22 TorchDrippingGreen _46: -6278932608272672989
+      22 TorchDrippingGreen _47: -1275394847887682404
+      22 TorchDrippingGreen _48: 4952724640992082711
+      22 TorchDrippingGreen _49: 3021559252788127827
+      22 TorchDrippingGreen _5: 6135143279818447123
+      22 TorchDrippingGreen _50: 1175325995347544856
+      22 TorchDrippingGreen _51: -317666293267742742
+      22 TorchDrippingGreen _52: 7400183267119345759
+      22 TorchDrippingGreen _53: 4861782381833493306
+      22 TorchDrippingGreen _54: 1447714173374410044
+      22 TorchDrippingGreen _55: 2519154133834387470
+      22 TorchDrippingGreen _56: -7724127938709879576
+      22 TorchDrippingGreen _57: -928122674448480552
+      22 TorchDrippingGreen _58: -1327157870044191772
+      22 TorchDrippingGreen _59: -3207345409551389671
+      22 TorchDrippingGreen _6: -1271148155407845774
+      22 TorchDrippingGreen _60: 8001196310560124548
+      22 TorchDrippingGreen _61: 4557737472581756986
+      22 TorchDrippingGreen _62: 57597922490296870
+      22 TorchDrippingGreen _63: 7984975191565927901
+      22 TorchDrippingGreen _64: 6826788485213194543
+      22 TorchDrippingGreen _65: -8148462507485920272
+      22 TorchDrippingGreen _66: -4794616498605997386
+      22 TorchDrippingGreen _67: -9168487220552344046
+      22 TorchDrippingGreen _68: 6302841189509739377
+      22 TorchDrippingGreen _69: 991067959657735715
+      22 TorchDrippingGreen _7: -5034996956703477799
+      22 TorchDrippingGreen _70: -1736533715766555706
+      22 TorchDrippingGreen _71: 1694209808182263078
+      22 TorchDrippingGreen _72: 8673262032441258126
+      22 TorchDrippingGreen _73: 5559724147142065014
+      22 TorchDrippingGreen _8: 8898919732247785386
+      22 TorchDrippingGreen _9: 1962234534161129721
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
