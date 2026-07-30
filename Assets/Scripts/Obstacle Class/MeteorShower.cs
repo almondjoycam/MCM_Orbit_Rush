@@ -1,68 +1,137 @@
+using System.Collections;
 using UnityEngine;
 
 public class MeteorShower : Obstacle
 {
     [Header("Meteor Shower Settings")]
-    [SerializeField]
-    int meteorCount;
-    public float meteorAngle;
+    [SerializeField] private int meteorCount = 10;
 
-    GameObject meteor;
-    int activeChildCount = 0;
+    [Tooltip("Direction in degrees. -90 means downward.")]
+    public float meteorAngle = -90f;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    [SerializeField] private float spawnInterval = 0.6f;
+    [SerializeField] private float spawnSpreadX = 5f;
+    [SerializeField] private float spawnSpreadY = 0.5f;
+
+    public float MeteorMoveSpeed => moveSpeed;
+
+    private GameObject meteorTemplate;
+    private int activeChildCount;
+    private Coroutine spawnRoutine;
+    private bool showerStarted;
+
     protected override void Start()
     {
-        // The shower is top-level and does not rotate with the planet.
-        // transform.SetParent(null);
+        if (transform.childCount == 0)
+        {
+            Debug.LogError(
+                "MeteorShower needs one Meteor child as a template.",
+                this
+            );
 
-        meteorAngle *= Mathf.Deg2Rad;
-        meteor = transform.GetChild(0).gameObject;
-        if (transform.childCount < meteorCount)
-        {
-            int newObjectCount = meteorCount - transform.childCount;
-            for (int i = 0; i < newObjectCount; i++)
-            {
-                Instantiate(meteor, transform);
-            }
+            return;
         }
-        else if (transform.childCount > meteorCount)
-        {
-            for (int i = transform.childCount - 1; i > meteorCount; i--)
-            {
-                Destroy(transform.GetChild(i).gameObject);
-            }
-        }
+
+        meteorTemplate = transform.GetChild(0).gameObject;
+
+        CreateMeteorPool();
+
+        // Keep every meteor hidden until its turn.
         foreach (Transform child in transform)
         {
-            child.transform.position += Random.insideUnitSphere;
-            child.gameObject.SetActive(true);
-            activeChildCount++;
+            child.gameObject.SetActive(false);
         }
+
+        activeChildCount = 0;
+        showerStarted = true;
+        spawnRoutine = StartCoroutine(SpawnMeteors());
+    }
+
+    private void CreateMeteorPool()
+    {
+        while (transform.childCount < meteorCount)
+        {
+            Instantiate(meteorTemplate, transform);
+        }
+
+        while (transform.childCount > meteorCount)
+        {
+            DestroyImmediate(
+                transform.GetChild(transform.childCount - 1).gameObject
+            );
+        }
+    }
+
+    private IEnumerator SpawnMeteors()
+    {
+        foreach (Transform child in transform)
+        {
+            child.position = GetRandomSpawnPosition();
+            child.gameObject.SetActive(true);
+
+            activeChildCount++;
+
+            yield return new WaitForSeconds(spawnInterval);
+        }
+    }
+
+    private Vector3 GetRandomSpawnPosition()
+    {
+        return transform.position + new Vector3(
+            Random.Range(-spawnSpreadX, spawnSpreadX),
+            Random.Range(-spawnSpreadY, spawnSpreadY),
+            0f
+        );
     }
 
     protected override void Update()
     {
-        if (activeChildCount <= 0)
+        if (!showerStarted)
+            return;
+
+        if (spawnRoutine != null)
+            return;
+
+        if (activeChildCount > 0)
+            return;
+
+        if (obstaclePool != null)
         {
             obstaclePool.Release(this);
+        }
+        else
+        {
+            gameObject.SetActive(false);
         }
     }
 
     protected override void OnTriggerEnter2D(Collider2D other)
     {
-        // do nothing!
+        // The MeteorShower parent does not damage the player.
     }
 
     public override void Hurt(PlayerControls player)
     {
-        // The shower itself does not hurt the player.
-        // Instead, this method is called from the meteor children.
-        player.TakeDamage(damageAmount);
+        if (player != null)
+        {
+            player.TakeDamage(damageAmount);
+        }
     }
 
     public void OnChildInactive()
     {
-        activeChildCount--;
+        activeChildCount = Mathf.Max(0, activeChildCount - 1);
+    }
+
+    private void OnDisable()
+    {
+        if (spawnRoutine != null)
+        {
+            StopCoroutine(spawnRoutine);
+            spawnRoutine = null;
+        }
+
+        showerStarted = false;
+        activeChildCount = 0;
     }
 }
