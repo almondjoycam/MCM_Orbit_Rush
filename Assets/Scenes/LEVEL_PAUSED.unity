@@ -268,6 +268,18 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 800495093}
+    - target: {fileID: 1813174448472473863, guid: eaacead70eb8d4908abcd5f81203b4ab, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: d7a9cfea7750148208a06dd3e40f1259, type: 2}
+    - target: {fileID: 1813174448472473863, guid: eaacead70eb8d4908abcd5f81203b4ab, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 6904045080508561875, guid: d7a9cfea7750148208a06dd3e40f1259, type: 2}
+    - target: {fileID: 1813174448472473863, guid: eaacead70eb8d4908abcd5f81203b4ab, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2243253217027944480, guid: eaacead70eb8d4908abcd5f81203b4ab, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -352,6 +364,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8277058743680868599, guid: eaacead70eb8d4908abcd5f81203b4ab, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: 6feed6b14875c4dce86e0a86718a7c4b, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

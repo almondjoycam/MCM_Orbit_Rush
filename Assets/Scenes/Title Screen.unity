@@ -179,7 +179,7 @@ MonoBehaviour:
   m_text: orbit rush
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9fba5e82191524ae7a5dfdcaafbb9413, type: 2}
-  m_sharedMaterial: {fileID: -600088480469591876, guid: 9fba5e82191524ae7a5dfdcaafbb9413, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 6feed6b14875c4dce86e0a86718a7c4b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -422,7 +422,7 @@ MonoBehaviour:
   m_text: Journey to the sun
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8093db318011344eb8008485b5aa1d52, type: 2}
-  m_sharedMaterial: {fileID: -8171138939277355995, guid: 8093db318011344eb8008485b5aa1d52, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 1e905022893754a4db02f04a7663b0af, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
